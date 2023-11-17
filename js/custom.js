@@ -47,7 +47,7 @@ $(document).on('ready',function(){
 	if($('.attorney-slide').length){
 		$('.attorney-slide').slick({
 			autoplay: true,
-			autoplaySpeed: 1500,
+			autoplaySpeed: 3000,
 			slidesToShow: 1,
 		});
 	}
@@ -90,7 +90,7 @@ $(document).on('ready',function(){
 			slidesToScroll: 1,
 			autoplay: true,
 			dots:true,
-			autoplaySpeed:1500,
+			autoplaySpeed:4000,
 			speed: 1000
 		});
 	}	
