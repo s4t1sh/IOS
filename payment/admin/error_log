@@ -1,0 +1,1 @@
+[22-Sep-2020 17:13:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/beamicmh/public_html/iosmodulars.com/payment/admin/index.php on line 12

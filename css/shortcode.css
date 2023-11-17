@@ -1,0 +1,46 @@
+/*
+	============================================
+			HOME PAGE 3 BUTTON STYLE
+	============================================
+*/
+.kode-button-style-1 {
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    margin: 4px 0;
+    padding: 12px 26px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 999;
+}
+.kode-button-style-1:before {
+    background-color: #000;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4px;
+    z-index: -1;
+}
+.kode-button-style-1:hover{
+	color:#fff;
+}
+.kode-button-style-1:hover:before{
+	width:100%;
+}
+.kode-button-style-2{
+	border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 14px;
+    padding:12px 30px 14px;
+}
+.kode-button-style-2:hover{
+	background-color:#000;
+	color:#fff;
+}

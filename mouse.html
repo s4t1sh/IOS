@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <title>Cursor Animation</title>
+</head>
+<body>
+    <canvas id="cursorCanvas"></canvas>
+
+    <script >
+
+var cursorCanvas = document.getElementById("cursorCanvas");
+var ctx = cursorCanvas.getContext("2d");
+
+cursorCanvas.width = window.innerWidth;
+cursorCanvas.height = window.innerHeight;
+
+var mouseX = cursorX = window.innerWidth / 2;
+var mouseY = cursorY = window.innerHeight / 2;
+var ringRadius = 20;
+var ringLineWidth = 2;
+var chaseSpeed = 0.1;
+
+window.addEventListener('mousemove', function (evt) {
+    mouseX = evt.clientX;
+    mouseY = evt.clientY;
+});
+
+function chaseCursor() {
+    var dx = (mouseX - cursorX) * chaseSpeed;
+    var dy = (mouseY - cursorY) * chaseSpeed;
+    
+    cursorX += dx;
+    cursorY += dy;
+}
+
+function drawCursor() {
+    ctx.clearRect(0, 0, cursorCanvas.width, cursorCanvas.height);
+
+    // Draw chasing ring
+    ctx.beginPath();
+    ctx.arc(cursorX, cursorY, ringRadius, 0, 2 * Math.PI);
+    ctx.lineWidth = ringLineWidth;
+    ctx.strokeStyle = "black";
+    ctx.stroke();
+    ctx.closePath();
+
+    // Draw cursor dot
+    ctx.beginPath();
+    ctx.arc(cursorX, cursorY, 2, 0, 2 * Math.PI);
+    ctx.fillStyle = "black";
+    ctx.fill();
+    ctx.closePath();
+
+    requestAnimationFrame(drawCursor);
+}
+
+function updateCanvasSize() {
+    cursorCanvas.width = window.innerWidth;
+    cursorCanvas.height = window.innerHeight;
+}
+
+window.addEventListener('resize', function() {
+    updateCanvasSize();
+});
+
+function animate() {
+    chaseCursor();
+    requestAnimationFrame(animate);
+}
+
+// Initial setup
+updateCanvasSize();
+animate();
+drawCursor();
+
+    </script>
+</body>
+</html>

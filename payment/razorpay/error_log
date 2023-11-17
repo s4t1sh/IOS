@@ -1,0 +1,16 @@
+[21-Sep-2020 19:56:14 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/beamicmh/public_html/demos/ios/razorpay/db.php on line 7
+[21-Sep-2020 19:56:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/beamicmh/public_html/demos/ios/razorpay/verify.php on line 9
+[21-Sep-2020 19:56:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/beamicmh/public_html/demos/ios/razorpay/verify.php:56
+Stack trace:
+#0 {main}
+  thrown in /home/beamicmh/public_html/demos/ios/razorpay/verify.php on line 56
+[22-Sep-2020 03:48:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/beamicmh/public_html/demos/ios/razorpay/verify.php on line 9
+[22-Sep-2020 03:48:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/beamicmh/public_html/demos/ios/razorpay/verify.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/beamicmh/public_html/demos/ios/razorpay/verify.php on line 55
+[22-Sep-2020 03:50:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/beamicmh/public_html/demos/ios/razorpay/verify.php on line 9
+[22-Sep-2020 03:50:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on bool in /home/beamicmh/public_html/demos/ios/razorpay/verify.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/beamicmh/public_html/demos/ios/razorpay/verify.php on line 55

@@ -1,0 +1,563 @@
+/*
+	===================================================
+				SIDE BAR 01 START 
+	===================================================
+*/
+.kode_sidebar.widget{
+	float:left;
+	width:100%;
+}
+/*KODE TABS ITEM START*/
+.kode_categories_item ul,
+.kode_categories_item{
+	float:left;
+	width:100%;
+}
+.kode_categories_item{
+	margin-bottom:30px;
+	border:1px solid #ececec;
+}
+.kode_categories_item h4{
+	color:#000;
+	padding:17px 18px 16px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-bottom:1px solid #ececec;
+}
+.kode_categories_item ul{
+	border-bottom:none;
+}
+.kode_categories_item ul li{
+	display:block;
+	border-bottom:1px solid #ececec;
+	width:100%;
+}
+.kode_categories_item ul li a{
+	font-size:18px;
+	padding:16px 40px 17px;
+	color:#999999;
+	display:block;
+	position:relative;
+	z-index:1;
+	margin-right:0px;
+}
+.kode_categories_item ul li a:hover{
+	color:#fff;
+	padding:16px 45px 17px;
+}
+.kode_categories_item ul li a:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:50px;
+	bottom:50px;
+	opacity:0;
+	z-index:-1;
+}
+.kode_categories_item ul li a:hover:after{
+	opacity:1;
+	bottom:0px;
+	right:0px;
+}
+.kode_categories_item ul li a:before{
+	position:absolute;
+	content:"\f105";
+	top:50%;
+	left:20px;
+	right:0px;
+	bottom:0px;
+	margin-top:-13px;
+	font-family:fontawesome;
+}
+.kode_categories_item ul li a:hover:before{
+	left:25px;
+}
+
+/*WIDGET ATTORNEY SLIDE START*/
+.team_detail_meta_list,
+.widget.attorney_slide,
+.attroney_content,
+.attorney_fig{
+	float:left;
+	width:100%;
+}
+.widget.attorney_slide{
+	padding:24px 20px;
+	border:1px solid #ececec;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+.widget.attorney_slide h4{
+	margin-bottom:15px;
+}
+.attroney_content{
+	text-align:center;
+}
+.attorney_fig{
+	padding-top:14px;
+}
+.attorney_fig figure{
+	margin-bottom:12px;
+}
+.attorney_fig figure img{
+	width:100%;
+}
+.attroney_content span{
+	display:inline-block;
+	color:#999999;
+	position:relative;
+	padding-bottom:8px;
+	margin-bottom:9px;
+}
+.attroney_content span:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-bottom:1px solid #e8e8e8;
+	width:61px;
+	margin:auto;
+}
+.team_detail_meta_list li{
+	display:inline-block;
+	float:none;
+	margin-right:11px;
+}
+.team_detail_meta_list li:last-child{
+	margin:0px;
+}
+.team_detail_meta_list li a{
+	font-weight:bold;
+	color:#9e9e9e;
+}
+/*slick slider*/
+.widget.attorney_slide .slick-prev, 
+.widget.attorney_slide .slick-next{
+	position:absolute;
+	top:-38px;
+	background:transparent;
+	height:20px;
+	width:20px;
+	line-height:20px;
+	right:-8px;
+	color:transparent;
+}
+.widget.attorney_slide .slick-prev{
+	right:4px;
+	left:auto;
+}
+.widget.attorney_slide .slick-prev:before, 
+.widget.attorney_slide .slick-next:before{
+	line-height:20px;
+	content:"\f105";
+	font-size:15px;
+	color:#9e9e9e;
+	font-family:fontawesome;
+}
+.widget.attorney_slide .slick-prev:before{
+	content:"\f104";
+}
+
+/*WIDGET ATTORNEY SLIDE START*/
+.widget.kode_rating{
+	float:left;
+	width:100%;
+}
+.widget.kode_rating{
+	position:relative;
+	border:1px solid #ececec;
+	border-radius:5px;
+	padding:70px 0px 78px;
+	text-align:center;
+	margin:24px 0 72px;
+}
+.kode_rating_star_list{
+	position:absolute;
+	top:-25px;
+	left:0px;
+	right:0px;
+	width:166px;
+	display?:inline-block;
+	text-align:center;
+	margin:auto;
+	padding:11px 0px 10px;
+	border:1px solid #ececec;
+	border-radius:5px;
+	background-color:#fff;
+}
+.kode_rating_star_list li{
+	display:inline-block;
+}
+.kode_rating_star_list li a{
+	display:inline-block;
+	font-size:17px;
+}
+.kode_rating_star_list li a:hover{
+	color:#000;
+}
+.widget.kode_rating p{
+	font-size:17px;
+	position:relative;
+	z-index:999;
+}
+.widget.kode_rating p:before{
+	position:absolute;
+	content:"\f10d";
+	font-size:112px;
+	color:#9e9e9e;
+	top:30px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	font-family:fontawesome;
+	opacity:0.2;
+	z-index:-1;
+}
+.kode_rating_fig{
+	position:absolute;
+	bottom:-43px;
+	background-color:#fff;
+	left:0px;
+	right:0px;
+	width:220px;
+	text-align:center;
+	margin:auto;
+	border:1px solid #ececec;
+	border-radius:5px;
+	padding:12px 0px 12px 18px; 
+}
+.kode_rating_fig figure img{
+	border-radius:100%;
+	float:left;
+}
+.kode_rating_fig h6{
+	padding:19px 0px;
+	overflow:hidden;
+}
+.kode_rating_fig .slick-prev, .kode_rating_fig .slick-next{
+	display:none !important;
+}
+
+/*DOWNLOAD FILE START*/
+.widget.insolvency,
+.widget.kode_rating.downlond{
+	margin-bottom:30px;
+	padding:25px 20px 30px;
+	margin-top:0px;
+}
+.widget.kode_rating.downlond h4{
+	 text-align:left;
+}
+.widget.kode_rating.downlond h4 span{
+	display:block;
+}
+.download_file{
+	float:left;
+	width:100%;
+	padding-top:15px;
+}
+.download_file ul li{
+	margin-bottom:10px;
+}
+.download_file ul li:last-child{
+	margin:0px;
+}
+.download_file ul li a{
+    color: #333333;
+    display: inline-block;
+    font-size: 15px;
+    padding: 8px 20px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+	background-color:#e8e7e7;
+}
+.download_file ul li a:hover i,
+.download_file ul li a:hover{
+	color:#fff;
+}
+.download_file ul li a i{
+	margin-right:20px;
+}
+/*WIDGE INSOLVENCY CONTENT START*/
+.widget.insolvency_content,
+.widget.insolvency{
+	float:left;
+	width:100%;
+}
+.widget.insolvency{
+	border:1px solid #ececec;
+	margin-bottom:0px;
+}
+.widget.insolvency h4{
+	text-transform:lowercase;
+	margin-bottom:13px;
+}
+.widget.insolvency_content p{
+	font-size:14px;
+	color:#999999;
+	margin-bottom:21px;
+}
+/*
+	===================================================
+				SIDE BAR 01 END
+	===================================================
+*/
+/*
+	===================================================
+				SIDE BAR 02 START 
+	===================================================
+*/
+.kode_post_detail li,
+.kode_post_detail_fig,
+.kode_post_detail,
+.kode_categries2 .kode_categries2_list,
+.kode_categries2,
+.kf_commet_field.widget{
+	float:left;
+	width:100%;
+}
+.kf_commet_field.widget{
+	position:relative;
+	margin-bottom:35px;
+}
+.kf_commet_field.widget button{
+	position:absolute;
+	top:10px;
+	right:10px;
+	bottom:0px;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	border-left:1px solid #d9d9d9;
+	background:none;
+}
+.kf_commet_field.widget input{
+	height:50px;
+	width:100%;
+}
+.kode_categries2{
+	border-bottom:1px solid #d3d3d3;
+	padding-bottom:26px;
+	margin-bottom:35px;
+}
+.kode_categries2 h4{
+	color:#666666;
+	margin-bottom:25px;
+	line-height:28px;
+}
+.kode_categries2 ul li{
+	display:block;
+	margin-bottom:20px;
+}
+.kode_categries2 ul li:last-child{
+	margin-bottom:0px;
+}
+.kode_categries2 ul li > a{
+	display:block;
+	font-size:18px;
+	padding-left:20px;
+	position:relative;
+	color:#666666;
+}
+.kode_categries2 ul li > a:hover{
+	padding-left:30px;
+}
+.kode_categries2 ul li > a:hover:before{
+	padding-left:10px;
+}
+.kode_categries2 ul li > a:before{
+	position:absolute;
+	content:"\f105";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	font-size:18px;
+	font-family:fontawesome;
+}
+.kode_categries2 ul li a span{
+	float:right;
+}
+/*resent post start*/
+.kode_categries2 .kode_post_detail li{
+	margin-bottom:30px;
+	display:block;
+}
+.kode_categries2 .kode_post_detail{
+	padding-bottom:14px;
+}
+.kode_post_detail_fig figure{
+	float:left;
+	width:auto;
+	position:relative;
+	overflow:hidden;
+}
+.kode_post_detail_fig figure:before{
+	position:absolute;
+	content:"";
+	top:100px;
+	left:100px;
+	right:100px;
+	bottom:100px;
+	z-index:999;
+}
+.kode_post_detail_fig:hover figure:before{
+	background-color:rgba(0,0,0,0.3);
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+.kode_post_detail_fig figure img{
+	border-radius:5px;
+}
+.kode_post_detail_fig:hover figure img{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+.kode_post_content{
+	overflow:hidden;
+	padding-left:10px;
+}
+.kode_post_content span{
+	font-size:12px;
+	color:#666666;
+	font-weight:bold;
+}
+.kode_post_content span i{
+	margin-right:6px;
+}
+.kode_post_content p a,
+.kode_post_content p{
+	line-height:24px;
+	color:#666666;
+}
+/*archive post start*/
+.kode_categries2.archive{
+	padding-bottom:38px;
+}
+.kode_categries2.archive ul li a:before{
+	content:"";
+}
+.kode_categries2.archive ul li a{
+	padding-left:0px;
+}
+.kode_categries2.archive ul li a span{
+	float:none;
+	margin-left:15px;
+	display:inline-block;
+}
+/*legal team start*/
+.kode_categries2.team{
+	padding-bottom:25px;
+}
+.kode_categries2.team h4{
+	margin-bottom:30px;
+}
+.kode_categries2.team .kode_team_list{
+	float:left;
+	width:100%;
+}
+.kode_categries2.team .kode_team_list li{
+	float:left;
+	margin-right:12px;
+	overflow:hidden;
+	margin-bottom:15px;
+}
+.kode_categries2.team .kode_team_list li figure{
+	position:relative;
+}
+.kode_categries2.team .kode_team_list li figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:50px;
+	right:50px;
+	bottom:0px;
+	z-index:999;
+}
+.kode_categries2.team .kode_team_list li:hover figure:before{
+	background-color:rgba(0,0,0,0.5);
+	left:0px;
+	right:0px;
+}
+.kode_categries2.team .kode_team_list li figure img{
+	border-radius:5px;
+}
+.kode_categries2.team .kode_team_list li:hover figure img{
+	transform:scale(1.5);
+	-moz-transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+}
+.kode_categries2.team .kode_team_list li:nth-child(6),
+.kode_categries2.team .kode_team_list li:nth-child(3){
+	margin-right:0px;
+}
+/*testimonial side bar start*/
+.kode_side_pager{
+	float:left;
+	width:100%;
+}
+.kode_categries2.testimonial{
+	padding-bottom:40px;
+}
+.kode_categries2.testimonial .kode_side_pager  .bx-wrapper{
+	margin:0px 0px;
+}
+.kode_categries2.testimonial .kode_side_pager  .bx-viewport{
+	height:190px !important;
+}
+.kode_side_pager .bx-wrapper .bx-viewport {
+    background:none;
+    border: none;
+    box-shadow: 0 0 0px;
+    left: 0px;
+    transform: translateZ(0px);
+}
+.kode_testimonial_detail{
+	padding:15px 20px 20px;
+	background-color:#f9f9f9;
+	position:relative;
+}
+.kode_testimonial_detail:before{
+	position:absolute;
+	content:"";
+	left:40px;
+	right:0px;
+	bottom:-20px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 19px 0 19px;
+	border-color: #f9f9f9 transparent transparent transparent;
+}
+.kode_testimonial_detail p{
+	color:#999999;
+	font-style:italic;
+	font-size:14px;
+	margin-bottom:3px;
+}
+.kode_testimonial_detail h6{
+	font-size:18px;
+	display:inline-block;
+}
+.kode_testimonial_detail h6 span{
+	display:inline-block;
+	font-size:12px;
+} 
+.kode_side_pager .active > img {
+    height: 72px;
+}
+.kode_categries2.testimonial.kode_side_pager li{
+	margin-bottom:0px;
+}
+.kode_side_pager img {
+    margin-right: 14px;
+}
+.kode_side_pager .pager_fig{
+	padding-left:25px;
+}

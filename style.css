@@ -1,0 +1,7907 @@
+
+.content-wraper,
+.kode_wraper{
+	float:left;
+	width:100%;
+}
+header{
+	float:left;
+	width:100%;
+}
+.header {
+    background-color: #ffffff;
+}
+.header_2{
+	float:left;
+	width:100%;
+}
+.kode_top_navi_wraper .dl-menuwrapper {
+    display: none;
+}
+
+
+
+
+/*
+	=========================================================
+			CONTENT WRAPER START
+	=========================================================
+*/
+
+#boxes{z-index:99999;}
+.content-wraper{
+	position:relative;
+	padding-bottom:246px;
+}
+.content-wraper.background {
+    background-color: #ffffff;
+    z-index: 9;
+}
+.content-wraper.wraper_2{
+	padding-bottom:166px;
+}
+.content-wraper:before{
+	position:absolute;
+	content:"";
+	bottom:0px;
+	left:0px;
+	right:0px;
+	top:0px;
+	background-image:url("images/testimonial.png");
+	background-position:bottom;
+	background-repeat:no-repeat;
+	z-index:-1;
+}
+
+/*
+	=========================================================
+			KODE TOP WRAPER START
+	=========================================================
+*/
+.kode_top_search_content form,
+.kode_top_search_row,
+.kode_top_search_wraper,
+.kode_top_bar,
+.navigation,
+.kode_top_navi_wraper,
+.kode_top_wraper,
+.kode_top_logo_bar{
+	float:left;
+	width:100%;
+}
+.kode_top_wraper{
+	padding:8px 0px 8px; 
+	position:relative;
+	z-index:999;
+}
+.kode_top_search_wraper:before,
+.kode_top_wraper:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	width:50%;
+	z-index:-1;
+	background-color:#f7c600;
+}
+.kode_top_info,
+.kode_top_logo{
+	float:left;
+	width:50%;
+}
+.kode_top_info{
+	padding:11px 0 10px 15px;
+}
+.kode_top_info li{
+	float:left;
+	margin-right:28px; 
+}
+.kode_top_navigation li:last-child,
+.kode_top_info li:last-child{
+	margin:0px;
+}
+.kode_top_info li a{
+	display:inline-block;
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+}
+.kode_top_info li a:hover{
+	color:#fff;
+}
+.kode_top_info li a i{
+	height:30px;
+	width:30px;
+	line-height:28px;
+	text-align:center;
+	border:1px solid #fff;
+	border-radius:100%;
+	margin-right:14px;
+}
+.kode_top_info li a:hover i{
+	color:#fff;
+	background-color:#333;
+}
+/*NAVIGATION STRAT*/
+.kode_top_navi_wraper{
+	background-color:#333333;
+}
+.navigation ul li{
+	display:inline-block;
+	margin-right:1px;
+	position:relative;
+	z-index:999;
+}
+.navigation ul li a{
+	display:inline-block;
+	font-size:13px;
+	text-transform:uppercase;
+	color:#000;
+	line-height:13px;
+	padding:23px 12px;
+	font-weight:bold;
+}
+/*dropdown*/
+.navigation ul li ul{
+	position:absolute;
+	top:100%;
+	background-color:#fff;
+	width:265px !important;
+	margin:0px;
+	z-index:999;
+	opacity:0;
+	visibility:hidden;
+	padding:15px 0px;
+	border-bottom:2px solid;
+}
+.navigation ul li:hover ul{
+	top:100%;
+	opacity:1;
+	overflow:visibility;
+	visibility:visible;
+}
+.navigation ul li ul li{
+	width:100%;
+}
+.navigation ul li ul li a{
+	display:block;
+	width:100%;
+	padding:12px 20px;
+	border-radius:3px;
+	text-align:left;
+	font-weight:bold;
+	color:#000;
+	position:relative;
+}
+
+.navigation ul li ul li a:hover:before{
+	left:20px;
+	opacity:1;
+}
+.navigation li ul li a:hover{
+	background:none;
+	padding:12px 40px;
+}
+
+/* HEADER  NAVIGATION STYEL */
+
+.header .kode_top_navi_wraper{
+	
+}
+.header .navigation ul li a{
+	position:relative;
+}
+
+.ulli{width:90%;}
+.ulli li{ list-style:circle; color:#6A6D7C;}
+.btn{padding:10px 5px; background:#F26B23;}
+
+.subaa{padding:10px 5px; background:#F26B23; padding:10px 5px; float:left; list-style:none;}
+
+
+
+
+  
+/*SEARCH FEILD START*/
+.kode_top_search_wraper{
+	padding:20px 0px 20px;
+	position:relative;
+    box-shadow: 0 13px 7px -10px #000;
+}
+
+.kode_top_social,
+.kode_top_search_content{
+	float:left;
+	width:50%;
+}
+.kode_top_search_content label{
+	float:left;
+	color:#000000;
+	text-transform:uppercase;
+	font-size:15px;
+	margin:0px;
+	margin-right:50px;
+	padding:10px 0px;
+	cursor:pointer;
+}
+.kode_top_search_field{
+	position:relative;
+	float:left;
+	width:423px;
+}
+.kode_top_search_content .kode_top_search_field > input{
+	width:100%;
+	font-size:13px;
+	text-transform:uppercase;
+	color:#999999;
+	padding-left:12px;
+	border:1px solid #d2d2d2;
+	box-shadow:0px 0px;
+	font-size:14px;
+}
+.kode_top_search_field button{
+	position:absolute;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	padding:5px 0px;
+	width:167px;
+	margin:0px 0px;
+	z-index:1;
+}
+.kode_top_search_field button:hover{
+	background-color:#000;
+	color:#fff;
+}
+.kode_top_social > ul {
+    float: left;
+	padding:8px 0 5px;
+}
+.kode_top_social .kode_social_icon li,
+.kode_top_social > ul  li{
+	float:left;
+}
+.kode_top_social .btn-primary{
+	background:none;
+	color:#fff;
+	padding:0px;
+	border:none;
+	font-size:16px;
+	font-weight:bold;
+	padding:0px 20px;
+}
+.kode_top_social .btn-primary:active:hover, 
+.kode_top_social .btn-primary.active:hover, .open > 
+.kode_top_social .dropdown-toggle.btn-primary:hover, 
+.kode_top_social .btn-primary:active:focus, 
+.kode_top_social .btn-primary.active:focus, .open > 
+.kode_top_social .dropdown-toggle.btn-primary:focus, 
+.kode_top_social .btn-primary.focus:active, 
+.kode_top_social .btn-primary.active.focus, .open > 
+.kode_top_social .dropdown-toggle.btn-primary.focus{
+	background:none;
+	box-shadow:0px 0px 0px 0px;
+	color:#000;
+	border:none;
+}
+.kode_top_social .kode_social_icon{
+	float:right;
+	padding:7px 0 4px;
+}
+.kode_top_social .kode_social_icon li a{
+	display:inline-block;
+	height:px;
+	width:30px;
+	text-align:center;
+	line-height:27px;
+	color:#fff;
+	font-size:14px;
+	border:1px solid #fff;
+	border-radius:100%;
+	margin-right:10px;
+}
+.kode_top_social .kode_social_icon li a:hover{
+	background-color:#000;
+	color:#fff;
+	border-color:#000;
+}
+/*login regsiter*/
+.kode_top_social .modal-lg {
+    width: 410px;
+}
+.kode_top_social .modal-dialog{
+	margin-top:210px;
+}
+.kode_top_social .modal-content{
+	float:left;
+	width:100%;
+	padding:80px 50px;
+}
+.kode_top_social .kode_modal_body {
+    background-color: #ececec;
+    float: left;
+    text-align: center;
+    width: 100%;
+	padding:0px 20px 20px;
+	box-shadow:0px 26px 135px -93px #000;
+}
+.kode_top_social .kode_modal_body > a{
+	height:70px;
+	width:70px;
+	display:inline-block;
+	line-height:70px;
+	font-size:30px;
+	border-radius:100%;
+	color:#fff;
+	box-shadow:0px 0px 9px 1px #ddd;
+	margin-top:-45px;
+	margin-bottom:10px;
+	background-color:#333;
+}
+.kode_top_social .kode_modal_body h2{
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:15px;
+}
+.kode_top_social  .kode_modal_field{
+	float:left;
+	width:100%;
+	margin-bottom:20px;
+}
+.kode_top_social  .kode_modal_field input{
+	height:40px;
+	width:100%;
+	border:none;
+	background-color:#d3d3d3;
+	padding:0px 10px;
+	border-radius:5px;
+	font-weight:bold;
+	text-transform:uppercase;
+	font-size:13px;
+	box-shadow:0px 0px;
+}
+.kode_top_social  .kode_modal_field input:focus{
+	box-shadow:0px 0px 9px 1px #fff;
+	color:#fff;
+}
+.kode_top_social .kode_model_btn{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kode_top_social .kode_model_btn button{
+	display:block;
+	width:100%;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	padding:10px 0px;
+	margin-bottom:12px;
+	border-radius:5px;
+	background-color:#000;
+}
+.kode_top_social .kode_model_btn a{
+	text-transform:uppercase;
+	
+}
+/*
+	=========================================================
+			KODE TOP WRAPER END
+	=========================================================
+*/
+
+/*
+	=========================================================================================
+			 HEADER 2 START   HOME PAGE 2
+	=========================================================================================
+*/
+
+/*
+	=========================================================
+			KODE TOP WRAP2 START
+	=========================================================
+*/
+.kode_top_row,
+.kode_top_wrap2{
+	float:left;
+	width:100%;
+}
+.kode_top_wrap2{
+	position:relative;
+	background:#fff;
+}
+.kode_top_row{
+	position:relative;
+	padding:8px 0;
+	z-index:999;
+}
+.kode_top_row:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:100%;
+	background-color:#000;
+	transform: skewX(40deg) translate(-2%);
+	z-index:-1;
+}
+.kode_top_faq{
+	float:left;
+	width:auto;
+	margin-right:80px;
+}
+.kode_top_social_icon li,
+.kode_top_faq li{
+	float:left;
+}
+.kode_top_faq li{
+	margin-right:25px;
+	position:relative;
+}
+.kode_top_faq li:before{
+	position:absolute;
+	content:"";
+	top:50%;
+	right:-15px;
+	bottom:0px;
+	height:5px;
+	width:5px;
+	border-radius:100%;
+	background-color:#fff;
+}
+.kode_top_faq li:last-child:before{
+	width:0px;
+}
+.kode_top_social_icon li a,
+.kode_top_faq li a{
+	color:#fff;
+	font-size:13px;
+	font-weight:bold;
+}
+.kode_top_faq li:last-child{
+	margin:0px;
+}
+.kode_time_detail{
+	text-align:center;
+	color:#fff;
+	font-size:13px;
+}
+.kode_time_detail i{
+	margin-right:10px;
+}
+.kode_top_social_icon{
+	float:right;
+	width:auto;
+	padding-right:50px;
+}
+.kode_top_social_icon li{
+	margin-left:10px;
+}
+.kode_top_social_icon li:first-child{
+	margin:0px;
+}
+/*
+	=========================================================
+			KODE TOP WRAP2 END
+	=========================================================
+*/
+/*
+	=========================================================================================
+			 HEADER 3 START   HOME PAGE 3
+	=========================================================================================
+*/
+
+/*
+	=========================================================
+			KODE TOP3 WRAPER START
+	=========================================================
+*/
+.kode_top3_des,
+.kode_logo3_services_text,
+.kode_top3_content,
+.kode_top3_wraper{
+	float:left;
+	width:100%;
+}
+.kode_top3_wraper{
+	background-color:#2d3e50;
+	padding:10px 0px;
+}
+.kode_top3_content p{
+	float:left;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:13px;
+}
+.kode_top3_content span{
+	float:right;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:13px;
+	padding:4px 0 2px;
+}
+.kode_top3_content span i{
+	margin-right:5px;
+	font-size:16px;
+}
+.kode_top3_des{
+	padding:5px 0px 5px;
+	background:#fff!important;
+}
+.kode_top3_logo{
+	float:left;
+	width:auto;
+	padding:3px 0;
+}
+.kode_logo3_service{
+	float:right;
+	width:auto;
+	padding-top:20px;
+}
+.kode_logo3_service > li {
+	display:inline-block;
+    position: relative;
+	margin-left:30px;
+	padding-top:3px;
+}
+.kode_logo3_service > li:first-child{
+	margin:0px;
+}
+.kode_logo3_service > li:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	height:50px;
+	margin:auto;
+}
+.kode_logo3_services_text span{
+	float:left;
+	display:inline-block;
+	height:53px;
+	width:53px;
+	text-align:center;
+	line-height:53px;
+	border-radius:100%;
+	border:1px dashed;
+	font-size:20px;
+}
+.kode_logo3_services_text:hover span{
+	color:#fff;
+}
+.kode_logo3_location_list{
+	float:left;
+	padding-left:15px;
+}
+.kode_logo3_location_list p{
+	color:#fff;
+	line-height:24px;
+}
+.kode_logo3_location_list p em{
+	font-style:normal;
+	display:block;
+}
+.kode_logo3_location_list a{
+	color:#fff;
+	display:block;
+}
+.kode_top_navi_wraper.wrap_2{
+	background:none;
+    position: relative;
+    z-index: 999;
+}
+.kode_navigation_list{
+	float:left;
+	width:100%;
+	margin-top: 15px;
+}
+.kode_top_navi_wraper.wrap_2 .navigation ul{
+	float:left;
+	width:auto;
+}
+.quote_button{
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	font-size:13px;
+	padding:17px 40px 18px;
+	background-color:#000;
+	float:right;
+}
+.quote_button:hover{
+	background-color:#000;
+	color:#fff;
+}
+/*
+	=========================================================
+			KODE TOP3 WRAPER END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE TOP CONTENT  AREA START
+	=========================================================
+*/
+.kode_top_info2_list,
+.kode_top_content_area .kode_top_logo,
+.kode_top_content_area{
+	float:left;
+	width:100%;
+}
+.kode_top_content_area{
+	padding:20px 0px;
+}
+.kode_top_info2_list{
+	text-align:center;
+	padding-top:6px;
+}
+.kode_top_info2{
+	display: inline-block;
+    width: auto;
+	margin-right:30px;
+}
+.kode_top_info2:last-child{
+	margin:0px;
+}
+.kode_top_info2 span{
+	height:40px;
+	width:40px;
+	text-align:center;
+	line-height:38px;
+	border-radius:100%;
+	border:1px solid #666;
+	color:#666;
+	font-size:16px;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+}
+.kode_top_info2:hover span{
+	color:#fff;
+}
+.kode_top_info_text {
+    float: left;
+    width: auto;
+	padding:2px 0px;
+}
+.kode_top_info_text a{
+	display:block;
+	font-size:12px;
+	line-height:15px;
+	font-weight:bold;
+	color:#666;
+	margin-bottom:5px;
+}
+.kode_top_info_text a:last-child{
+	margin-bottom:0px;
+}
+.kode_top_content_area .kode-button-style-1{
+	margin:7px 0px;
+}
+/*
+	=========================================================
+			KODE TOP CONTENT  AREA END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE SAB BANNER START
+	=========================================================
+*/
+.spb-banner-wrap,
+.kode_sab_banner{
+	float:left;
+	width:100%;
+}
+.kode_sab_banner .spb-banner-wrap img {
+    width: 100%;
+}
+.kode_sab_banner .spb-center.slick-initialized.slick-slider .slick-prev.slick-arrow,
+.kode_sab_banner .spb-center.slick-initialized.slick-slider .slick-next.slick-arrow{
+	display:none !important;
+}
+.spb-banner-wrap{
+	position:relative;
+}
+.kode_sab_banner  figure{
+	position:relative;
+}
+.kode_sab_banner figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.6);
+}
+.kode_banner_text{
+	position:absolute;
+	top:175px;
+	left:50%;
+	right:0px;
+	margin-left: -541px;
+}
+.kode_banner_text h3{
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	position:relative;
+	padding-bottom:10px;
+	margin-bottom:5px;
+}
+.kode_banner_text h3:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-bottom:2px solid #fff;
+	width:96px;
+}
+.kode_banner_text h2,
+.kode_banner_text h1{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+}
+.kode_banner_text h2{
+	color:#fff;
+	margin-bottom:14px;
+}
+.kode_banner_text p{
+	margin-bottom:15px;
+	color:#fff;
+}
+.kode_plumber_testimonial .slick-dots,
+.kode_sab_banner .slick-dots{
+	position:absolute;
+	bottom:25px;
+	left:410px;
+}
+.kode_plumber_testimonial .slick-dots li,
+.kode_sab_banner .slick-dots li{
+	display:inline-block;
+} 
+.kode_sab_banner .slick-active button{
+	background:none;
+	border-radius:100%;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	box-shadow:0px 0px 0px 4px #ffd322;
+}
+#slick-slide00 > button,
+#slick-slide02 > button,
+#slick-slide01 > button{
+	background:none;
+	height:12px;
+	width:12px;
+	text-align:center;
+	border-radius:100%;
+	background-color:#fff;
+	margin:0px 5px;
+	color:transparent;
+}
+/*
+	=========================================================
+			KODE SAB BANNER END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE PLUMBER PROJECT START
+	=========================================================
+*/
+.kode_text,
+.kode_plumber_project{
+	float:left;
+	width:100%;
+}
+.kode_plumber_project{
+	padding:32px 0px 40px;
+	position:relative;
+	z-index:999;
+}
+.kode_plumber_project:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url("images/pa.png");
+	background-position:center;
+	z-index:-1;
+	opacity:0.1;
+}
+.kode_plumber_project .kode_text{
+	text-align:center;
+}
+.kode_plumber_project .kode_text h2{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:6px;
+}
+.kode_plumber_project .kode_text h3{
+	text-transform:uppercase;
+	margin-bottom:12px;
+}
+.kode_plumber_project .kode_text a{
+	color:#000;
+}
+.kode_line_farm_fig:hover a,
+.kode_plumber_project .kode_text a:hover{
+	color:#fff;
+}
+.kode_line_farm_fig a{
+	color:#000;
+}
+/*
+	=========================================================
+			KODE PLUMBER PROJECT END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE PLUMBER DEAL START
+	=========================================================
+*/
+.kode_plumber_deal{
+	padding:72px 0 45px;
+	
+}
+.kode_plumber_deal_detail,
+.kode_plumber_heading,
+.kode_plumber_deal{
+	float:left;
+	width:100%;
+	
+}
+.kode_plumber_heading{
+	text-align:center;
+	margin-bottom:30px;
+}
+.kode_plumber_heading h3{
+	text-transform:uppercase;
+	position:relative;
+	display:inline-block;
+	padding-bottom:13px;
+}
+.kode_plumber_heading h3:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-bottom:2px solid #000;
+	width:70px;
+	margin:auto;
+}
+.kode_plumber_heading p{
+	display:inline-block;
+	margin:0px;
+}
+.kode_plumber_heading p span{
+	display:block;
+}
+.kode_plumber_deal_detail{
+	margin-bottom:28px;
+	min-height: 297.8px;
+}
+.kode_plumber_deal_detail  span{
+	display:inline-block;
+	height:64px;
+	width:74px;
+	text-align:center;
+	line-height:60px;
+	border:2px solid #cacaca;
+	border-radius:4px;
+	font-size:42px;
+	color:#cacaca;
+	float:left;
+	position:relative;
+	z-index:999;
+}
+.kode_plumber_deal_detail:hover  span{
+	color:#fff;
+}
+.kode_plumber_deal_detail span:before{
+	position:absolute;
+	content:"";
+	top:100px;
+	left:100px;
+	right:100px;
+	bottom:100px;
+	z-index:-1;
+}
+.kode_plumber_deal_detail:hover span:before{
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-radius:2px;
+}
+.kode_plumber_deal_text{
+	overflow:hidden;
+	padding-left:21px;
+}
+.kode_plumber_deal_text h5{
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+.kode_plumber_deal_text h3 a{
+	color:#3c3c3c;
+}
+.kode_plumber_deal_text p{
+	margin:0px;
+}
+/*
+	=========================================================
+			KODE PLUMBER DEAL END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE PLUMBER RECENTT START
+	=========================================================
+*/
+.kode_plumber_recent_fig,
+.kode_plumber_recent_item,
+.kode_plumber_recent{
+	float:left;
+	width:100%;
+}
+.kode_plumber_recent{
+	background-image:url("images/backg.png");
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:999;
+	padding:72px 0 50px;
+}
+.kode_plumber_recent_item li a:before,
+.kode_plumber_recent:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#545252;
+	opacity:0.75;
+	z-index:-1;
+}
+.kode_plumber_heading.heading_2{
+	margin-bottom:24px;
+}
+.kode_plumber_heading.heading_2 h3{
+	color:#fff;	
+	position:relative;
+	margin:0px;
+}
+.kode_plumber_heading.heading_2 h3:before{
+	border-color:#fff;
+}
+.kode_plumber_recent_item{
+	text-align:center;
+	margin-bottom:40px;
+}
+.kode_plumber_recent_item li{
+	display:inline-block;
+	margin-right:3px;
+}
+.kode_plumber_recent_item li:last-child{
+	margin:0px;
+}
+.kode_plumber_recent_item li a{
+	display:inline-block;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#fff;
+	line-height:12px;
+	padding:0px 8px 8px 8px;
+	position:relative;
+}
+.kode_plumber_recent_item li a:before{
+	background:none;
+	opacity:0;
+	border-bottom:2px solid;
+	width:0px;
+}
+.kode_plumber_recent_item li a.active:before{
+	opacity:1;
+	z-index:999;
+	width:100%;
+}
+.kode_plumber_recent_fig{
+	margin-bottom:30px;
+}
+.kode_plumber_recent_fig figure{
+	position:relative;
+	overflow:hidden;
+}
+.kode_plumber_recent_fig:hover figure img{
+	transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	-webkit-transform:scale(1.3);
+}
+.kode_plumber_recent_fig figure:after{
+	position:absolute;
+	content:"";
+	top:100px;
+	left:100px;
+	bottom:110px;
+	right:100px;
+	background-color:#333333;
+	opacity:0;
+}
+.kode_plumber_recent_fig:hover figure:after{
+	opacity:0.58;
+	top:10px;
+	left:10px;
+	bottom:110px;
+	right:10px;
+}
+.kode_plumber_recent_fig .kode_plumber_plus{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:90px;
+	text-align:center;
+	height:62px;
+	width:62px;
+	text-align:center;
+	line-height:60px;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:100%;
+	font-size:25px;
+	margin:auto;
+	z-index:999;
+	opacity:0;
+	transform:scale(0);
+	-moz-transform:scale(0);
+	-webkit-transform:scale(0);
+}
+.kode_plumber_recent_fig:hover .kode_plumber_plus{
+	opacity:1;
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);
+}
+.kode_plumber_recent_fig figcaption{
+	position:absolute;
+	padding:14px 0px 32px;
+	text-align:center;
+	left:0px;
+	right:0px;
+	bottom:-79px;
+	background-color:#333333;
+	z-index:999;
+}
+.kode_plumber_recent_fig:hover figcaption{
+	bottom:0px;
+}
+.kode_plumber_recent_fig figcaption:before{
+	position:absolute;
+	content:"\f106";
+	top:-22px;
+	right:10px;
+	bottom:0px;
+	background-color:#333333;
+	font-family: FontAwesome;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	font-size:16px;
+}
+.kode_plumber_recent_fig:hover figcaption:before{
+	transform:scale(0);
+	-moz-transform:scale(0);
+	-webkit-transform:scale(0);
+}
+.kode_plumber_recent_fig figcaption h5{
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:12px;
+}
+.kode_plumber_recent_fig:hover figcaption h5 a{
+	color:#fff;
+}
+.kode_plumber_recent_fig figcaption h5 a:hover,
+.kode_plumber_recent_fig figcaption h5 a{
+	color:#fff;
+}
+.kode_plumber_recent_fig figcaption p{
+	margin:0px;
+	color:#fff;
+}
+/*filterable start*/
+.kode_plumber_recent .boundingBox {
+    float: left;
+    width: 100%;
+}
+/*
+	=========================================================
+			KODE PLUMBER RECENTT END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE PLUMBER ENGINER START
+	=========================================================
+*/
+.kode_plumber_enginer_fig figcaption ul,
+.kode_plumber_enginer_fig,
+.kode_plumber_enginer{
+	float:left;
+	width:100%;
+}
+.kode_plumber_enginer{
+	padding:72px 0 80px;
+}
+.kode_plumber_heading.heading_2.heading_3{
+	margin-bottom:35px;
+}
+.kode_plumber_heading.heading_2.heading_3 h3{
+	color:#3c3c3c;
+	position:relative;
+}
+.kode_plumber_heading.heading_2.heading_3 h3:before{
+	border-color:#3c3c3c;
+}
+.kode_enginer_fig,
+.kode_plumber_enginer_fig{
+	border:1px solid #e8e8e8;
+	overflow:hidden;
+}
+.kode_enginer_fig figure,
+.kode_plumber_enginer_fig figure{
+	position:relative;
+}
+.kode_enginer_fig:hover figure img,
+.kode_plumber_feature_fig:hover figure img,
+.kode_plumber_enginer_fig:hover figure img{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+.kode_enginer_social,
+.kode_plumber_enginer_fig figcaption{
+	position:absolute;
+	bottom:-118px;
+	left:0px;
+	right:0px;
+	padding:10px 10px 12px;
+	z-index:999;
+	border-top:4px solid #1d1d1d;
+}
+.kode_plumber_enginer_fig figcaption{
+	text-align:center;
+}
+.kode_plumber_enginer_fig:hover figcaption{
+	bottom:0px;
+	border-color:#ebbc01;
+}
+.kode_enginer_social:before,
+.kode_plumber_enginer_fig figcaption:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0.9;
+	z-index:-1;
+	background-color:#000;
+}
+.kode_plumber_enginer_fig figcaption h5{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:8px;
+	color:#fff;
+}
+.kode_plumber_enginer_fig figcaption  p{
+	margin-bottom:8px;
+}
+.kode_plumber_enginer_fig:hover figcaption  p{
+	color:#fff;
+}
+.kode_enginer_social,
+.kode_plumber_enginer_fig figcaption ul{
+	text-align:center;
+}
+.kode_enginer_social li,
+.kode_plumber_enginer_fig figcaption ul li{
+	display:inline-block;
+	margin-right:5px
+}
+.kode_enginer_social li:last-child,
+.kode_plumber_enginer_fig figcaption ul li:last-child{
+	margin:0px;
+}
+.kode_enginer_social li a,
+.kode_plumber_enginer_fig figcaption ul li a{
+	display:inline-block;
+	height:29px;
+	width:29px;
+	text-align:center;
+	line-height:27px;
+	font-size:13px;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:100%;
+}
+.kode_enginer_social li a:hover,
+.kode_plumber_enginer_fig figcaption ul li a:hover{
+	background-color:#000;
+	color:#fff;
+}
+/*
+	=========================================================
+			KODE PLUMBER ENGINER END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE PLUMBER SALE START
+	=========================================================
+*/
+.kode_plumber_sale_list,
+.kode_plumber_sale{
+	float:left;
+	width:100%;
+}
+.kode_plumber_sale{
+	background-image:url("images/saleb.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:57px 0 53px;
+	position:relative;
+}
+.kode_plumber_sale:before{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0.9;
+	content:"";
+}
+.kode_plumber_sale_list{
+	text-align:center;
+}
+.kode_plumber_sale_list i{
+	font-size:60px;
+	margin-bottom:9px;
+	color:#fff;
+}
+.kode_plumber_sale_list h5{
+	color:#fff;
+	margin-bottom:11px;
+}
+.kode_plumber_sale_list .counter{
+	font-size:42px;
+	font-style:lighter;
+	text-transform:uppercase;
+	line-height:42px;
+	color:#fff;
+}
+/*
+	=========================================================
+			KODE PLUMBER SALE END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE PLUMBER FEATURE START
+	=========================================================
+*/
+.kode_plumber_feature_fig,
+.kode_plumber_feature{
+	float:left;
+	width:100%;
+}
+.kode_plumber_feature{
+	padding:72px 0px 80px;
+	background-color:#f7f7f7;
+	border-bottom:1px solid #f4f4f4;
+}
+.kode_plumber_feature_fig figure{
+	position:relative;
+	overflow:hidden;
+}
+.kode_plumber_feature_fig figure:before{
+	position:absolute;
+	content:"";
+	top:100px;
+	left:100px;
+	right:100px;
+	bottom:100px;
+	background-color:rgba(0,0,0,0.7);
+	opacity:0;
+	z-index:999;
+}
+.kode_plumber_feature_fig:hover figure:before{
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:1;
+}
+.kode_plumber_feature_fig figcaption{
+	position:absolute;
+	left:20px;
+	right:0px;
+	bottom:-36px;
+	z-index:999;
+	opacity:0;
+}
+.kode_plumber_feature_fig:hover figcaption{
+	bottom:34px;
+	opacity:1;
+}
+.kode_plumber_feature_fig figcaption h5{
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:12px;
+}
+.kode_plumber_feature_fig figcaption a{
+	text-transform:uppercase;
+	border-radius:0px;
+	border:none;
+}
+.kode_plumber_feature_fig figcaption a:hover{
+	background-color:#000;
+	color:#fff;
+}
+/*
+	=========================================================
+			KODE PLUMBER FEATURE END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE PLUMBER LINE FARM START
+	=========================================================
+*/
+.kode_line_farm_des,
+.kode_line_farm_fig,
+.kode_line_farm_text,
+.kode_plumber_line_farm{
+	float:left;
+	width:100%;
+}
+.kode_plumber_line_farm{
+	padding:72px 0px 80px;
+}
+.kode_line_farm_text{
+	text-align:center;
+}
+.kode_line_farm_fig figure{
+	overflow:hidden;
+}
+.kode_line_farm_fig figure:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.6);
+	opacity:0;
+}
+.kode_line_farm_fig:hover figure:after{
+	opacity:1;
+}
+.kode_line_farm_fig:hover figure img{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+.kode_line_farm_des.des_2,
+.kode_line_farm_des{
+	position:relative;
+}
+.kode_line_farm_des:before{
+	border-bottom:1px solid #f0f0f0;
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:-0px;
+	top:8px;
+}
+.kode_line_farm_des.des_2:after,
+.kode_line_farm_des.des_2:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	bottom:0px;
+	height:29px;
+	border-left:2px solid #e5e5e5;
+}
+.kode_line_farm_des.des_2:after{
+	border-right:2px solid #e5e5e5;
+	left:auto;
+	right:0px;
+	top:37px;
+	border-width:1px;
+}
+.kode_line_farm_text h6{
+	text-transform:uppercase;
+	font-weight:bold;
+	position: relative;
+	top:20px;
+	margin-bottom:8px;
+	opacity:0;
+}
+.kode_line_farm_text:hover h6{
+	opacity:1;
+	top:0px;
+}
+.kode_line_farm_text span{
+	display:inline-block;
+	height:14px;
+	width:14px;
+	background-color:#ececec;
+	border-radius:100%;
+	margin-bottom:50px;
+	position:relative;
+}
+.kode_line_farm_text span:after{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:6px;
+	bottom:-39px;
+	border-right:2px solid #f5f5f5;
+	height:39px;
+	margin:auto;
+}
+.kode_line_farm_text > h5{
+	text-transform:uppercase;
+	font-size:18px;
+	margin-bottom:12px;
+}
+.kode_line_farm_fig{
+	border:1px solid #eeeeee;
+	position:relative;
+	overflow:hidden;
+}
+.kode_line_farm_fig:before{
+	width:0px;
+}
+.kode_line_farm_text:hover  .kode_line_farm_fig:before{
+	bottom:0px;
+}
+.kode_line_farm_text:hover .kode_line_farm_fig figure:before,
+.kode_line_farm_text:hover .kode_line_farm_fig:before{
+	width:100%;
+}
+.kode_line_farm_fig figure{
+	margin-bottom:17px;
+	position:relative;
+	border-bottom:4px solid #c7c7c7;
+}
+.kode_line_farm_fig:before,
+.kode_line_farm_fig figure:before{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:-4px;
+	border-bottom:4px solid #c7c7c7;
+	width:0px;
+	z-index:999;
+}
+.kode_line_farm_fig h5{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+.kode_line_farm_fig p{
+	padding:0px 5px;
+	margin-bottom:15px;
+}
+.kode_line_farm_fig a{
+	border:1px solid #eeeeee;
+	border-bottom:none;
+	border-radius:0px;
+}
+/*
+	=========================================================
+			KODE PLUMBER LINE FARM END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE PLUMBER VIDEO START
+	=========================================================
+*/
+.kode_plumber_video_text,
+.kode_plumber_video{
+	float:left;
+	width:100%;
+}
+.kode_plumber_video{
+	background-image:url("images/video.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:150px 0px;
+	position:relative;
+	z-index:999;
+}
+.kode_plumber_video:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:-1;
+	opacity:0.9;
+}
+.kode_plumber_video_text{
+	text-align:center;
+}
+.kode_plumber_video_text a{
+	font-size:88px;
+	display:inline-block;
+	color:#fff;
+	line-height:52px;
+	margin-bottom:20px;
+}
+.kode_plumber_video_text a:hover{
+	color:#000;
+}
+.kode_plumber_video_text h2{
+	text-transform:uppercase;
+	color:#fff;
+}
+/*
+	=========================================================
+			KODE PLUMBER VIDEO END
+	=========================================================
+*/
+
+
+/*
+	=========================================================
+			KODE PLUMBER TEXTIMONIAL START
+	=========================================================
+*/
+.kode_plumber_testimonial_silde,
+.kode_plumber_testimonial{
+	float:left;
+	width:100%;
+}
+.kode_plumber_testimonial{
+	padding:73px 0 56px;
+}
+.kode_plumber_testimonial_silde{
+	text-align:center;
+}
+.kode_plumber_testimonial_silde figure img{
+	display:inline-block;
+	border-radius:100%;
+	padding:5px;
+	border:2px solid #e5e5e5;
+	margin-bottom:20px;
+}
+.kode_plumber_testimonial_silde h4{
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:42px;
+}
+.kode_plumber_testimonial_silde p{
+	padding:0px 150px;
+}
+/*slick start*/
+.kode_plumber_testimonial  .kode-plumber-client.slick-initialized.slick-slider.slick-dotted {
+    float: left;
+    width: 100%;
+}
+.kode_plumber_testimonial .slick-dots{
+	left:0px;
+	right:0px;
+	text-align:center;
+	bottom:-47px;
+}
+.kode_plumber_testimonial .slick-active button{
+	height:22px;
+	width:22px;
+	border-radius:100%;
+	background-color:#c22b2a;
+	text-align:center;
+	line-height:22px;
+	display:inline-block;
+}
+.kode_plumber_testimonial .slick-next.slick-arrow,
+.kode_plumber_testimonial  .slick-prev.slick-arrow {
+    position: absolute;
+    top:20%;
+	background:none;
+	color:transparent;
+    z-index: 999;
+	padding:50px 50px;
+}
+.kode_plumber_testimonial .slick-next.slick-arrow{
+	right:115px;
+}
+.kode_plumber_testimonial .slick-prev.slick-arrow{
+	left:130px;
+}
+.kode_plumber_testimonial .slick-next.slick-arrow:before,
+.kode_plumber_testimonial .slick-prev.slick-arrow:before{
+	position:absolute;
+	content: "\e91c";
+	font-family: 'icomoon' !important;
+	top:-20px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	color:#e5e5e5;
+	font-size:95px;
+}
+.kode_plumber_testimonial .slick-next.slick-arrow:before{
+	right:0px;
+	left:auto;
+	content: "\e903";
+}
+.kode_plumber_testimonial button{
+	background:none;
+	padding:0px;
+	height:12px;
+	width:12px;
+	display:inline-block;
+	background-color:#3d3d3d;
+	border-radius:100%;
+	color:transparent;
+	margin:0px 9px;
+}
+.kode_plumber_testimonial .slick-active button{
+	height:22px;
+	width:22px;
+	border-radius:100%;
+	background:none;
+	background-color:#c22b2a;
+	position:relative;
+	top:-5px;
+
+}
+.kode_plumber_testimonial .slick-active button:before{
+	position:absolute;
+	content:"";
+	top:-4px;
+	left:-4px;
+	right:-4px;
+	bottom:-4px;
+	border:1px solid;
+	border-radius:100%;
+}
+/*
+	=========================================================
+			KODE PLUMBER TEXTIMONIAL END
+	=========================================================
+*/
+
+
+/*
+	====================================================================================================
+								ABOUT US PAGE START
+	====================================================================================================
+*/
+
+
+/*
+	=========================================================
+			KODE BANNER START
+	=========================================================
+*/
+.kode_banner_titile,
+.kode_banner{
+	float:left;
+	width:100%;
+}
+.kode_banner{
+	padding:67px 0px;
+	background-color:#333333;
+	position:relative;
+	background-image:url("images/bnr.png");
+	background-position:right;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.kode_banner:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background:rgba(0,0,0,0.8);
+}
+.kode_banner_titile{
+	text-align:center;
+}
+.kode_banner_titile h2{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	position:relative;
+	z-index:1;
+}
+/*
+	=========================================================
+			KODE BANNER END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE ABOUT MISSION START
+	=========================================================
+*/
+.kode_about_accordian_txet,
+.kode_acordin_row,
+.kode-accordian,
+.kode_about_text,
+.kode_about_mission_row,
+.kode_about_mission{
+	float:left;
+	width:100%;
+}
+.kode_about_mission{
+	padding:71px 0 80px; 
+	position:relative;
+}
+.kode_plumber_feature.feature_2:before,
+.kode_about_mission:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-bottom:1px solid #dfdfdf;
+	width:100%;
+	margin:auto;
+}
+.kode_about_text p{
+	margin-bottom:22px;
+}
+.kode_about_text p:last-child{
+	margin:0px;
+}
+/*accordian start*/
+.kode_acordin_row{
+
+}
+.kode_acordin_row h3{
+	font-weight:bold;
+	color:#fff;
+	padding:8px 30px 13px;
+	background-color:#333333;
+	border-bottom:1px solid #ffffff;
+	position:relative;
+	cursor:pointer;
+}
+.kode_acordin_row h3:focus,
+.kode_acordin_row h3:hover{
+	
+}
+.kode_acordin_row h3:before{
+	position:absolute;
+	content:"-";
+	top:8px;
+	bottom:0px;
+	right:20px;
+	height:27px;
+	width:27px;
+	text-align:center;
+	line-height:25px;
+	border:1px solid #fff;
+	border-radius:100%;	
+}
+.kode_acordin_row h3:hover:before{
+	content:"+";
+}
+.kode_about_accordian_txet{
+	padding:8px 0px 5px 18px;
+	border-left:3px solid;
+	margin:18px 0px;
+}
+.kode_about_accordian_txet p{
+	margin:0px;
+}
+/*
+	=========================================================
+			KODE ABOUT MISSION END
+	=========================================================
+*/
+.kode_plumber_sale.sale_2{
+	background-image:url("images/aboutb.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+}
+.kode_plumber_sale.sale_2:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#363535;
+	opacity:0.84;
+}
+.kode_plumber_enginer.enginer_2{
+	padding:80px 0 50px;
+}
+.kode_plumber_enginer_fig.fig_2{
+	margin-bottom:30px;
+}
+
+/*
+	====================================================================================================
+								AGENT PAGE START
+	====================================================================================================
+*/
+/*
+	=========================================================
+			KODE AGENT PAGINATION START
+	=========================================================
+*/
+.kode_pagi_detail,
+.kode_agent_pagination{
+	float:left;
+	width:100%;
+}
+.kode_pagi_detail{
+	border-top:1px solid #eaeaea;
+	border-bottom:1px solid #eaeaea;
+	padding:20px 0px;
+}
+.kode_pagi_detail a{
+	display:inline-block;
+	height:36px;
+	width:36px;
+	text-align:center;
+	line-height:34px;
+	font-size:18px;
+	color:#6a6a6a;
+	border:1px solid #6a6a6a;
+	border-radius:100%;
+	margin-right:5px;
+	position:relative;
+}
+.kode_pagi_detail a:before{
+	position:absolute;
+	content:"";
+	top:-4px;
+	left:-4px;
+	right:-4px;
+	bottom:-4px;
+	border:1px solid transparent;
+	border-radius:100%;
+}
+
+.kode_pagi_detail a:hover{
+	color:#fff;
+}
+.kode_pagi_detail span{
+	color:#6a6a6a;
+}
+.kode_plumber_testimonial.test_2{
+	padding:120px 0px;
+}
+/*
+	=========================================================
+			KODE AGENT PAGINATION END
+	=========================================================
+*/
+
+/*
+	====================================================================================================
+								ENGINER PAGE START
+	====================================================================================================
+*/
+
+/*
+	=========================================================
+			KODE ENGINER WRAPER START
+	=========================================================
+*/
+.kode_enginer_call,
+.kode_enginer_tittle,
+.kode_enginer_row,
+.kode_enginer_fig,
+.kode_enginer_wraper{
+	float:left;
+	width:100%;
+}
+.kode_enginer_wraper{
+	padding:80px 0px;
+}
+.kode_enginer_social{
+	bottom:0px;
+	padding:6px 0px;
+}
+.kode_enginer_tittle h5{
+	font-weight:bold;
+	text-transform:uppercase;
+	float:left;
+}
+.kode_enginer_tittle{
+	padding:9px 0px 11px;
+	border-top:1px solid #f5f5f5;
+	margin-bottom:12px;
+	border-bottom:1px solid #f5f5f5;
+}
+.kode_enginer_row > p {
+    float: left;
+	color:#666666;
+	margin-bottom:15px;
+}
+.kode_enginer_tittle ul{
+	float:right;
+}
+.kode_enginer_tittle ul li{
+	float:left;
+}
+.kode_enginer_tittle ul li a{
+	display:inline-block;
+	font-size:18px;
+	color:#efad32;
+}
+.kode_enginer_call li{
+	margin-bottom:11px;
+}
+.kode_enginer_call li:last-child{
+	margin:0px;
+}
+.kode_enginer_call li a{
+	font-size:16px;
+	display:inline-block;
+	color:#666666;
+}
+.kode_enginer_call li a i{
+	margin-right:28px;
+}
+.kode_plumber_feature.feature_2{
+	background:none;
+	position:relative;
+	border-bottom:none;
+}
+.kode_plumber_feature.feature_2:before{
+	border-bottom:none;
+	border-top:1px solid #dfdfdf;
+}
+/*
+	=========================================================
+			KODE ENGINER WRAPER END
+	=========================================================
+*/
+
+/*
+	====================================================================================================
+							GALLERY PAGE START
+	====================================================================================================
+*/
+.kode_plumber_feature_fig.feat_2{
+	margin-bottom:30px;
+}
+.kode_plumber_feature.feature_2.feature_3{
+	padding:72px 0 50px;
+}
+.kode_plumber_line_farm.farm_1{
+	padding-top:0px;
+}
+
+
+
+/*
+	====================================================================================================
+							GALLERY DETAIL  PAGE START
+	====================================================================================================
+*/
+/*
+	=========================================================
+			KODE GALLERY DETAIL WRAPER START
+	=========================================================
+*/
+.kode_gallery_detail_slide .bxslider.bx-pager,
+.kode_gallery_detail_slide,
+.kode_gallery_detail_wraper{
+	float:left;
+	width:100%;
+}
+.kode_gallery_detail_slide{
+	padding:80px 0 30px;
+	border-bottom:1px solid #e4e4e4;
+}
+.kode_gallery_detail_slide .bx-wrapper {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+#bx-pager a {
+    display: inline-block;
+    margin-right: 13px;
+	border:1px solid #dbdbdb;
+	overflow:hidden;
+}
+#bx-pager img:hover{
+	transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+#bx-pager a:nth-child(4) {
+    margin:0;
+}
+.kode_gallery_detail_slide .bxslider.bx-pager{
+	padding:0px;
+}
+.kode_gallery_detail_slide .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+	bottom:0px;
+}
+/*
+	=========================================================
+			KODE GALLERY DETAIL WRAPER END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE GALLERY DETAIL DESCRIPTION START
+	=========================================================
+*/
+.kode_glry_detail_map,
+.kode_glry_detail_item ul li,
+.kode_glry_detail_item ul,
+.kode_glry_detail_item,
+.kode_glry_detail_text,
+.kode_gallery_detail_description{
+	float:left;
+	width:100%;
+}
+.kode_gallery_detail_description{
+	padding:42px 0px 0px;
+}
+.kode_glry_detail_text h5{
+	text-transform:uppercase; 
+	margin-bottom:15px;
+}
+.kode_glry_detail_text p{
+	padding-bottom:23px;
+	border-bottom:1px solid #e4e4e4;
+	margin:0px;
+}
+.kode_glry_detail_item{
+	padding:33px 0px 50px;
+}
+.kode_glry_detail_item ul li{
+	
+}
+.kode_glry_detail_item ul li a{
+	text-transform:uppercase;
+	display:block;
+	border-bottom:1px solid #e5e5e5;
+	padding:10px 15px 10px 5px;
+}
+.kode_glry_detail_item ul li a i{
+	margin-right:24px;
+}
+.kode_glry_detail_item ul li a span{
+	float:right;
+}
+.kode_glry_detail_map iframe{
+	height:614px;
+	width:100%;
+}
+/*
+	=========================================================
+			KODE GALLERY DETAIL DESCRIPTION END
+	=========================================================
+*/
+
+/*
+	=============================================================================================
+									HOME PAGE 2 START
+	=============================================================================================
+*/
+.header_1{
+	float:left;
+	width:100%;
+	position:absolute;
+}
+/*
+	=========================================================
+			KODE TOP WRAPER2 START
+	=========================================================
+*/
+
+.kode_top_navigation2 ul,
+.kode_top_wraper2{
+	float:left;
+	width:100%;
+}
+.kode_top_wraper2{
+	background-color:#fff;
+	position:relative;
+	z-index:999;
+	margin-top:30px;
+}
+.kode_top_wraper2 .container-fluid{
+	padding:0px 50px; 
+}
+.kode_top_logo2{
+	float:left;
+	width:20%;
+	padding:13px 0px;
+}
+.kode_top_navigation2{
+	float:left;
+	width:50%;
+}
+.kode_top_navigation2 ul li{
+	float:left;
+	margin-right:1px;
+}
+.kode_top_navigation2 ul li a{
+	display:inline-block;
+	font-size:12px;
+	text-transform:uppercase;
+	color:#b4aeae;
+	background-color:#f0f0f0;
+	line-height:12px;
+	padding:100px 0px 30px 20px;
+	width:129px;
+	height:140px;
+}
+.kode_top_navigation2 ul li a:hover{
+	color:#fff;
+}
+.kode_top_navigation2 ul li a i{
+	position:relative;
+	left:18px;
+}
+.kode_top_text{
+	float:left;
+	width:30%;
+	padding:27px 0px 25px;
+}
+.kode_top_text h6{
+	color:#545f68;
+	text-transform:uppercase;
+	margin-bottom:5px;
+}
+.kode_top_text p{
+	line-height:20px;
+}
+.kode_top_text p span{
+	font-weight:lighter;
+}
+
+/*
+	=========================================================
+			KODE TOP WRAPER2 END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE BANNER2 START
+	=========================================================
+*/
+.kode_banner2{
+	float:left;
+	width:100%;
+	border-bottom:5px solid;
+}
+.kode_banner2 figure img{
+	width:100%;
+}
+.kode_banner2 figure{
+	position:relative;
+	height:530px;
+}
+.kode_banner2 figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.4);
+}
+.kode_banner2_text{
+	position:absolute;
+	top:30%;
+	left:50%;
+	bottom:0px;
+	text-align:right;
+	margin-left:-80px;
+}
+.kode_banner2_text p{
+	text-transform:uppercase;
+	color:#fff;
+	font-size:30px;
+	margin-bottom:20px;
+}
+.kode_banner2_text h1{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:29px;
+}
+.kode_banner2_text h1 span{
+	display:block;
+}
+.kode_banner2  .slick-next.slick-arrow{
+	right: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+	background:none;
+	color:transparent;
+	line-height:70px;
+	width:50px;
+	margin-top:-70px;
+}
+.kode_banner2 .slick-prev.slick-arrow {
+    left:20px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+	background:none;
+	color:transparent;
+	line-height:65px;
+	margin-top:-70px;
+}
+.kode_banner2  .slick-prev.slick-arrow:before,
+.kode_banner2  .slick-next.slick-arrow:before{
+	height:70px;
+	width:50px;
+	text-align:center;
+	line-height:70px;
+	position:absolute;
+	content:"\f178";
+	top:0px;
+	left:0px;
+	font-size:20px;
+	right:0px;
+	bottom:0px;
+	font-family:fontawesome;
+	color:#333;
+	background-color:#ddd;
+}
+.kode_banner2  .slick-prev.slick-arrow:before{
+	content:"\f177";
+}
+.kode_banner2  .slick-prev.slick-arrow:hover:before,
+.kode_banner2  .slick-next.slick-arrow:hover:before{
+	color:#fff;
+}
+.kode_banner2 .slick-dots {
+    display: none !important;
+}
+/*
+	=========================================================
+			KODE BANNER2 END
+	=========================================================
+*/
+
+
+/*
+	=========================================================
+			KODE BANNER3 START
+	=========================================================
+*/
+.kode_banner3{
+	border-bottom: 5px solid;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+	overflow: hidden;
+}
+.kode_banner3 figure img{
+	width:100%;
+	opacity: 0; /* Set initial opacity to 0 */
+    transition: opacity 0.8s ease-in-out;
+}
+.kode_banner3 figure{
+	position:relative;
+}
+.kode_banner3 figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	
+}
+
+.kode_banner3 figure.slick-active img {
+    opacity: 1;
+}
+
+.kode_banner3_text{
+	position:absolute;
+	top:40%;
+	left:50%;
+	bottom:0px;
+	text-align:center;
+	margin-left:-340px;
+}
+.kode_banner3_text h1{
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#fff;
+	font-size:50px;
+	margin-bottom:20px;
+}
+.kode_banner3_text h1 span em{
+	font-style:normal;
+}
+.kode_banner3_text p{
+	color:#fff;
+	margin-bottom:35px;
+	line-height:24px;
+}
+.kode_banner3_text p span,
+.kode_banner3_text h1 span{
+	display:block;
+	font-family:'FontAwesome';
+}
+.kode_banner3_text .kode-button-style-law-1:last-child{
+	margin-right:0px;
+}
+
+.kode_banner3  .slick-next.slick-arrow{
+	right: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+	background:none;
+	color:transparent;
+	line-height:65px;
+	width:65px;
+}
+.kode_banner3 .slick-prev.slick-arrow {
+    left:20px;
+    position: absolute;
+    top: 50%;
+    z-index: 9999;
+	background:none;
+	color:transparent;
+	line-height:65px;
+}
+.kode_banner3  .slick-prev.slick-arrow:before,
+.kode_banner3  .slick-next.slick-arrow:before{
+	height:65px;
+	width:65px;
+	text-align:center;
+	line-height:65px;
+	border-radius:100%;
+	position:absolute;
+	content:"\f105";
+	top:0px;
+	left:0px;
+	font-size:20px;
+	right:0px;
+	bottom:0px;
+	font-family:fontawesome;
+	border:1px solid #a19d91;
+	color:#aeab9c;
+}
+.kode_banner3  .slick-prev.slick-arrow:before{
+	content:"\f104";
+}
+.kode_banner3  .slick-prev.slick-arrow:hover:before,
+.kode_banner3  .slick-next.slick-arrow:hover:before{
+	color:#fff;
+}
+.kode_banner3 .slick-dots {
+    display: none !important;
+}
+/*
+	=========================================================
+			KODE BANNER2 END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE HISTORY START
+	=========================================================
+*/
+.kode_history_detail,
+.kode_history_heading,
+.kode_history{
+	float:left;
+	width:100%;
+}
+.kode_history{
+	padding:72px 0px 80px;
+}
+.kode_history_heading{
+	text-align:center;
+	margin-bottom:25px;
+}
+.kode_history_heading h2{
+	text-transform:uppercase;
+	font-weight:300;
+	margin-bottom:15px;
+	display:inline-block;
+	position:relative;
+	padding: 0 30px;
+}
+
+.border-style{
+	position: absolute;
+	left: 100%;
+	top: 50%;
+	margin: -5px auto 0;
+	width: 69px;
+	height: 10px;
+	background-image:url("images/border1.png");
+	background-repeat: repeat-x;
+}
+.border-right{
+	left: auto;
+	right: 100%;
+}
+.kode_history_heading h2:before{
+	background-position:right;
+	left:0px;
+	right:-98px;
+}
+.kode_history_heading p span{
+	display:block;
+}
+.kode_history_detail{
+	padding:30px 25px 32px 25px;
+	border:1px solid #ededed;
+}
+.kode_history_detail i{
+	height:41px;
+	width:41px;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	float:left;
+	font-size:20px;
+	margin-right:20px;
+	margin-bottom:13px;
+}
+.kode_history_detail:hover i{
+	background-color:#000;
+}
+.kode_history_detail h4{
+	display:inline-block;
+	text-transform:uppercase;
+	padding:6px 0px;
+	font-weight:bold;
+}
+.kode_history_detail h4 a{
+	color:#21282e;
+}
+.kode_history_detail p{
+	width:100%;
+	float:left;
+}
+/*
+	=========================================================
+			KODE HISTORY END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE SERVICE WRAPER START 
+	=========================================================
+*/
+.kode_service_des,
+.kode_service_wraper{
+	float:left;
+	width:100%;
+}
+.kode_service_wraper{
+	background-color:#f6f6f6;
+	padding:72px 0px 0px 0px;
+}
+.kode_service_wraper .container-fluid{
+	padding:0px 0px;
+}
+.kode_service_wraper .kode_service_des .col-md-3{
+	padding:0px;
+}
+.kode_service_des.row{
+	margin:0px;
+}
+.kode_service_fig figure{
+	position:relative;
+	overflow:hidden;
+	z-index:999;
+}
+.kode_service_fig figure:hover img{
+	transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	-webkit-transform:scale(1.3);
+}
+.kode_service_fig figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.7);
+	z-index:999;
+}
+.kode_service_fig:hover figure:before{
+	opacity:0.80;
+}
+.kode_service_fig figure img{
+	width:100%;
+}
+.kode_service_fig figcaption{
+	position:absolute;
+	bottom:0px;
+	top:50%;
+	margin-top:-98px;
+	left:0px;
+	right:0px;
+	text-align:center;
+	z-index:999;
+	padding:0px 20px;
+}
+.kode_service_fig:hover figcaption p,
+.kode_service_fig:hover figcaption a{
+	color:#fff;
+}
+.kode_service_fig figcaption a{
+	font-size:60px;
+	line-height:60px;
+	margin-bottom:14px;
+	display:inline-block;
+}
+.kode_service_fig figcaption  h3{
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:8px;
+	text-overflow:ellipsis;
+}
+.kode_service_fig figcaption p{
+	padding:0px 20px;
+	color:#ced8e0;
+}
+/*
+	=========================================================
+			KODE SERVICE WRAPER END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE MEMBER WRAPER START
+	=========================================================
+*/
+.kode_member_des,
+.kode_member_wraper{
+	float:left;
+	width:100%;
+}
+.kode_member_wraper{
+	background-color:#f6f6f6;
+	padding:72px 0px 80px 0px;
+}
+.kode_member_des{
+	background-color:#fff;
+}
+.kode_member_des figure {
+	float:left;
+	margin-right:30px;
+}
+.kode_member_text{
+	overflow:hidden;
+	padding:65px 30px 65px 0;
+}
+.kode_member_text h3{
+	text-transform:uppercase;
+	font-weight:300;
+	margin-bottom:5px;
+}
+.kode_member_text span{
+	display:inline-block;
+	margin-bottom:2px;
+}
+.kode_member_text p{
+	font-weight:300;
+}
+/*slick slider*/
+.kode_member_wraper .slick-slider{
+	float:left;
+	width:100%;
+}
+.kode_member_wraper .slick-next.slick-arrow,
+.kode_member_wraper .slick-prev.slick-arrow{
+	left:-78px;
+    position: absolute;
+    top: 150px;
+	height:48px;
+	background:none;
+	color:transparent; 
+}
+.kode_member_wraper .slick-next.slick-arrow:before,
+.kode_member_wraper .slick-prev.slick-arrow:before{
+	position:absolute;
+	content: "\f104";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	height:48px;
+	width:48px;
+	text-align:center;
+	font-family: FontAwesome;
+	background-color:#fff;
+	font-size:20px;
+	color:#888d91;
+	line-height:48px;
+}
+.kode_member_wraper .slick-next.slick-arrow:before{
+	content: "\f105";
+}
+.kode_member_wraper .slick-next.slick-arrow:hover:before,
+.kode_member_wraper .slick-prev.slick-arrow:hover:before{
+	color:#fff;
+}
+.kode_member_wraper .slick-next.slick-arrow{
+	right:-70px;
+	left:auto;
+}
+.kode_member_wraper .slick-slide {
+    margin:0px 10px;
+}
+/*
+	=========================================================
+			KODE MEMBER WRAPER END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE COUNTER WRAPER START
+	=========================================================
+*/
+.kode_counter_icon,
+.kode_counter_text,
+.kode_counter_wraper{
+	float:left;
+	width:100%;
+}
+.kode_counter_wraper{
+	position:relative;
+	background-image:url("images/cont.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	padding:25px 0 3px;
+	z-index:99;
+}
+.kode_counter_wraper:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.7);
+	z-index:-1;
+}
+.kode_counter_text{
+	text-align:center;
+}
+.kode_counter_text h2{
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:17px;
+}
+.kode_counter_text p{
+	color:#fff;
+	font-weight:600;
+	margin-bottom:20px;
+}
+.kode_counter_text span{
+	display:inline-block;
+	font-size:40px;
+	line-height:40px;
+}
+.kode_counter_icon{
+	text-align:center;
+}
+.kode_counter_icon li{
+	display:inline-block;
+	margin-right:40px;
+	padding:9px 0px;
+}
+.kode_counter_icon li:last-child{
+	margin-right:0px;
+}
+.kode_counter_icon li i{
+	font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.kode_counter_icon li span{
+	display: block;
+    font-size: 30px;
+    color: #fff;
+    line-height: 30px;
+    margin-bottom: 19px;
+}
+.kode_counter_icon li h4{
+	font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+/*
+	=========================================================
+			KODE COUNTER WRAPER END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE POST WRAPER STAR
+	=========================================================
+*/
+.kode_post_fig .post_text,
+.kode_post_fig,
+.kode_post_wraper{
+	float:left;
+	width:100%;
+}
+.kode_post_wraper{
+	padding:72px 0px 80px;
+}
+.kode_post_fig{
+	border:1px solid #ededed;
+}
+.kode_post_fig:hover{
+	box-shadow:0 7px 45px 0px #e6e6e6;
+}
+.kode_post_fig figure{
+	position:relative;
+	overflow:hidden;
+}
+.kode_project_fig:hover figure img,
+.kode_post_fig:hover figure img{
+	transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	-webkit-transform:scale(1.3);
+	opacity:0.80;
+}
+.kode_post_fig figcaption{
+	position:absolute;
+	bottom:-15px;
+	left:0px;
+	right:0px;
+	z-index:999;
+	opacity:0;
+}
+.kode_post_fig:hover figcaption{
+	bottom:0px;
+	opacity:1;
+	background-color:rgba(0,0,0,0.7);
+}
+.kode_post_fig figcaption span{
+	display:inline-block;
+	font-size:12px;
+	font-weight:300;
+	color:#fff;
+	text-transform:uppercase;
+	line-height:12px;
+	padding:13px 18px 15px;
+}
+.kode_post_fig figcaption  a{
+	display:inline-block;
+	float:right;
+	color:#fff;
+	padding:9px 15px 12px 15px;
+}
+.kode_post_fig figcaption  a i{
+	margin-right:5px;
+}
+.kode_post_fig .post_text {
+	padding:25px 25px 30px;
+}
+.kode_post_fig .post_text h4{
+	font-weight:300;
+	margin-bottom:6px;
+}
+.kode_post_fig .post_text p{
+	font-weight:300;
+	margin-bottom:14px;
+}
+.kode_post_fig .post_text .kode-button-style-law-2{
+	float:right;
+}
+
+/*
+	=========================================================
+			KODE POST WRAPER END
+	=========================================================
+*/
+
+/*
+	=========================================================
+			KODE PROJECT WRAPER START
+	=========================================================
+*/
+.project_text,
+.kode_project_fig,
+.kode_project_wraper{
+	float:left;
+	width:100%;
+}
+.kode_project_wraper{
+	padding:72px 0 43px;
+	background-color:#f6f6f6;
+}
+.kode_project_fig figure{
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.kode_project_fig .project_text{
+	text-align:center;
+	padding:30px 0px;
+	position:relative;
+}
+.kode_project_fig .project_text:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	border-top:8px solid;
+	width:70px;
+	margin:auto;
+}
+.kode_project_fig .project_text h2,
+.kode_project_fig .project_text .counter{
+	display:inline-block;
+	text-transform:uppercase;
+	font-weight:300;
+	color:#21282e;
+	font-size:35px;
+	margin-right:5px;
+	line-height:35px;
+}
+.kode_project_fig .project_text h2{
+	margin:0px;
+	font-weight:300;
+	font-size:30px;
+}
+/*
+	=========================================================
+			KODE PROJECT WRAPER END
+	=========================================================
+*/
+
+
+/*
+	=========================================================
+			KODE CUSTOMER WRAPER START
+	=========================================================
+*/
+.kode_customer_text .kode_rating,
+.kode_customer_text,
+.kode_customer_wraper{
+	float:left;
+	width:100%;
+}
+.kode_customer_wraper{
+	padding:72px 0 124px;
+	background-color:#f6f6f6;
+	position:relative;
+}
+.kode_customer_wraper:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url("images/ss.png");
+	background-position:right;
+	width:70%;
+	background-repeat:no-repeat;
+	background-size:88% 100%;
+}
+.kode_customer_text h2{
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:13px;
+}
+.kode_customer_text h3{
+	font-size:24px;
+	margin-bottom:15px;
+	font-weight:300;
+}
+.kode_customer_text  .kode_rating{
+	margin-bottom:14px;
+}
+.kode_customer_text .kode_rating ul li,
+.kode_customer_text .kode_rating ul{
+	float:left;
+	margin-right:37px;
+}
+.kode_customer_text .kode_rating ul li{
+	margin:0px;
+}
+.kode_customer_text .kode_rating ul li a{
+	display:inline-block;
+	font-size:16px;
+}
+.kode_customer_text .kode_rating ul li a:hover{
+	color:#000;
+}
+.kode_customer_text .kode_rating span{
+	text-transform:uppercase;
+	font-weight:bold;
+	display:inline-block;
+	position:relative;
+}
+.kode_customer_text .kode_rating span:before{
+	position:absolute;
+	content:"";
+	left:-28px;
+	bottom:9px;
+	border-bottom:1px solid;
+	width:20px;
+}
+.kode_customer_text p {
+    float: left;
+}
+/*slick slider*/
+.kode_customer_wraper .kode-customer_slid.slick-initialized.slick-slider {
+    float: left;
+    width: 100%;
+}
+.kode_customer_wraper .slick-prev ,
+.kode_customer_wraper .slick-next{
+    bottom:-45px;
+    position: absolute;
+	background:none;
+	color:transparent;
+	left:26px;
+	padding:0px 0px;
+}
+.kode_customer_wraper .slick-next{
+	left:0px;
+}
+.kode_customer_wraper .slick-next:before,
+.kode_customer_wraper .slick-prev:before{
+	position:absolute;
+	content: "\f105";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	height:20px;
+	width:20px;
+	text-align:center;
+	font-family: FontAwesome;
+	line-height:20px;
+	color:#fff;
+	background-color:#e9e9e9;
+}
+.kode_customer_wraper .slick-next:before{
+	content: "\f104";
+}
+/*
+	=========================================================
+			KODE CUSTOMER WRAPER END
+	=========================================================
+*/
+/*
+	=========================================================
+			KODE CUSTOMER WRAPER START
+	=========================================================
+*/
+.kode_meet_cols,
+.kode_meet_wraper{
+	float:left;
+	width:100%;
+}
+.kode_meet_wraper{
+	padding:36px 0px 38px;
+	position:relative;
+	z-index:999;
+}
+.kode_meet_wraper:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	
+	width:50%;
+	z-index:-1;
+}
+.kode_meet_wraper:after{
+	position:absolute;
+	content:"";
+	top:0px; 
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url("images/meet.png"), url("images/meet1.png");
+	background-position:bottom left, bottom right;
+	background-repeat:no-repeat;
+	z-index:-1;
+}
+.kode_meet_cols span{
+	display:inline-block;
+	float:left;
+	height:50px;
+	width:50px;
+	text-align:center;
+	line-height:42px;
+	border-radius:100%;
+	border:2px solid #fff;
+	color:#fff;
+	font-size:22px;
+	margin-top:20px;
+}
+.kode_meet_text{
+	overflow:hidden;
+	padding:0px 0px 0px 18px;
+	position:relative;
+}
+.kode_meet_text h2{
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:1px;
+}
+.kode_meet_text p{
+	color:#fff;
+	padding-right:140px;
+}
+.kode_meet_text a{
+	position:absolute;
+	top:25px;
+	right:1px;
+	text-transform:uppercase;
+	box-shadow:1px 0px 1px 0;
+}
+/*
+	============================================
+			SAB BANNER START
+	============================================
+*/
+.kode_banner.sab_banner figcaption{
+	margin-top:0px;
+	top:53%;
+}
+.kode_banner.sab_banner figcaption h2{
+	font-size:36px;
+	margin-bottom:5px;
+}
+.kode_banner.sab_banner figcaption ul li a:hover,
+.breadcrumb{
+	background:none;
+	display:inline-block;
+	padding:0px 0px;
+	margin:0px;
+}
+.breadcrumb li{
+	display:inline-block;
+	padding:0px 8px;
+}
+.kode_banner.sab_banner figcaption ul .active,
+.kode_banner.sab_banner figcaption ul li a {
+	color:#fff;
+}
+/*
+	============================================
+			SAB BANNER END
+	============================================
+*/
+/*
+	============================================
+			KODE FIRM WRAP START
+	============================================
+*/
+.kode_services_2_des.des_2,
+.kode_service_row,
+.kdoe_services_thumb,
+.kode_firm_wrap{
+	float:left;
+	width:100%;
+}
+.kode_firm_wrap{
+	padding:80px 0px 0px;
+}
+.kode_section_heading.heading_2{
+	margin-bottom:26px;
+}
+.kode_section_heading.heading_2 span{
+	margin-bottom:22px;
+}
+.kode_section_heading.heading_2 p{
+	padding:0px 70px;
+}
+.kode_services_2_des.des_2{
+	margin-bottom:26px;
+}
+.kode_services_2_des.des_2:hover span{
+	color:#fff;
+}
+.kode_services_2_des.des_2:last-child{
+	margin:0px;
+}
+.kode_services_2_content.text_2 {
+    float: left;
+    padding-left: 0;
+    padding-right: 18px;
+    text-align: right;
+    width: 79%;
+}
+.kdoe_services_thumb{
+	text-align:center;
+}
+.kdoe_services_thumb figure{
+	display:inline-block;
+}
+.kdoe_services_thumb figure img{
+	height:590px;
+}
+.kode_firm_wrap .col-md-4 {
+    padding: 0;
+}
+.kode_service_row{
+	padding:65px 0px;
+}
+.kode_services_2_des span {
+    border: 2px solid #232b31;
+    border-radius: 100%;
+    color: #232b31;
+    display: inline-block;
+    float: left;
+    font-size: 35px;
+    height: 73px;
+    line-height: 73px;
+    text-align: center;
+    width: 73px;
+}
+.kode_counter_content{
+	padding:28px 0px;
+}
+.kode_counter_content h6{
+	font-size:18px;
+	color:#fff;
+	margin-bottom:6px;
+}
+.kode_counter_content h3{
+	font-size:50px;
+	font-weight:bold;
+	color:#fff;
+	line-height:50px;
+	margin-bottom:10px;
+}
+.kode_counter_content h3 span{
+	display:block;
+}
+.kode_counter_content p{
+	color:#fff;
+	margin-bottom:22px;
+}
+.kode_counter_row {
+    float: left;
+    padding: 0 0 0 70px;
+    width: 100%;
+}
+.kode_services_2_content {
+    overflow: hidden;
+    padding-left: 20px;
+}
+.kode_services_2_content h5{
+	font-weight:bold;
+	margin-bottom:10px;
+}
+.kode_counter_content .kode-button-style-2{
+	color:#000;
+}
+/*bxslider start*/
+.kdoe_services_thumb .bx-wrapper{
+	margin:0px;
+}
+.kdoe_services_thumb .bx-wrapper .bx-viewport {
+    background:none;
+    border: 0px solid #fff;
+    box-shadow: 0 0;
+    left: 0px;
+    transform: translateZ(0px);
+	height:590px !important;
+}
+.kdoe_services_thumb .bx-controls-auto,
+.kdoe_services_thumb .bx-pager.bx-default-pager {
+    display: none;
+}
+
+/*
+	============================================
+			KODE FIRM WRAP END
+	============================================
+*/
+
+/*
+	============================================
+			KODE ATTORNEY WRAP START
+	============================================
+*/
+.kode_attorney_wraper{
+	float:left;
+	width:100%;
+	overflow: hidden;
+}
+.kode_attorney_wraper{
+	padding:124px 0px 132px;
+	position:relative;
+	z-index:999;
+	margin: -20px 0;
+}
+.kode_counter_content p{
+	padding-right:150px;
+}
+.kode_counter_content.centent_2 p{
+	padding:0px 0px;
+}
+.kode_attorney_wraper:after{
+	position:absolute;
+	content:"";
+	top:20px;
+	right:0px;
+	left:0px;
+	bottom:20px;
+	width:57%;
+	background-image:url("images/attorneyb1.png");
+	background-position:left,center;
+	background-size:cover;
+	height:auto;
+	z-index:-1;
+	opacity: 1;
+	background-color:rgba(255, 255, 255,0.3);
+}
+.kode_attorney_wraper:before{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: auto;
+	right: auto;
+	content: "";
+	opacity: 0.8;
+	top:20px;
+	bottom:20px;
+}
+.kode_attorney_wraper_bg{
+	position: absolute;
+	right: 0;
+	top: -20px;
+	bottom: -20px;
+	background: #000;
+	left: 53%;
+	width: 100%;
+	transform:skew(-15deg); 
+}
+.kode_attorney_wraper_bg:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	width:57%;
+	background-image:url("images/attorneyb.png");
+	background-position:left,center;
+	background-size:cover;
+	height:100%;
+	z-index:-1;
+	opacity: 0.2;
+}
+.kode_attorney_wraper_bg:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	left:0px;
+	bottom:0px;
+	width:100%;
+	height:100%;
+	z-index:-1;
+	opacity: 0.2;
+}
+/*
+	============================================
+			KODE ATTORNEY WRAP END
+	============================================
+*/
+
+/*
+	============================================
+			KODE COMPANY WRAP START
+	============================================
+*/
+.kode_office_list,
+.kode_office_detail li,
+.kode_office_detail,
+.kode_company_wrap{
+	float:left;
+	width:100%;
+}
+.kode_company_wrap{
+	padding:100px 0px 76px;
+	background-color:#f1f1f1;
+}
+.kode_office_detail{
+	position:relative;
+	padding:41px 20px 0px 20px;
+}
+.kode_office_detail li:before,
+.kode_office_detail:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:10px;
+	bottom:0px;
+	border-left:1px solid #cdcdcd;
+}
+.kode_office_detail:before{
+	height:598px;
+}
+.kode_office_detail li{
+	position:relative;
+	margin-bottom:27px;
+	padding-left:21px;
+}
+.kode_office_detail li:last-child{
+	 margin:0px;
+}
+.kode_office_detail li:before{
+	height:24px;
+	width:24px;
+	left:-22px;
+	border:1px solid #cfd0d1;
+	border-radius:100%;
+	background-color:#f1f1f1;
+}
+.kode_office_list span{
+	float:left;
+	color:#232b31;
+	font-size:24px;
+	font-weight:bold;
+}
+.kode_office_content{
+	overflow:hidden;
+	padding-left:50px;
+	margin-top:-2px;
+}
+.kode_office_content h5{
+	margin-bottom:11px;
+	font-weight:bold;
+}
+/*
+	============================================
+			KODE COMPANY WRAP END
+	============================================
+*/
+/*
+	============================================
+			KODE CONTENT WRAP START
+	============================================
+*/
+.kode_text_title,
+.kode_content_wrap{
+	float:left;
+	width:100%;
+}
+.kode_content_wrap{
+	padding:60px 0px;
+}
+.kode_text_title h5{
+	float:left;
+	color:#fff;
+	width:auto;
+	padding:8px 0;
+}
+.kode_text_title .kode-button-style-2{
+	float: right;
+    left: -90px;
+    position: relative;
+    width: auto;
+	color:#000;
+}
+.kode_text_title .kode-button-style-2:hover{
+	color:#fff;
+	background-color:#000;
+}
+/*
+	============================================
+			KODE CONTENT WRAP END
+	============================================
+*/
+/*
+	============================================
+			KODE OFFER GRID WRAP START
+	============================================
+*/
+.kode_thumbnail,
+.kode_grid_content,
+.kode_blog_grid_modern,
+.kode_offer_grid_wrap{
+	float:left;
+	width:100%;
+}
+.kode_offer_grid_wrap{
+	padding:80px 0px;
+}
+.kode_blog_grid_modern{
+	text-align:center;
+}
+.kode_blog_grid_modern:hover{
+    box-shadow:0 18px 12px -18px #ddd;
+}
+.kode_grid_content{
+	padding:35px 20px 40px;
+	border:1px solid #d2d2d2;
+	border-top:none;
+}
+.kode_blog_grid_modern:hover .kode_grid_content{
+	background-color:#f4f4f4;
+}
+.kode_grid_content h4{
+	margin-bottom:7px;
+}
+.kode_grid_content p{
+	margin-bottom:16px;
+}
+.kode_grid_content .kode-button-style-law-3{
+	border:2px solid #232b31;
+	font-size:14px;
+}
+.kode_blog_grid_modern:hover .kode-button-style-law-3{
+	color:#fff;
+}
+.kode_thumbnail{
+	overflow:hidden;
+}
+.kode_thumbnail figure{
+	position:relative;
+}
+.kode_blog_grid_modern:hover .kode_thumbnail figure img{
+	transform:rotate(5deg) scale(1.1);
+	-moz-transform:rotate(5deg) scale(1.1);
+	-webkit-transform:rotate(5deg) scale(1.1);
+}
+.kode_thumbnail figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:999;
+}
+.kode_blog_grid_modern:hover .kode_thumbnail figure:before{
+	background:rgba(0,0,0,0.3);
+}
+/*
+	============================================
+			KODE OFFER GRID WRAP END
+	============================================
+*/
+/*
+	============================================
+			KODE VIDEO WRAP START
+	============================================
+*/
+.kode_video_content,
+.kode_video_wrap{
+	float:left;
+	width:100%; 
+}
+.kode_video_wrap{
+	padding:188px 0px 184px;
+	background-image:url("images/video1.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:999;
+}
+.kode_video_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background:rgba(0, 0, 0, 0.6);
+	z-index:-1;
+}
+.kode_video_content{
+	text-align:center;
+}
+.kode_video_content a{
+	font-size:56px;
+	color:#fff;
+	margin-bottom:15px;
+	display:inline-block;
+}
+.kode_video_content h3{
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:6px;
+}
+.kode_video_content p{
+	color:#fff;
+	padding:0px 130px; 
+}
+/*
+	============================================
+			KODE VIDEO WRAP END
+	============================================
+*/
+/*
+	============================================
+			KODE SKIL WRAP START
+	============================================
+*/
+.progress-names,
+.kode_skill_wrap{
+	float:left;
+	width:100%;
+}
+.kode_skill_wrap{
+	padding:80px 0px 64px;
+}
+.kode_law_progres_list h4{
+	margin-bottom:29px;
+}
+.progress-names{
+	margin-bottom:17px;
+}
+.progress-names:last-child {
+    margin: 0px;
+}
+.progress-names h5{
+	color:#232b31;
+	font-weight:bold;
+	margin-bottom:12px;
+	font-size:14px;
+}
+.progress-names  .progressbar {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.progress-names .label {
+	border:1px solid #fff;
+    display: inline-block;
+	background-color:#f4f4f4;
+    float: left;
+    height: 13px;
+    width: 100%;
+	border-radius:0px;
+}
+.progress-names .perc {
+    color: #232b31;
+    padding: 5px;
+    position: absolute;
+    left: 198px;
+    top: -31px;
+}
+.progress-names .bar {
+    display: inline-block;
+    height: 11px;
+    left: 1px;
+    position: absolute;
+    top: 1px;
+}
+.kode_counter_text.counter_2{
+	background-color: #f6f6f6;
+    margin-bottom: 16px;
+    padding: 35px 0 35px;
+}
+.kode_counter_text.counter_2 span{
+	color:#666;
+}
+.kode_counter_text.counter_2  h6{
+	color:#666;
+}
+/*
+	============================================
+			KODE ATTORNEY WRAP START
+	============================================
+*/
+.kode_attorney_content,
+.kode_attorney_des,
+.kode_attorney_wrap{
+	float:left;
+	width:100%;
+}
+.kode_attorney_wrap{
+	padding:80px 0px 50px;
+}
+.kode_attorney_des{
+	border:1px solid #dfdfdf;
+	border-radius:20px;
+	background-color:#f9f9f9;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.kode_attorney_des figure{
+	overflow:hidden;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+}
+.kode_attorney_des figure img{
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	overflow:hidden;
+}
+.kode_attorney_des:hover figure img{
+	opacity:0.80;
+	transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+}
+.kode_attorney_content{
+	text-align:center;
+	padding:28px 0px;
+	overflow:hidden;
+	position:relative;
+}
+.kode_attorney_des:hover .kode_attorney_content{
+	padding:19px 0 37px;
+}
+.kode_attorney_content h5{
+	font-weight:SemiBold;
+	line-height:19px;
+}
+.kode_attorney_content span{
+	opacity:1;
+}
+.kode_attorney_des:hover span{
+	opacity:0;
+	margin-top:-30px;
+}
+.kode_attorney_icon{
+	display:block; 
+	opacity:0;
+	position:absolute;
+	bottom:40px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	text-align:center;
+}
+.kode_attorney_des:hover .kode_attorney_icon{
+	bottom:20px;
+	opacity:1;
+}
+.kode_attorney_icon li{
+	display:inline-block;
+	margin-right:4px;
+}
+.kode_attorney_icon li:last-child{
+	margin:0px;
+}
+.kode_attorney_icon li a{
+	display:inline-block;
+	height:29px;
+	width:29px;
+	text-align:center;
+	line-height:27px;
+	border:1px solid #e2e2e2;
+	border-radius:100%;
+	color:#232b31;
+	font-size:12px;
+	background-color:#fff;
+}
+.kode_attorney_icon li a:hover{
+	color:#fff;
+}
+.kode_attorney_icon .btn{
+	padding:0px 0px;
+}
+/*
+	============================================
+			KODE ATTORNEY WRAP END
+	============================================
+*/
+/*
+	============================================
+			KODE TESTIMONIAL WRAP START
+	============================================
+*/
+.kode_testimaonial_text,
+.kode_testimonial_wrap{
+	float:left;
+	width:100%;
+}
+.kode_testimonial_wrap{
+	position:relative;
+	background-image:url("images/textmonial.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:9999;
+	padding:80px 0px 150px;
+	background-attachment:fixed;
+}
+.kode_testimonial_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0.90;
+	z-index:-1;
+}
+.kode_section_heading.hdg_2 span,
+.kode_section_heading.hdg_2 h3,
+.kode_section_heading.hdg_2 h6{
+	color:#fff;
+}
+.kode_section_heading.hdg_2 span:after,
+.kode_section_heading.hdg_2 span:before{
+	border-color:#fff;
+}
+.kode_testimaonial_text{
+	text-align:center;
+}
+.kode_testimaonial_text figure{
+	display:inline-block;
+	margin-bottom:15px;
+	border-radius:100%;
+	border:2px solid #fff;
+}
+.kode_testimaonial_text figure img{
+	display:inline-block;
+	border-radius:100%;
+}
+.kode_testimaonial_text h6{
+	color:#fff;
+	margin-bottom:10px;
+}
+.kode_rating_star{
+	text-align:center;
+	display:inline-block;
+	margin-bottom:17px;
+}
+.kode_rating_star li{
+	display:inline-block;
+}
+.kode_rating_star li a{
+	display:inline-block;
+	color:#fff;
+	font-size:18px;
+}
+.kode_testimaonial_text p{
+	color:#fff;
+	font-style:italic;
+	padding:0px 140px;
+}
+/*slick slider start*/
+.kode_testimaonial_text .slick-next.slick-arrow,
+.kode_testimaonial_text .slick-prev.slick-arrow {
+    position: absolute;
+    bottom: -70px;
+    margin: auto;
+    left: 50px;
+    right: 0px;
+	color:transparent;
+	z-index:999;
+	background:none;
+	height:39px;
+	width:39px;
+	text-align:center;
+	line-height:39px;
+	border:2px solid #fff;
+	border-radius:100%;
+}
+.kode_testimaonial_text .slick-next.slick-arrow{
+	left: -50px;
+}
+.kode_testimaonial_text .slick-next.slick-arrow:before,
+.kode_testimaonial_text .slick-prev.slick-arrow:before {
+	position:absolute;
+	content:"\f105";
+	font-family:FontAwesome;
+	left:0px;
+	right:0px;
+	top:auto;
+	bottom:0px;
+	color:#fff;
+	font-size:20px;
+	line-height:36px;
+}
+.kode_testimaonial_text .slick-next.slick-arrow:before{
+	content:"\f104";
+}
+.kode_testimaonial_text .slick-next.slick-arrow:before,
+.kode_testimaonial_text .slick-prev.slick-arrow:before{
+	color:#fff;
+}
+/*
+	============================================
+			KODE TESTIMONIAL WRAP END
+	============================================
+*/
+
+/*heading start*/
+.kode_section_heading{
+	text-align:center;
+	margin-bottom:38px;
+	margin-top:-3px;
+	float:left;
+	width:100%;
+}
+.kode_section_heading h3{
+	font-size:36px;
+	font-weight:bold;
+	margin-bottom:5px;
+}
+.kode_section_heading span{
+	font-size:40px;
+	display:inline-block;
+	position:relative;
+	color:#666;
+}
+.kode_section_heading span:after,
+.kode_section_heading span:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:45px;
+	bottom:0px;
+	border-bottom:1px solid #232b31;
+	width:66px;
+}
+.kode_section_heading span:after{
+	left:45px;
+	right:auto;
+}
+/*heading end*/
+/*
+	============================================
+			KODE CLIENT WRAP START
+	============================================
+*/
+.kode_client_wrap{
+	float:left;
+	width:100%;
+	padding:80px 0px;
+	background-color:#f9f9f9;
+}
+.kode_client_wrap .owl-pagination, 
+.kode_client_wrap .owl-buttons{
+	display:none;
+}
+.kode_client_fig {
+    float: left;
+    padding: 0 2px;
+    text-align: center;
+    width: 100%;
+}
+
+.kode_client_fig figure a img {
+    filter: grayscale(100%);
+	display:inline-block;
+}
+.kode_client_fig figure a img:hover{
+	filter: grayscale(1%);
+}
+/*
+	=========================================================
+			KODE CLIENT WRAPER START
+	=========================================================
+*/
+.kode_client_thumb,
+.kode_client_wraper{
+	float:left;
+	width:100%;
+}
+.kode_client_wraper{
+	padding:72px 0px 50px;
+}
+.kode_client_thumb{
+	padding:30px 28px;
+	border:1px solid #ededed;
+	margin-bottom:30px;
+}
+.kode_client_thumb figure{
+	float:left;
+	overflow:hidden;
+	position:relative;
+}
+.kode_client_thumb figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:999;
+}
+.kode_client_thumb:hover figure:before{
+	background-color:rgba(0,0,0,0.6);
+}
+.kode_client_thumb:hover figure img{
+	transform:scale(1.3);
+	-moz-transform:scale(1.3);
+	-webkit-transform:scale(1.3);
+}
+.kode_client_thumb .client_text{
+	overflow:hidden;
+	padding:3px 0px 3px 20px;
+}
+.kode_client_thumb .client_text h5{
+	margin-bottom:6px;
+}
+.kode_client_thumb .client_text p{
+	font-style:italic;
+}
+/*
+	============================================
+			KODE CLIENT WRAP END
+	============================================
+*/
+
+
+/*
+	=====================================================================
+							PRACTICE AREA PAGE START
+	=====================================================================
+*/
+/*
+	============================================
+			KODE PRATICES AREA START
+	============================================
+*/
+.kode_pratices_content,
+.kode_pratices_area{
+	float:left;
+	width:100%;
+}
+.kode_pratices_area{
+	padding:80px 0px 50px;
+}
+.kode_pratices_content figure{
+	position:relative;
+	z-index:999;
+}
+.kode_pratices_content{
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.kode_pratices_content figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#3d3d3d;
+	opacity:0.7;
+	border-radius:30px;
+}
+.kode_pratices_content:hover figure:before{
+	opacity:0.9;
+}
+.kode_pratices_content figure img{
+	border-radius:30px;
+}
+.kode_pratices_content figcaption{
+	position:absolute;
+	content:"";
+	top:50%;
+	right:25px;
+	left:25px;
+	margin-top:-15px;
+	text-align:center;
+	z-index:9999;
+}
+.kode_pratices_content:hover figcaption{
+	top: 23%;
+    margin: -1px;	
+}
+.kode_pratices_content figcaption:after,
+.kode_pratices_content figcaption:before{
+	position:absolute;
+	content:"";
+	top:-18px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-top:2px solid #fff;
+	width:70px;
+	margin:auto;
+	z-index:-1;
+}
+.kode_pratices_content figcaption:before{
+	border-bottom:2px solid #fff;
+	border-top:none;
+	top:auto;
+	bottom:-39px;
+}
+.kode_pratices_content:hover figcaption::before{
+	bottom:-30px;
+}
+.kode_pratices_content figcaption h4{
+	font-weight:bold;
+	color:#fff;
+	margin-bottom:6px;
+	line-height:26px;
+}
+.kode_pratices_content figcaption h4 span{
+	display:block;
+}
+.kode_pratices_content figcaption p{
+	color: #fff;
+    margin-bottom: 16px;
+    margin-top: -154px;
+    opacity: 0;
+}
+.kode_pratices_content:hover figcaption p{
+	margin:0px;
+	opacity:1;
+	margin-bottom:16px;
+}
+.kode_pratices_content .kode-button-style-2{
+	opacity:0;
+}
+.kode_pratices_content:hover .kode-button-style-2{
+	opacity:1;
+	color:#000;
+}
+.kode_pratices_content .kode-button-style-2:hover{
+	color:#fff;
+}
+/*
+	============================================
+			KODE PRATICES AREA END
+	============================================
+*/
+/*
+	============================================
+			KODE SERVICES WRAP START
+	============================================
+*/
+.kode_services_caption,
+.kode_services_wrap{
+	float:left;
+	width:100%;
+}
+.kode_services_wrap{
+	position:relative;
+	background-image:url("images/services2.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:999;
+	padding:80px 0px 74px;
+}
+.kode_services_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#29333a;
+	opacity:0.9;
+	z-index:-1;
+}
+.kode_section_heading.hed_3{
+	margin-bottom:61px;
+}
+.kode_section_heading.hed_3 span:after,
+.kode_section_heading.hed_3 span:before,
+.kode_section_heading.hed_3 span,
+.kode_section_heading.hed_3 h3,
+.kode_section_heading.hed_3 h6{
+	color:#fff;
+	border-color:#fff;
+}
+.kode_services_caption{
+	text-align:center;
+}
+.kode_services_caption span{
+	font-size:55px;
+	color:#fff;
+	margin-bottom:19px;
+	display:inline-block;
+}
+.kode_services_caption:hover span{
+	margin-top:-5px;
+}
+.kode_services_caption p{
+	color:#fff;
+}
+/*
+	============================================
+			KODE SERVICES WRAP END
+	============================================
+*/
+/*
+	============================================
+			KODE BLOG PAGINATION START
+	============================================
+*/
+.kode_blog_pagination{
+	float:left;
+	width:100%;
+	text-align:center;
+}
+.kode_blog_pagination{
+	padding-bottom:80px;
+}
+.kode_pagination_list{
+	text-align:center;
+	border:1px solid #ececec;
+	border-radius:5px;
+	display:inline-block;
+	margin:auto;
+}
+.kode_pagination_list a{
+	display:inline-block;
+	height:39px;
+	width:39px;
+	text-align:center;
+	line-height:39px;
+	background-color:#f9f9f9;
+	font-size:16px;
+	color:#666;
+}
+.kode_pagination_list a:hover{
+	color:#fff;
+}
+.kode_pagination_list .pagi-left{
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+}
+.kode_pagination_list .pagi-right{
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+}
+/*
+	============================================
+			KODE BLOG PAGINATION END
+	============================================
+*/
+
+/*
+	============================================================
+			PRACTICE AREA 01 PAGE START
+	============================================================
+*/
+.kode_blog_medium.medium_2{
+	border-bottom:none;
+}
+.kode_blog_medium.medium_2:hover{
+	box-shadow:0px 0px 0px 1px #d4d4d4;
+}
+.kode_blog_grid_content.content_2{
+	padding:27px 0px 0px 17px;
+}
+.kode_blog_grid_content.content_2 h6{
+	margin-bottom:11px;
+	font-size:14px;
+	position:relative;
+}
+
+.kode_blog_grid_content.content_2 h6:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:24px;
+	right:0px;
+	bottom:4px;
+	border-bottom:1px solid #dd6043;
+	width:30px;
+}
+.kode_blog_medium figcaption a {
+    border: 1px solid #fff;
+    border-radius: 100%;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    height: 38px;
+    line-height: 38px;
+    margin-right: 10px;
+    text-align: center;
+    width: 38px;
+}
+.kode_blog_grid_content.content_2,
+.kode_blog_grid_content.content_2 h4{
+	color:#333333;
+}
+/*
+	============================================================
+			PRACTICE AREA 01 PAGE END
+	============================================================
+*/
+/*
+	============================================================
+			PRACTICE AREA 02  PAGE START
+	============================================================
+*/
+.kode_blog_grid_content.content_2.content_3{
+	padding:25px 0px 0px;
+}
+.kode_blog_grid_content.content_2.content_3 i{
+	height:58px;
+	width:58px;
+	text-align:center;
+	line-height:58px;
+	font-size:27px;
+	color:#fff;
+	background-color:#424242;
+	border-radius:100%;
+	float:left;
+	margin-right:15px;
+	position:relative;
+}
+.kode_blog_grid_content.content_2.content_3 i:after{
+	border:1px solid #ddd;
+	position:absolute;
+	content:"";
+	top:5px;
+	left:5px;
+	right:5px;
+	bottom:5px;
+	border-radius:100px;
+}
+.kode_blog_medium:hover .kode_blog_grid_content.content_2.content_3 i:after{
+	color:#fff;
+	border-color:#fff;
+}
+.kode_blog_grid_content.content_2.content_3 h4 {
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 15px 0;
+	margin-bottom:12px;
+}
+.kode_blog_grid_content.content_2.content_3 p{
+
+}
+/*
+	============================================================
+			PRACTICE AREA 02 PAGE END
+	============================================================
+*/
+/*
+	============================================================
+			PRACTICE AREA 04 PAGE START
+	============================================================
+*/
+.kode_blog_medium.medium_2.medium_3 {
+    padding-bottom: 0;
+}
+.kode_thumb {
+    float: left;
+    width: 49%;
+}
+.kode_blog_grid_content.content_2.content_4 {
+    float: left;
+	padding:17px 5px 10px 30px;
+    width: 51%;
+}
+.kode_blog_grid_content.content_2.content_4.content_5 {
+    padding:19px 30px 8px 5px;
+    text-align: right;
+}
+.kode_thumb.thumb_2{
+	float:right;
+}
+.kode_blog_grid_content.content_2.content_4.content_5 .kode_readmore {
+    left: -24px;
+}
+.kode_blog_grid_content.content_2.content_4.content_5 h6{
+	display:inline-block;
+}
+.kode_blog_grid_content.content_2.content_4.content_5 h6:before {
+    left: -37px;
+}
+.kode_blog_medium.medium_2.medium_3:hover  figure img{
+	 transform: scale(1.1);
+}
+/*
+	============================================================
+			PRACTICE AREA 04 PAGE END
+	============================================================
+*/
+
+/*
+	==========================================================================================
+			PRACTICE DETAIL PAGE START
+	==========================================================================================
+*/
+
+/*
+	===================================================
+			KODE PRACTICE DETAIL WRAP START
+	===================================================
+*/
+.kode_practice_grid,
+.kode_practice_detail_content,
+.kode_practice_detail_tab,
+.kode_practice_detail_full,
+.kode_practice_detail_wrap{
+	float:left;
+	width:100%;
+}
+.kode_practice_detail_wrap{
+	padding:80px 0px;
+}
+.kode_practice_detail_content{
+	padding:35px 0px 36px;
+}
+.kode_practice_detail_content h4{
+	margin-bottom:16px;
+}
+.kode_practice_grid{
+	padding-bottom:26px;
+	border-bottom:1px solid #e4e4e4;
+}
+.kode_practice_detail_tab.tab_2 figure{
+	margin-bottom:25px;
+	overflow:hidden;
+}
+.kode_practice_detail_tab.tab_2:hover figure img{
+	transform:scale(1.1);
+	-moz-transform:scale(1.1);
+	-webkit-transform:scale(1.1);
+	opacity:0.5;
+}
+.kode_practice_detail_content.content_2{
+	padding:0px;
+}
+.kode_practice_detail_content.content_2 h4{
+	margin-bottom:15px;
+}
+.kode_practice_detail_content.content_2 p{
+	color:#999;
+}
+/*KODE PRACTICE DETAIL CONTENT CONTENT_2*/
+.kode_practice_detail_service{
+	float:left;
+	width:100%;
+}
+.kode_practice_detail_service{
+	text-align:center;
+	padding:35px 0px;
+	border-bottom:1px solid #e4e4e4;
+}
+.kode_practice_detail_service > h4{
+	margin-bottom:35px;
+}
+.kode_services_2_des.des_3 > span {
+    float:none;
+	margin-bottom:24px;
+}
+.kode_services_2_des.des_3:hover span{
+	color:#fff;
+}
+/*KODE QUOTE CONTENT*/
+.kode_quote_content{
+	float:left;
+	width:100%;
+}
+.kode_quote_content{
+	padding:40px 20px 43px;
+	background-color:#f4f4f4;
+	border-left:5px solid #dd6043;
+	margin:40px 0px;
+}
+.kode_quote_content p{
+	float:left;
+	width:auto;
+	color:#666666;
+	font-style:italic;
+	font-weight:bold;
+}
+.kode_quote_content p span{
+	display:block;
+}
+.kode_quote_content .kode-button-style-2{
+	float:right;
+	margin:11px 0px;
+}
+.kode_practice_detail_service.service_2{
+	border-top:1px solid #e4e4e4;
+	padding-bottom:10px;
+	margin-bottom:40px;
+}
+.kode_practice_detail_service.service_2 h4{
+	margin-bottom:39px;
+}
+/*KODE COMMENT FORM*/
+.kode_practice_detail_service.form{
+	background-color:#f9f9f9;
+	border:1px solid #ececec;
+	padding:35px 30px 40px;
+	border-radius:5px;
+}
+.comment_form.form_2{
+	padding:0px 0px;
+	background:none;
+}
+.kf_commet_field.field_2{
+	border-radius:5px;
+	margin-bottom:20px;
+}
+.kode_textarea.area_2{
+	margin:0px;
+}
+.kode_textarea.area_2 textarea{
+	height:158px;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+.form_submit .kode-button-style-law-4{
+	text-transform:uppercase;
+}
+/*
+	===================================================
+			KODE PRACTICE DETAIL WRAP END
+	===================================================
+*/
+/*
+	==========================================================================================
+			OUR TEAM DETAIL PAGE START
+	==========================================================================================
+*/
+/*
+	===================================================
+			KODE TEAM DETAIL WRAP START
+	===================================================
+*/
+.kode_bg_color{
+	background-color:#f9f9f9;
+}
+.kode_addres_icon,
+.kode_addres_list li,
+.kode_addres_list,
+.kode_team_detail_email,
+.kode_team_detail_fig,
+.kode_team_detail_des,
+.kode_team_detail_wrap{
+	float:left;
+	width:100%;
+}
+.kode_team_detail_wrap {
+    padding-top: 50px;
+}
+.kode_team_detail_des{
+	padding:15px;
+	background-color:#fff;
+}
+.kode_team_detail_fig figure{
+	border-left:8px solid #ededed;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+	position:relative;
+}
+.kode_team_detail_fig figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+.kode_team_detail_fig:hover figure:before{
+	background:rgba(0,0,0,0.6);
+}
+.kode_team_detail_email{
+	padding:20px 0px 0px;
+}
+.kode_team_detail_email h2{
+	margin-bottom:8px;
+	text-transform:uppercase;
+}
+.kode_team_detail_email > span{
+	font-size:18px;
+	margin-bottom:18px;
+	display:inline-block;
+}
+.kode_addres_list{
+	margin-bottom:34px;
+}
+.kode_addres_list li{
+	margin-bottom:11px;
+}
+.kode_addres_icon li:last-child,
+.kode_addres_list li:last-child{
+	margin:0px;
+}
+.kode_addres_list li span{
+	display:inline-block;
+	color:#3e3c3d;
+	width:105px;
+	font-size:16px;
+}
+.kode_addres_list li a{
+	display:inline-block;
+	font-size:16px;
+}
+.kode_addres_icon li{
+	float:left;
+	margin-right:8px;
+}
+.kode_addres_icon li a{
+	height:31px;
+	width:31px;
+	text-align:center;
+	line-height:30px;
+	color:#333;
+	border:1px solid #e0e0e0;
+	border-radius:100%;
+	display:inline-block;
+}
+.kode_addres_icon li a:hover{
+	color:#fff;
+}
+/*
+	===================================================
+			KODE TEAM DETAIL WRAP START
+	===================================================
+*/
+/*
+	===================================================
+			KODE BIOGRAPHY WRAP START
+	===================================================
+*/
+.kode_biography_content,
+.kode_biography_wrap{
+	float:left;
+	width:100%;
+}
+.kode_biography_wrap{
+	padding:45px 0px 50px;
+}
+.kode_biography_content h4{
+	margin-bottom:20px;
+}
+.kode_biography_content > p {
+    word-spacing: -2px;
+}
+.kode_biography_list{
+	float:left;
+	width:50%;
+}
+.kode_biography_list li{
+	display:block;
+	margin-bottom:17px;
+}
+.kode_biography_list li:last-child{
+	margin:0px;
+}
+.kode_biography_list li a{
+	display:block;
+	padding-left:40px;
+	font-size:18px;
+	position:relative;
+}
+.kode_biography_list li a:before{
+	position:absolute;
+	content:"\f05d";
+	top:2px;
+	left:0px;
+	bottom:0px;
+	font-family:fontawesome;
+	font-size:24px;
+	color:#373737;
+}
+/*
+	===================================================
+			KODE BIOGRAPHY WRAP END
+	===================================================
+*/
+/*
+	===================================================
+			KODE BIOGRAPHY WRAP START
+	===================================================
+*/
+.kode_biography_wrap.skill{
+	background-color:#fff;
+}
+.kode_accordian_detail,
+.kode_accordian_des,
+.kode_accordian_content,
+.kode_skill_accordian{
+	float:left;
+	width:100%;
+}
+.kode_accordian_content.cont_2{
+	padding-top:10px;
+}
+.kode_biography_content.content_2 h4{
+	margin-bottom:16px;
+}
+.kode_accordian_content{
+	padding-top:36px;
+}
+.kode_accordian_des{
+	margin-bottom:30px;
+}
+.kode_accordian_des i{
+	height:60px;
+	width:60px;
+	text-align:center;
+	line-height:60px;
+	font-size:24px;
+	color:#fff;
+	border-radius:100%;
+	float:left;
+}
+.kode_accordian_detail {
+    border: 1px solid #ececec;
+	border-radius:5px;
+}
+.accordion h4{
+	font-size:22px;
+	color:#000;
+	padding:12px 20px 11px 26px;
+	border-bottom:1px solid #ececec;
+	position:relative;
+	cursor:pointer;
+}
+.accordion.accordion-open,
+.accordion.accordion-close{
+	position:relative;
+}
+.accordion.accordion-open:before,
+.kode_accordian_detail ul li a:before,
+.accordion.accordion-close:before{
+	position:absolute;
+	content:"\f107";
+	top:10px;
+	right:20px;
+	bottom:0px;
+	font-family:fontawesome;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	border-radius:100%;
+	border:1px solid #000;
+	background-color:#000;
+	color:#fff;
+	z-index:999;
+	font-weight:bold;
+}
+.accordion h4:hover:before{
+	color:#fff;
+}
+.accordion.accordion-open:before{
+	content:"\f106";
+	line-height:26px;
+	background-color:#fff;
+	border-color:#fff;
+	font-size:16px;
+}
+.accordion.accordion-open h4{
+	color:#fff;
+}
+.kode_accordian_detail ul{
+	padding:20px 26px 25px;
+}
+.kode_accordian_detail ul li{
+	display:block;
+	margin-bottom:11px;
+}
+.kode_accordian_des:last-child,
+.kode_accordian_detail ul li:last-child{
+	margin:0px;
+}
+.kode_accordian_detail ul li a{
+	display:block;
+	padding-left:25px;
+	font-size:17px;
+	color:#666666;
+	position:relative;
+}
+.kode_accordian_detail ul li a:before{
+	content:"";
+	height:10px;
+	width:10px;
+	left:0px;
+	right:auto;
+	top:9px;
+	border:none;
+	background-color:#ffd322;
+}
+.kode_accordian_detail.text p {
+    padding: 20px 40px;
+}
+/*PROGRES BAR START*/
+.progressbar.bar_2,
+.progress_names.name_2,
+.kode_skill_progress{
+	float:left;
+	width:100%;
+}
+.kode_skill_progress{
+	padding-top:37px;
+}
+.progress_names.name_2:last-child {
+    margin: 0px;
+}
+.progress_names.name_2 {
+	margin-bottom:28px;
+}
+.progress_names.name_2 label{
+	color:#3e3c3d;
+	font-size:14px;
+	cursor:pointer;
+	margin-bottom:20px;
+}
+.progressbar.bar_2 {
+    position:relative;
+}
+.progressbar.bar_2 .label{
+	background-color: #ebebeb;
+    float: left;
+	height:10px;
+	display:inline-block;
+    width: 100%;
+	border-radius:5px;
+}
+.progressbar.bar_2 .bar{
+	position: absolute;
+    top: 0px;
+    display: inline-block;
+    height: 10px;
+	height:10px ;
+	border-radius:5px;
+	left:0px;
+}
+.progressbar.bar_2  .bar:before {
+    position: absolute;
+    content: "";
+    top: -7px;
+	left:auto;
+    right: -2px;
+    bottom: 0px;
+    height: 24px;
+    width: 24px;
+    border-radius: 100%;
+    background-color: #fff;
+	border:3px solid #ffd322;
+	z-index:99999999;
+}
+.progressbar.bar_2  .perc {
+    position: absolute;
+    top:-39px;
+    right: 0px;
+    color: #3e3c3d;
+    padding: 5px;
+}
+/*
+	===================================================
+			KODE BIOGRAPHY WRAP END
+	===================================================
+*/
+
+/*
+	===================================================
+			KODE AWARD WRAP START
+	===================================================
+*/
+.kode_biography_wrap.wrap_2{
+	padding:45px 0px 20px;
+}
+.kode_award_fig{
+	float:left;
+	width:100%;
+}
+.kode_award_fig{
+	padding:4px;
+	border:1px solid #ececec;
+	margin-bottom:30px;
+	background-color:#fff;
+	overflow:hidden;
+}
+.kode_award_fig:hover figure img{
+	transform:scale(1.1);
+	transform:scale(1.1);
+	transform:scale(1.1);
+	opacity:0.7;
+}
+.kode_biography_content.content_3 h4{
+	margin-bottom:25px;
+}
+.kode_practice_detail_service.form_3 {
+    padding: 20px 25px;
+    border-bottom: none;
+	background-color:#fff;
+}
+.kode_practice_detail_service.form_3 .kf_commet_field.field_2.field_3{
+	margin-bottom:15px;
+	width:100%;
+	margin-right:0px;
+}
+.kode_textarea.area_2.area_3 textarea,
+.kf_commet_field.field_2.field_3 input{
+	background-color:#f9f9f9;
+	color:#999;
+}
+.kode_textarea.area_2.area_3{
+	margin-bottom:20px;
+}
+.kode_textarea.area_2.area_3 textarea{
+	height:128px;
+	margin-bottom:0px;
+}
+.form_submit.btn{
+	padding:0px 0px;
+}
+.form_submit.btn .kode-button-style-law-4{
+	float:left;
+}
+/*attorney*/
+.kode_attorney_wrap.wrap_2{
+	background-color:#fff;
+}
+/*banner*/
+.kode_banner.sab_banner.banner_3 {
+    margin-bottom: 65px;
+}
+/*
+	===================================================
+			KODE AWARD WRAP END
+	===================================================
+*/
+/*
+	=====================================================================
+							BLOG GRID PAGE START
+	=====================================================================
+*/
+/*
+	============================================
+			KODE BLOG GRID START
+	============================================
+*/
+.blog_grid_meta,
+.kode_blog_grid_content,
+.kode_blog_medium,
+.kode_blog_grid{
+	float:left;
+	width:100%
+}
+.kode_blog_grid{
+	padding:80px 0px 50px;
+}
+.ulli{width:100%;  float:left;  padding:0 0 0 15px;}
+.ulli h5{font-size:25px; float:left; margin:15px 0 0 0}
+.ulli li{width:100%;  float:left; list-style:circle;}
+.kode_blog_medium{
+	
+	border-bottom:1px solid #d6d6d6;
+	margin-bottom:30px;
+}
+.kode_blog_medium figure{
+	position:relative;
+	overflow:hidden;
+}
+.kode_blog_medium:hover figure img{
+	transform:scale(1.1) rotate(3deg);
+	-moz-transform:scale(1.1), rotate(3deg);
+	-webkit-transform:scale(1.1), rotate(3deg);
+}
+.kode_blog_medium figure:before{
+	position:absolute;
+	top:80px;
+	left:15px;
+	right:80px;
+	content:"";
+	bottom:80px;
+	border-radius:3px;
+	opacity:0;
+	z-index:1;
+}
+.kode_blog_medium:hover figure:before{
+	opacity:0.8;
+	right:15px;
+	bottom:15px;
+	top:15px;
+}
+.kode_blog_medium  figcaption{
+	position:absolute;
+	top:50%;
+	left:0px;
+	right:0px;
+	text-align:center;
+	opacity:0;
+	margin-top:-20px;
+	transform:scale(1.9);
+	-moz-transform:scale(1.9);
+	-webkit-transform:scale(1.9);
+	z-index:2;
+}
+.kode_blog_medium:hover figcaption{
+	transform:scale(1.0);
+	-moz-transform:scale(1.0);
+	-webkit-transform:scale(1.0);
+	opacity:1;
+}
+.kode_blog_medium  figcaption a{
+	display:inline-block;
+	height:38px;
+	width:38px;
+	text-align:center;
+	line-height:38px;
+	border:1px solid #fff;
+	border-radius:100%;
+	color:#fff;
+	font-size:15px;
+	margin-right:10px;
+}
+.kode_blog_medium  figcaption a:hover{
+	background-color:#fff;
+	color:#333;
+}
+.kode_blog_medium  figcaption a:last-child{
+	margin:0px;
+}
+.kode_blog_grid_content{
+	position:relative;
+}
+.kode_blog_fig_3 span,
+.kode_blog_listing > span, 
+.kode_blog_grid_content > span{
+	position:absolute;
+	left:0px;
+	top:-30px;
+	font-size:18px;
+	color:#fff;
+	font-weight:bold;
+	background-color:#666666;
+	padding:12px 22px 13px;
+	text-align:center;
+	border-top-right-radius:3px;
+	border-bottom-left-radius:3px;
+	line-height:18px;
+}
+.kode_blog_fig_3 span strong,
+.kode_blog_listing span strong,
+.kode_blog_grid_content > span strong{
+	color:#fff;
+	display:block;
+	margin-bottom:1px;
+}
+.blog_grid_meta{
+	text-align:center;
+	background-color:#f3f3f3;
+	padding:1px 0px 6px 95px;
+	margin-bottom:25px;
+}
+.blog_grid_meta li{
+	float:left;
+	margin-right:20px;
+}
+.blog_grid_meta li:last-child{
+	margin:0px;
+}
+.blog_grid_meta li a{
+	display:inline-block;
+	font-size:12px;
+}
+.blog_grid_meta li a span{
+	color:#666666;
+}
+.blog_grid_meta li a i{
+	margin-right:8px;
+}
+.kode_blog_grid_content > h4{
+	font-size:22px;
+	color:#666666;
+	margin-bottom:5px;
+}
+.kode_blog_grid_content p{
+	color:#666666;
+	margin-bottom:15px;
+}
+.kode_readmore{
+	display:inline-block;
+	font-weight:bold;
+	position:relative;
+}
+.kode_readmore:before,
+.kode_readmore:after{
+	position:absolute;
+	content:"\f105";
+	font-family:FontAwesome;
+	top:0px;
+	right:-20px;
+	bottom:0px;
+}
+.kode_blog_medium:hover .kode_readmore:after{
+	right:0px;
+	opacity:0;
+}
+.kode_readmore:before{
+	content:"\f061";
+	right:0px;
+	opacity:0;
+}
+.kode_blog_medium:hover .kode_readmore:before{
+	right:-20px;
+	opacity:1;
+}
+/*
+	============================================
+			KODE BLOG GRID END
+	============================================
+*/
+/*
+	============================================
+			KODE COMMENT FORM start
+	============================================
+*/
+
+.kode_practice_detail_service.form{
+	background-color:#f9f9f9;
+	border:1px solid #ececec;
+	padding:35px 30px 40px;
+	border-radius:5px;
+}
+.comment_form.form_2{
+	padding:0px 0px;
+	background:none;
+}
+.kf_commet_field.field_2{
+	border-radius:5px;
+	margin-bottom:20px;
+}
+.kf_commet_field.field_2 input{
+	background-color:#fff;
+	border-radius:5px;
+	width:100%;
+	box-shadow:0px 0px;
+	color:#999999;
+}
+.kode_textarea.area_2{
+	margin:0px;
+}
+.kode_textarea.area_2 textarea{
+	height:158px;
+	border-radius:5px;
+	margin-bottom:30px;
+	resize:none;
+	color:#999999;
+	width:100%;
+	padding:20px 15px;
+}
+.form_submit .kode-button-style-law-4{
+	text-transform:uppercase;
+}
+.form_submit .kode-button-style-law-4:hover{
+	background-color:#000;
+}
+/*
+	============================================
+			KODE COMMENT FORM end
+	============================================
+*/
+/*
+	==========================================================================================
+			CONTACT US PAGE START
+	==========================================================================================
+*/
+/*
+	===================================================
+			KODE CONTACT MAP START
+	===================================================
+*/
+.map-canvas,
+.kode_contact_map{
+	float:left;
+	width:100%;
+}
+.kode_contact_map iframe{
+	height:450px;
+	width:100%;
+}
+.map-canvas{
+	float:left;
+	height:533px;
+}
+/*
+	===================================================
+			KODE CONTACT MAP END
+	===================================================
+*/
+/*
+	===================================================
+			KODE CONTACT WRAP START
+	===================================================
+*/
+.kode_contact_wrap{
+	float:left;
+	width:100%;
+}
+.kode_contact_wrap{
+	padding: 80px 0px;
+	background-color:#fff;
+}
+.kode_practice_detail_service.service_4{
+	padding:0px 0px;
+	border-bottom:none;
+}
+.kode_textarea.area_2.area_4 textarea,
+.kf_commet_field.field_2.field_4 input{
+	height:60px;
+	background-color:#f7f7f7;
+	padding:15px 20px;
+}
+.kode_textarea.area_2.area_4 textarea{
+	height:211px;
+	border-radius:8px;
+}
+/* KODE CONTACT SERVICE*/
+.kode_newsletter_content form,
+.kode_newsletter_content,
+.kode_contact_des,
+.kode_contact_text,
+.kode_contact_content,
+.kode_contact_service{
+	float:left;
+	width:100%;
+}
+.kode_contact_des{
+	padding-bottom:22px;
+	border-bottom:1px solid #e3e3e3;
+	margin-bottom:23px;
+}
+.kode_contact_service_row{
+	float:left;
+	width:50%;
+}
+.kode_contact_content{
+	margin-bottom:10px;
+}
+.kode_contact_content span{
+	display:inline-block;
+	height:70px;
+	width:70px;
+	text-align:center;
+	line-height:70px;
+	font-size:30px;
+	border:2px solid #232b31;
+	border-radius:100%;
+	color:#232b31;
+	margin-right:9px;
+}
+.kode_contact_service_row:hover .kode_contact_content span{
+	color:#fff;
+}
+.kode_contact_content h4{
+	display:inline-block;
+}
+.kode_newsletter_content p,
+.kode_contact_text p a,
+.kode_contact_text p{
+	color:#999999;
+}
+.kode_contact_text p span{
+	display:block;
+}
+.kode_newsletter_content h4{
+	margin-bottom:8px;
+}
+.kode_newsletter_content p{
+	margin-bottom:25px;
+}
+.kode_newsletter_content form{
+	position:relative;
+}
+.kode_newsletter_content .kf_commet_field.field_2.field_4 input:focus{
+	border:1px solid;
+}
+.kode_newsletter_content form .kode-button-style-2{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+/*
+	===================================================
+			KODE CONTACT WRAP END
+	===================================================
+*/
+
+
+/*
+	==========================================================================================
+				HOME PAGE 01 START
+	==========================================================================================
+*/
+.dark{
+	background-color:#161616;
+}
+.dark,
+.header{
+	float:left;
+	width:100%;
+}
+/*
+	===================================================
+			KODE TOP BAR 2 START
+	===================================================
+*/
+.kode_top_row,
+.kode_top_bar_2{
+	float:left;
+	width:100%;
+}
+.kode_top_bar_2{
+	padding:0px 0px;
+	background-color:#404041;
+}
+.kode_top_row > a{
+	color:#fff;
+	padding:9px 0px;
+	display:inline-block;
+}
+.kode_right_text{
+	float:right;
+	width:auto;
+}
+.kode_right_text ul li,
+.kode_right_text ul{
+	float:left;
+}
+.kode_right_text ul{
+	padding:10px 38px 10px 0px;
+}
+.kode_right_text ul li{
+	margin-right:16px;
+}
+.kode_right_text ul li a{
+	font-size:13px;
+	color:#fff;
+}
+.kode_right_text ul li:last-child{
+	margin-right:0px;
+}
+.comment_form_search{
+	float:left;
+	width:auto;
+}
+.kf_commet_search{
+	position:relative;
+} 
+.kf_commet_search input{
+	background-color:#615846;
+	color:#fff;
+	border:none;
+	height:44px;
+	padding:0px 50px 0px 18px;
+	font-size:12px;
+	color:#e1e1e1;
+	width:253px;
+	box-shadow:0px 0px;
+	border-bottom:1px solid #dd6043;
+}
+.kf_commet_search button{
+	position:absolute;
+	top:50%;
+	right:20px;
+	background:none;
+	color:#fff;
+	margin-top:-5px;
+	font-size:12px;
+}
+/*
+	===================================================
+			KODE TOP BAR 2 END
+	===================================================
+*/
+
+/*
+	===================================================
+			KODE TOP LOGO WRAP START
+	===================================================
+*/
+
+.kode_top_logo_wrap{
+	float:left;
+	width:100%;
+}
+.kode_top_logo_wrap{
+	background-color:#161616;
+	padding:36px 0px;
+}
+.kode_logo{
+	float:left;
+	width:auto;
+	padding:6px 0px;
+}
+.kode_logo_service {
+	float:left;
+	width:80%;
+}
+.kode_logo_service > li {
+    float: left;
+    width: 34%;
+	padding:0px 23px 0 26px;
+	position:relative;
+}
+.kode_logo_service > li:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	bottom:0px;
+	border-left:1px solid #818181;
+	height:50px;
+	margin:auto;
+}
+.kode_logo_service > li:nth-child(2) {
+    width: 28%;
+}
+.kode_logo_service > li:first-child:before{
+	border-left:none;
+}
+.kode_logo_location span{
+	float:left;
+	display:inline-block;
+	height:62px;
+	width:62px;
+	text-align:center;
+	line-height:60px;
+	border-radius:100%;
+	background-color:#404041;
+	color:#fff;
+	font-size:20px;
+}
+.kode_logo_location_text{
+	overflow:hidden;
+	padding-left:15px;
+}
+.kode_logo_location_text p{
+	color:#fff;
+	font-size:13px;
+}
+.kode_logo_location_text a{
+	font-size:16px;
+	color:#fff;
+	font-weight:bold;
+}
+/*
+	===================================================
+			KODE TOP LOGO WRAP END
+	===================================================
+*/
+
+/*
+	===================================================
+			KODE TOP NAVIGATION NAV START
+	===================================================
+*/
+.kode_top_navigation.nav,
+.navigation.navi_2{
+	float:left;
+	width:100%;
+}
+.kode_top_navigation.nav{
+	padding:0px 0px;
+	position:relative;
+	z-index:999;
+}
+.navigation.navi_2{
+	background-color:#404041;
+}
+.navigation.navi_2 > ul {
+    padding:24px 0 21px 45px;
+}
+.kode-button-style-law-1.button_2{
+	float:right;
+	border:none;
+	margin:0px 0px;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:25px 20px;
+	border-radius:0px 0px;
+}
+.kode-button-style-law-1.button_2:hover{
+	background-color:#000;
+}
+/*
+	===================================================
+			KODE TOP NAVIGATION NAV END
+	===================================================
+*/
+/*
+	===================================================
+			KODE BANNE BANNER 2 START
+	===================================================
+*/
+.kode_banner.banner_2{
+	margin-top:0px;
+    padding: 0px 0px;
+    float: left;
+    width: 100%;
+	background-image:none;
+}
+.kode_banner.banner_2 figure:before{
+	opacity:0.8;
+}
+.kode_banner.banner_2 .slick-dots {
+    display: none !important;
+}
+.kode_banner.banner_2 figcaption h2{
+	font-size:65px;
+	text-transform:uppercase;
+}
+.kode_banner.banner_2 figcaption p{
+	font-size:30px;
+	text-transform:uppercase;
+}
+.kode_banner.banner_2 figcaption{
+	margin:-80px 0 0 -990px;
+}
+/*
+	===================================================
+			KODE BANNER BANNER 2 END
+	===================================================
+*/
+
+/*
+	===================================================
+			KODE SERVICES2 WRAP STSRT
+	===================================================
+*/
+.kode_service2_text,
+.kode_services2_wrap{
+	float:left;
+	width:100%;
+}
+.kode_services2_wrap .col-md-3{
+	padding:0px 0px;
+}
+.kode_services2_wrap .row{
+	margin:0px 0px;
+}
+.kode_service2_text{
+	background-image:url("images/servicess1.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:20px 25px 24px;
+	position:relative;
+	z-index:999;
+	text-align:center;
+}
+.kode_services2_wrap [class*="col"]:nth-child(2) .kode_service2_text{
+	background-image:url("images/servicess2.png");
+}
+.kode_services2_wrap [class*="col"]:nth-child(3) .kode_service2_text{
+	background-image:url("images/servicess3.png");
+}
+.kode_service2_text:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#404041;
+	opacity:0.9;
+	z-index:-1;
+	border-bottom:1px solid #dd6043;
+}
+.kode_service2_text:hover:before{
+	border-color:#fff;
+}
+.kode_service2_text span{
+	display:inline-block;
+	height:62px;
+	width:62px;
+	text-align:center;
+	line-height:60px;
+	border-radius:100%;
+	background-color:#333333;
+	color:#999999;
+	font-size:30px;
+	border:2px solid #6b6665;
+	margin-bottom:15px;
+}
+.kode_service2_text:hover span{
+	background-color:#fff;
+	border-color:#e9c984;
+	color:#be8751;
+}
+.kode_service2_text h3{
+	color:#fff;
+	margin-bottom:8px;
+	text-transform:uppercase;
+	line-height:32px;
+}
+.kode_service2_text p{
+	color:#fff;
+	margin-bottom:15px;
+	padding:0px 30px;
+}
+.kode_service2_text:hover  .kode-button-style-law-3{
+	background-color:#fff;
+}
+.kode_service2_text  a i{
+	margin-left:14px;
+}
+/*
+	===================================================
+			KODE SERVICES2 WRAP END
+	===================================================
+*/
+
+/*
+	===================================================
+			KODE EXPERIENCE2 WRAP START
+	===================================================
+*/
+.kode_experience_service_list,
+.kode_experienc_service,
+.kode_experience_list,
+.kode_experience2_text,
+.kode_experience2_fig,
+.kode_experience2_wrap{
+	float:left;
+	width:100%;
+}
+.kode_experience2_wrap{
+    padding: 80px 0px;
+}
+.kode_experience2_wrap .col-md-5{
+	padding-left:0px;
+}
+.kode_experience2_wrap .col-md-7{
+	padding-right:0px;
+}
+.kode_experience2_fig{
+	position:relative;
+	padding:10px 20px 20px 0px;
+	z-index:999;
+	overflow:hidden;
+}
+.kode_experience2_fig:before{
+	bottom: 0;
+    content: "";
+    left: 304px;
+    position: absolute;
+    right: 0;
+    top: -234px;
+    transform: skewX(-38deg) translate(6%);
+    width: 100%;
+    z-index: -1;
+}
+.kode_experience2_fig figure:hover:before{
+	right:20px;
+	bottom:20px;
+}
+.kode_experience2_fig figure img{
+	width:100%
+}
+.kode_section_hdg{
+	margin-bottom:22px;
+}
+.kode_section_hdg span{
+	font-size:20px;
+	font-style:italic;
+	margin-bottom:8px;
+	display:inline-block;
+}
+.kode_section_hdg h3{
+	text-transform:uppercase;
+	position:relative;
+	padding-bottom:15px;
+}
+.kode_experience_list a:before,
+.kode_section_hdg h3:before{
+	bottom: 0;
+    content: "";
+    left:0px;
+    position: absolute;
+    right: 0;
+	border-bottom:3px solid #ffd322;
+	width:16px;
+}
+.kode_experience2_text {
+    padding: 46px 0;
+}
+.kode_experience2_text p{
+	margin-bottom:26px;
+}
+.kode_experience_list{
+	margin-bottom:54px;
+}
+.kode_experience_list a{
+	font-size:16px;
+	padding-left:22px;
+	position:relative;
+	display:block;
+	margin-bottom:10px;
+}
+.kode_experience_list a:last-child{
+	margin:0px 0px;
+}
+.kode_experience_list a:before{
+    content: "\f0da";
+	font-family:fontawesome;
+	border:none;
+	width:auto;
+	right:auto;
+}
+.kode_experience_list a:hover:before{
+	color:#fff;
+}
+.kode_experienc_service li{
+	float:left;
+	width:31.3%;
+}
+.kode_experienc_service > li:nth-child(2) {
+    width: 37%;
+}
+.kode_experience_service_list a{
+	display:inline-block;
+	font-size:40px;
+	float:left;
+}
+.kode_experience_service_text{
+	overflow:hidden;
+	padding-left:15px;
+}
+.kode_experience_service_text h5{
+	text-transform:uppercase;
+	padding:6px 0px;
+	font-size:18px;
+}
+.kode_experience_service_text h5 span{
+	display:block;
+	margin-bottom:2px;
+}
+/*
+	===================================================
+			KODE EXPERIENCE2 WRAP END
+	===================================================
+*/
+/*
+	===================================================
+			KODE LEGAL WRAP START
+	===================================================
+*/
+.kode_legal_wrap{
+	float:left;
+	width:100%;
+}
+.kode_legal_wrap{
+	background-image:url("images/legal.png");
+	background-position:top lef;
+	background-size:50% 100%;
+	position:relative;
+}
+.kode_legal_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0.85;
+	width:50%;
+	outline:9px solid #fff;
+	outline-offset:-30px;
+}
+.kode_legal_fig {
+    position:absolute;
+	top:50%;
+	left:0px;
+	right:0px;
+	width:50%;
+	text-align:center;
+	margin-top:-67px;
+}
+.kode_legal_fig  h3{
+	font-size:55px;
+	text-transform:uppercase;
+	color:#fff;
+	line-height:55px;
+}
+.kode_legal_fig h3 span{
+	display:block;
+}
+.kode_legal_service{
+	padding:75px 40px 40px;
+	background-color:#404041;
+	float:right;
+	width:50%;
+}
+.kode_section_hdg.heading_2{
+	margin-bottom:56px;
+}
+.kode_section_hdg.heading_2 h3{
+	margin-bottom:11px;
+}
+.kode_services_2_des.des_4{
+	margin-bottom:36px;
+	padding-right:10px;
+}
+.kode_services_2_des.des_4 span{
+	border-color:#fff;
+	height:58px;
+	width:58px;
+	font-size:25px;
+	line-height:56px;
+	color:#fff;
+}
+.kode_services_2_des.des_4 .kode_services_2_content p,
+.kode_services_2_des.des_4 .kode_services_2_content h5 a{
+	color:#fff;
+}
+.kode_services_2_des.des_4 .kode_services_2_content h5 {
+	text-transform:uppercase;
+	margin-bottom:6px;
+}
+/*
+	===================================================
+			KODE LEGAL WRAP END
+	===================================================
+*/
+/*
+	===================================================
+			KODE SERVICE4 WRAP START
+	===================================================
+*/
+.kode_service4_wrap{
+	float:left;
+	width:100%;
+	padding:75px 0px 60px;
+}
+.kode_section_hdg.heading_2.heading_3{
+	text-align:center;
+	margin-bottom:36px;
+}
+.kode_section_hdg.heading_2.heading_3 h3:before{
+	margin:auto;
+}
+.kode_section_hdg.heading_2.heading_3 p span{
+	display:block;
+	margin:0px;
+}
+.kode_services_2_des.des_3.des_5 {
+    text-align: center;
+	padding:60px 40px 56px;
+	position:relative;
+	margin-bottom:20px;
+	z-index:999;
+}
+.kode_services_2_des.des_3.des_5:after,
+.kode_services_2_des.des_3.des_5:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	border-top:2px solid transparent;
+	border-bottom:2px solid transparent;
+	transform:scale(0, 1);
+	-moz-transform:scale(0, 1);
+	-webkit-transform:scale(0, 1);
+	border-color:#ffd322;
+	z-index:-1;
+}
+.kode_services_2_des.des_3.des_5:hover:before{
+	transform:scale(1);
+	-moz-transform:scale(1);
+	-webkit-transform:scale(1);
+}
+.kode_services_2_des.des_3.des_5:after{
+	border-left:3px solid transparent;
+	border-right:3px solid transparent;
+	transform:scale(1, 0);
+	-moz-transform:scale(1, 0);
+	-webkit-transform:scale(1, 0);
+	border-top:none;
+	border-color:#ffd322;
+	border-bottom:none;
+}
+.kode_services_2_des.des_3.des_5:hover:after{
+	-moz-transform:scale(1);
+	transform:scale(1);
+	-webkit-transform:scale(1);
+}
+.kode_services_2_des.des_3.des_5 span{
+	height:62px;
+	width:62px;
+	color:#161616;
+	line-height:60px;
+	border:none;
+	margin-bottom:14px;
+}
+.kode_services_2_des.des_3.des_5:hover span{
+	background-color:#fff;
+}
+.kode_services_2_des.des_3.des_5 .kode_services_2_content{
+	padding-left:0px;
+}
+.kode_services_2_des.des_3.des_5 .kode_services_2_content h4{
+	margin-bottom:6px;
+	text-transform:uppercase;
+}
+/*
+	===================================================
+			KODE SERVICE4 WRAP END
+	===================================================
+*/
+
+/*
+	===================================================
+			KODE COUNTER2 WRAP START
+	===================================================
+*/
+.kode_counter2_text,
+.kode_counter2_list ul,
+.kode_counter2_list,
+.kode_counter2_wrap{
+	float:left;
+	width:100%;
+}
+.kode_counter2_wrap{
+	padding:75px 0 73px; 
+}
+.counter-title{
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:40px;
+}
+.kode_counter2_list ul li{
+	float:left;
+	width:20%;
+	text-align:center;
+	position:relative;
+}
+.kode_counter2_list ul li:before{
+	position:absolute;
+	content:"";
+	top:50%;
+	left:auto;
+	right:-60px;
+	bottom:0px;
+	border-top:1px solid #fff;
+	width:114px;
+	margin-top:5px;
+}
+.kode_counter2_list ul li:last-child:before{
+	width:0px;
+}
+.kode_counter2_text i{
+	color:#fff;
+	font-size:60px;
+	margin-bottom:17px;
+}
+.kode_counter2_text span{
+	color:#fff;
+	font-size:40px;
+	display:block;
+	margin-bottom:14px;
+	font-weight:bold;
+}
+.kode_counter2_text p{
+	color:#fff;
+	text-transform:uppercase;
+}
+/*
+	===================================================
+			KODE COUNTER2 WRAP END
+	===================================================
+*/
+
+/*
+	===================================================
+			KODE MEDIUM BLOG2 GRID START
+	===================================================
+*/
+.blog2_meta_list,
+.kode_medium_blog2_text,
+.kode_medium_blog2_list,
+.kode_medium_blog2_row,
+.kode_medium_blog2_grid{
+	float:left;
+	width:100%;
+}
+.kode_medium_blog2_grid{
+	padding:75px 0px 80px;
+	background-image:url("images/blog.png");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+	z-index:999;
+}
+.kode_medium_blog2_list figure:before,
+.kode_medium_blog2_grid:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.9);
+	z-index:-1;
+}
+.kode_medium_blog2_row{
+	padding:0px 68px;
+}
+.kode_medium_blog2_list{
+	background-color:#161616;
+	border-top-left-radius:115px;
+	border-top-right-radius:115px;
+	border-bottom:2px solid transparent;
+}
+.kode_medium_blog2_list:hover{
+	border-color:#fff;
+}
+.kode_medium_blog2_list figure:before{
+	background-color:transparent;
+	z-index:1;
+}
+.kode_medium_blog2_list figure{
+	position:relative;
+	overflow:hidden;
+	border-radius:100%;
+}
+.kode_medium_blog2_list:hover figure:before{
+	background-color:rgba(0,0,0,0.5);
+	border-radius:100%;
+}
+.kode_medium_blog2_list figure img{
+	border-radius:100%;
+	overflow:hidden;
+}
+.kode_medium_blog2_text{
+	text-align:center;
+	padding:25px 0px 21px;
+}
+.kode_medium_blog2_text h5{
+	color:#fff;
+	margin-bottom:1px;
+}
+.kode_medium_blog2_text span{
+	color:#fff;
+	margin-bottom:16px;
+	display:inline-block;
+	font-size:16px;
+}
+.blog2_meta_list li{
+	margin-right:5px;
+	display:inline-block;
+}
+.blog2_meta_list li:last-child{
+	margin:0px 0px;
+}
+.blog2_meta_list li a{
+	color:#404041;
+	font-size:16px;
+	height:33px;
+	width:33px;
+	border-radius:100%;
+	display:inline-block;
+	line-height:30px;
+}
+.blog2_meta_list li a:hover{
+	background-color:#151515;
+	color:#fff;
+}
+/*
+	===================================================
+			KODE MEDIUM BLOG2 GRID END
+	===================================================
+*/
+/*
+	===================================================
+			KODE INFO FORM WRAP START
+	===================================================
+*/
+.kode_info_form_wrap{
+	float:left;
+	width:100%;
+}
+.kode_info_form_wrap{
+	position:relative;
+	background-image:url("images/info-form.png"), url("images/info-form1.png");
+	background-repeat:no-repeat;
+	background-position:left top, top right;
+	background-size:50% 100%, 50% 100%, cover;
+	z-index:999;
+}
+.kode_info_form_wrap:after,
+.kode_info_form_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	width:50%;
+	opacity:0.85;
+	z-index:-1;
+	outline: 10px solid #fff;
+    outline-offset: -40px;
+}
+.kode_info_form_wrap:after{
+	background-color:#3e3e3e;
+	right:0px;
+	left:auto;
+	outline:none;
+}
+.kode_info_logo{
+	float: left;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    width: 50%;
+	margin-top:-50px;
+}
+.kode_qoute_form{
+	float:right;
+	width:50%;
+	padding:76px 120px 74px;
+}
+.quote_form_list{
+	display:inline-block;
+	text-align:center;
+	margin:auto;
+	width:100%;
+}
+.kode_quote_commet_field{
+	margin-bottom:30px;
+}
+.kode_quote_textarea textarea,
+.kode_quote_commet_field input{
+	height:46px;
+	background:none;
+	border:1px solid #ededed;
+	padding:0px 20px;
+	box-shadow:0px 0px;
+	color:#999999;
+	width: 100%;
+}
+.kode_quote_textarea textarea{
+	margin-bottom:30px;
+}
+.kode_quote_textarea textarea{
+	width:100%;
+	height:129px;
+	padding:20px 20px;
+	resize:none;
+}
+.form_quote_submit .kode-button-style-law-4:hover{
+	background-color:#000;
+}
+.kode_quote_commet_field .selectric{
+	width:100%;
+	background:none;
+}
+.kode_quote_commet_field .selectric .label{
+	text-align:left;
+	color:#999999;
+	font-size:14px;
+	font-weight:normal;
+	height:41px;
+	line-height:30px;
+	padding:4px 4px;
+}
+.kode_quote_commet_field .selectric .button:after{
+	border-width:7px 6px medium;
+	top:2px;
+}
+.kode_quote_commet_field .selectric-items{
+	background-color:#f9f9f9f;
+}
+.kode_quote_commet_field  .selectric-items li.highlighted {
+    color: #fff;
+	background:none;
+}
+.kode_quote_commet_field  .selectric-items li{
+	font-size:16px;
+}
+.kode_quote_commet_field  .selectric-items li:hover{
+	color:#fff;
+}
+.kode_quote_commet_field .selectric-scroll > ul {
+    background-color: #676767;
+}
+.kode_quote_commet_field .selectric-scroll > ul li{
+	text-align: left;
+    padding: 10px 20px;
+	color:#fff;
+}
+.kode_video_wrap.video_1:before{
+	background:rgba(0, 0, 0, 0.8);
+}
+/*
+	===================================================
+			KODE INFO FORM WRAP END
+	===================================================
+*/
+/*
+	===================================================
+			KODE NEWS2 WRAP START
+	===================================================
+*/
+.kode_news2_admin,
+.kode_news2_text ,
+.kode_news2_list,
+.kode_news2_wrap{
+	float:left;
+	width:100%;
+}
+.kode_news2_wrap{
+	padding:76px 0px 80px;
+}
+.kode_news2_list{
+	background-color:#f9f9f9;
+}
+.kode_news2_list figure{
+	position:relative;
+	overflow:hidden;
+}
+.kode_experience2_fig figure:before,
+.kode_news2_list figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	z-index:999;
+}
+.kode_experience2_fig figure:hover:before,
+.kode_news2_list:hover figure:before{
+	background-color:rgba(0,0,0,0.6);
+}
+.kode_news2_list:hover figure img{
+	transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-webkit-transform:scale(1.2);
+}
+.kode_news2_list figcaption{
+	background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid #e0e0e0;
+    bottom: 0;
+    height: 70px;
+    left: 0;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 70px;
+    z-index: 999;
+}
+.kode_news2_list:hover figcaption{
+	background-color:#fff;
+}
+.kode_news2_list figcaption span{
+	font-size:14px;
+	line-height:24px;
+}
+.kode_news2_list figcaption span strong{
+	display: block;
+    line-height: 24px;
+    font-size: 20px;
+}
+.kode_news2_text {
+    padding: 25px 10px 30px;
+	text-align:center;
+}
+.kode_news2_text h5 a{
+	color:#1c2125;
+	text-transform:uppercase;
+}
+.kode_news2_admin{
+	padding:6px 0px;
+}
+.kode_news2_admin li{
+	display:inline-block;
+	padding:0px 10px;
+	position:relative;
+}
+.kode_news2_admin li:before{
+	position:absolute;
+	content:"";
+	top:8px;
+	right:0px;
+	bottom:0px;
+	border-right:1px solid #999;
+	height:12px;
+	transform:rotate(12deg);
+}
+.kode_news2_admin li:last-child:before{
+	height:0px;
+}
+.kode_news2_admin li:first-child{
+	padding-left:0px;
+}
+.kode_news2_admin li a{
+	display:inline-block;
+	color:#626f7a;
+}
+.kode_news2_text p{
+	margin-bottom:15px;
+	font-size:16px;
+}
+.kode_news2_text .kode-button-style-law-3:hover{
+	background-color:#333;
+	color:#fff;
+}
+/*
+	===================================================
+			KODE NEWS2 WRAP END
+	===================================================
+*/
+/*
+	===================================================
+			KODE BOX SERVICE WRAP START
+	===================================================
+*/
+.kode_box_service_detail,
+.kode_box_service_list ul,
+.kode_box_service_list,
+.kode_box_service_wrap{
+	float:left;
+	width:100%;
+}
+.kode_box_service_wrap{
+	position:relative;
+	background-image:url("images/blog.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:75px 0 60px;
+	z-index:999;
+}
+.kode_box_service_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(61, 62, 62, 0.9);
+	z-index:-1;
+}
+.kode_box_service_list ul li{
+	float:left;
+	width:32.3%;
+	background-color:#4e5050;
+	margin:0px 5px 20px 5px;
+}
+.kode_box_service_detail{
+	padding:26px 25px 22px;
+}
+.kode_box_service_detail span{
+	display:inline-block;
+	font-size:42px;
+	float:left;
+}
+.kode_box_servixe_text{
+	overflow:hidden;
+	padding-left:20px;
+}
+.kode_box_servixe_text h5{
+	margin-bottom:5px;
+}
+.kode_box_service_detail:hover span,
+.kode_box_servixe_text h5 a{
+	color:#fff;
+}
+.kode_box_servixe_text p{
+	color:#fff;
+	font-size:15px;
+}
+/*
+	===================================================
+			KODE BOX SERVICE WRAP END
+	===================================================
+*/
+
+
+
+/*
+	===================================================
+			KODE MAP2 WRAP START
+	===================================================
+*/
+.kode_map2_icon,
+.kode_map2_service_detail,
+.kode_map2_service,
+.kode_map2_wrap{
+	float:left;
+	width:100%;
+}
+.kode_map2_wrap .container{
+	position:relative;
+}
+.kode_map2_wrap .map-canvas{
+	height:460px;
+	width:100%;
+}
+.kode_map2_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	z-index:-1;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.5);
+}
+.kode_map2_content{
+	float:right;
+	width:340px;
+	padding:50px 0px;
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:auto;
+}
+.kode_map2_service{
+	padding:0px 30px 30px;
+	border-bottom:1px solid #fff;
+	margin-bottom:50px;
+}
+.kode_map2_service_detail > li:nth-child(2) {
+    margin-bottom: 5px;
+}
+.kode_map2_service h5{
+	text-transform:uppercase;
+	color:#fff;
+	margin-bottom:20px;
+}
+.kode_map2_service_detail i {
+    float: left;
+	padding:5px 0px;
+	font-size:20px;
+	margin-right:15px;
+	color:#fff;
+}
+.kode_map2_service_detail p{
+	overflow:hidden;
+	color:#fff;
+}
+.kode_map2_service_detail p a:hover{
+	color:#000;
+}
+.kode_map2_icon{
+	padding:0px 30px;
+}
+.kode_map2_icon li{
+	float:left;
+	margin-right:10px;
+}
+.kode_map2_icon li:last-child{
+	margin:0px; 
+}
+.kode_map2_icon li a{
+	display:inline-block;
+	height:35px;
+	width:35px;
+	text-align:center;
+	border:1px solid #fff;
+	line-height:33px;
+	font-size:16px;
+	color:#fff;
+	border-radius:8px;
+}
+.kode_map2_icon li a:hover{
+	background-color:#fff;
+}
+/*
+	===================================================
+			KODE MAP2 WRAP END
+	===================================================
+*/
+
+
+
+
+/*
+	=======================================================
+			KODE PHARMACY TOP WRAPER STRAT
+	=======================================================
+*/
+.kode_pharmacy_top_wraper{
+	background-color:#ededed;
+	padding:7px 0px 7px 0px;
+	border-bottom:1px solid #e4e4e4;
+}
+.kode_pharmacy_top_login ul,
+.kode_pharmacy_top_wraper,
+.kode_pharmacy_top_call{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_top_call a{
+	display:inline-block;
+	font-size:12px;
+	color:#333333;
+}
+.kode_pharmacy_top_call a i{
+	margin-right:10px;
+}
+.kode_pharmacy_top_login{
+	float:right;
+}
+.kode_pharmacy_top_login > ul > li{
+	float:left;
+}
+.kode_pharmacy_top_login .modal-body{
+	float:left;
+	width:100%;
+	padding:50px 30px 50px;
+	text-align:center;
+}
+.kode_pharmacy_model_search button {
+    border-radius: 8px;
+    float: left;
+    height: 50px;
+    width: 150px;
+	color:#fff;
+	font-weight:600;
+}
+.kode_pharmacy_model_search button:hover{
+	background-color:#000;
+}
+.kode_pharmacy_model_password,
+.kode_pharmacy_model_search form,
+.kode_pharmacy_model_search{
+	float:left;
+	width:100%;	
+}
+.kode_pharmacy_model_password{
+	margin-bottom:25px;
+}
+.kode_pharmacy_model_password input{
+	width:100%;
+	float:left;
+	height:50px;
+	padding:0px 20px;
+	border:1px solid #eaeaea;
+	border-radius:8px;
+}
+.kode_pharmacy_model_password > input:focus {
+    box-shadow:0 0 9px -3px;
+}
+.kode_pharmacy_top_login .btn{
+	padding:0px;
+}
+.kode_pharmacy_top_login .button.close{
+	padding:0px 10px;
+}
+.kode_pharmacy_top_login .modal {
+    background-color:#ededed;
+    left: 0;
+    margin: 41px auto auto;
+    outline: 0 none;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    z-index: 1050;
+	bottom:auto;
+}
+.kode_pharmacy_model_search a {
+    float: right;
+    padding: 12px 0;
+}
+.kode_pharmacy_model_search a i{
+	margin-left:5px;
+}
+.kode_pharmacy_top_login .dropdown-menu img{
+	margin-right:10px;
+}
+.kode_pharmacy_top_login  .modal-header {
+    border-bottom:none;
+    position: absolute;
+    right: 25px;
+    width: 100%;
+    z-index: 999;
+	padding:0px;
+}
+.kode_pharmacy_top_login .modal.in {
+    background-color: #ddd;
+    padding: 0;
+}
+.kode_pharmacy_top_login .modal-header .close {
+    background-color: #c22;
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 10px;
+    width: 30px;
+}
+.kode_pharmacy_top_login > ul > li > a{
+	display:inline-block;
+	margin-left:30px;
+	font-size:12px;
+	color:#333333;
+}
+.kode_pharmacy_top_login ul li a i{
+	margin-right:3px;
+}
+.kode_pharmacy_top_login .fa.fa-heart{
+	color:#f20000;
+}
+.kode_pharmacy_top_login .btn.btn-default.dropdown-toggle {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    padding: 0;
+	margin-left:30px;
+}
+.kode_pharmacy_top_login .btn.btn-default.dropdown-toggle > img {
+    margin-right: 10px;
+    margin-top: -3px;
+}
+.kode_pharmacy_top_login  .btn-default.active.focus,
+.kode_pharmacy_top_login  .btn-default.active:focus, 
+.kode_pharmacy_top_login .btn-default.active:hover, 
+.kode_pharmacy_top_login .btn-default:active.focus, 
+.kode_pharmacy_top_login  .btn-default:active:focus, 
+.kode_pharmacy_top_login .btn-default:active:hover, 
+.kode_pharmacy_top_login  .open>.dropdown-toggle.btn-default.focus, 
+.kode_pharmacy_top_login  .open>.dropdown-toggle.btn-default:focus, 
+.kode_pharmacy_top_login  .open>.dropdown-toggle.btn-default:hover {
+	color:#333333;
+}
+.kode_pharmacy_top_login  .btn.active, .btn:active{
+	box-shadow:0px 0px 0px 0px;
+}
+.kode_pharmacy_top_login .dropdown-menu{
+	padding:0px;
+	min-width:180px;
+}
+.kode_pharmacy_top_login .dropdown-menu > li > a{
+	padding:5px 20px;
+	text-transform:uppercase;
+	font-size:12px;
+}
+.kode_pharmacy_top_login .dropdown-menu > li > a:hover{
+	color:#fff;
+}
+/*
+	=======================================================
+			KODE PHARMACY TOP WRAPER END
+	=======================================================
+*/
+/*
+	=======================================================
+			KODE PHARMACY TOP CATEGORIES WRAPER STRAT
+	=======================================================
+*/
+.kode_pharmacy_top_categories_wraper{
+	padding:30px 0px 30px 0px;
+	float:left;
+	width:100%;
+}
+.pharmacy_top_search{
+	float:left;
+	width:100%;
+	padding:4px 0;
+}
+.pharmacy_top_search .dropdown {
+    float: left;
+}
+.pharmacy_top_search .dropdown i{
+	margin-left:18px;
+	color:#fff;
+}
+.pharmacy_top_search .btn{
+	padding:10px 20px;
+	color:#fff;
+	font-weight:500;
+}
+.pharmacy_top_search .dropdown-menu{
+	padding:0px;
+}
+.pharmacy_top_search .dropdown-menu > li > a{
+	padding:7px 20px;
+	text-transform:uppercase;
+}
+.pharmacy_top_search .dropdown-menu > li > a:hover{
+	color:#fff;
+}
+.pharmacy_top_search .btn-default.active.focus,
+.pharmacy_top_search .btn-default.active:focus, 
+.pharmacy_top_search.btn-default.active:hover, 
+.pharmacy_top_search.btn-default:active.focus, 
+.pharmacy_top_search .btn-default:active:focus, 
+.pharmacy_top_search .btn-default:active:hover, 
+.pharmacy_top_search .open>.dropdown-toggle.btn-default.focus, 
+.pharmacy_top_search .open>.dropdown-toggle.btn-default:focus, 
+.pharmacy_top_search .open>.dropdown-toggle.btn-default:hover {
+	color:#fff;
+}
+.kode_pharmacy_top_item{
+	float:left;
+}
+.kode_pharmacy_top_item > form {
+    float: left;
+    width: 390px;
+	position:relative;
+}
+.kode_pharmacy_top_item input{
+	width:100%;
+	height:43px;
+	font-style:Italic;
+	color:#999999;
+	font-weight:500;
+	padding:0px 25px;
+}
+.pharmacy_top_search .btn-default{
+	background-color:transparent;
+	border-color:transparent;
+}
+.kode_pharmacy_top_item  form a {
+    color: #ffffff;
+    display: inline-block;
+    margin-left: -2px;
+    padding: 10px 19px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.kode_pharmacy_top_item a:hover{
+	background-color:#000;
+}
+.kode_pharmacy_top_dollar{
+	float:right;
+	padding-right:17px;
+	padding-bottom:8px;
+}
+.kode_pharmacy_top_dollar span{
+	display:inline-block;
+	color:#333333;
+	font-weight:bold;
+	font-size:14px;
+	float:right;
+	line-height:15px;
+}
+.kode_pharmacy_top_dollar .btn{
+	padding:0px;
+}
+.dropdown i{
+	margin-left:4px;
+}
+.kode_pharmacy_top_cart{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_top_cart{
+	float:right;
+	width:181px;
+	margin-top:4px;
+}
+.kode_pharmacy_top_cart 	a{
+	height:46px;
+	width:51px;
+	text-align:center;
+	line-height:46px;
+	background-color:#000;
+	display:inline-block;
+	color:#fff;
+}
+.btn-default:active:hover, .btn-default.active:hover, 
+.open > .dropdown-toggle.btn-default:hover, 
+.btn-default:active:focus, 
+.btn-default.active:focus, 
+.open > .dropdown-toggle.btn-default:focus, 
+.btn-default.focus:active, 
+.btn-default.active.focus, 
+.open > .dropdown-toggle.btn-default.focus{
+	background:none;
+	outline:none;
+}
+.kode_pharmacy_top_cart 	a:hover{
+	background-color:#000;
+}
+.kode_pharmacy_top_cart span{
+	color:#fff;
+	display:inline-block;
+	padding:0px 5px;
+}
+/*
+	=======================================================
+			KODE PHARMACY TOP CATEGORIES WRAPER END
+	=======================================================
+*/
+/*
+	=======================================================
+			KODE PHARMACY TOP NAVI WRAPER STRAT
+	=======================================================
+*/
+.header_2.hdr_3 .navigation ul li ul:before{
+	background-color:rgba(0, 0, 0, 0.9);
+}
+.kode_pharmacy_top_navi_wraper{
+	padding:18px 0px 18px 0px;
+}
+.kode_pharmacy_top_navi_wraper,
+.kode_pharmacy_top_navigation ul,
+.kode_pharmacy_top_navigation{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_top_navigation ul li{
+	float:left;
+	margin-left:42px;
+}
+.kode_pharmacy_top_navigation ul li:first-child{
+	margin-left:0px;
+}
+.kode_pharmacy_top_navigation ul li a{
+	display:inline-block;
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	position:relative;
+}
+.kode_pharmacy_top_navigation ul li a:after{
+	position:absolute;
+	content:"";
+	left:0px;
+	right:0px;
+	bottom:-1px;
+	border-bottom:2px solid #fff;
+	width:0px;
+}
+.kode_pharmacy_top_navigation ul li a.active:after,
+.kode_pharmacy_top_navigation ul li a:hover:after{
+	width:100%;
+}
+/*
+	=======================================================
+			KODE PHARMACY TOP NAVI WRAPER END
+	=======================================================
+*/
+/*
+	=======================================================
+			KODE PHARMACY QUALITY ROW STRAT
+	=======================================================
+*/
+.kode_pharmacy_quality_row{
+	padding:15px 0px 0px 0px;
+}
+.kode_pharmacy_appoinment,
+.kode_pharmacy_categries_iteam,
+.kode_pharmacy_categries,
+.kode_pharmacy_quality_row,
+.kode_pharmacy_side_bar{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_categries{
+	margin-bottom:50px;
+}
+.kode_pharmacy_categries h5{
+	text-transform:uppercase;
+	padding:16px 0px 13px 20px;
+	color:#fff;
+	background-color:#333333;
+	font-weight:500;
+}
+.kode_pharmacy_categries h5 a{
+	display:inline-block;
+	float:right;
+	color:#fff;
+	padding-right:10px;
+}
+.kode_pharmacy_categries_iteam{
+	border:1px solid #e5e5e5;
+}
+.kode_pharmacy_categries_iteam li{
+	border-bottom:1px solid #e5e5e5;
+	position:relative;	
+}
+/*navibar*/
+.kode_pharmacy_categries_iteam li ul{
+    background-color: #fff;
+    margin: 0;
+    position: absolute;
+    right:10px;
+	top:10px;
+	left:100%;
+    width: 263px;
+    z-index: 9999;
+	visibility:hidden;
+	border:1px solid #e5e5e5;
+	opacity:0;
+}
+.kode_pharmacy_categries_iteam > li:hover > ul{
+	visibility:visible;
+	opacity:1;
+	top:0px;
+	right:0px;
+}
+.kode_pharmacy_categries_iteam li ul li{
+	position:relative;
+}
+.kode_pharmacy_categries_iteam li ul li ul{
+    bottom: 0;
+    position: absolute;
+    right:0px;
+	left:100%;
+	right:0px;
+	top:0px;
+    width: 263px;
+	visibility:hidden;
+}
+.kode_pharmacy_categries_iteam li > ul > li:hover > ul{
+	visibility:visible;
+	opacity:1;
+}
+.kode_pharmacy_categries_iteam ul  li a{
+	display:block;
+	padding:10px 0px 11px 29px;
+	position:relative;
+}
+.kode_pharmacy_categries_iteam ul  li a:hover{
+	color:#fff;
+}
+.kode_pharmacy_categries_iteam ul  li a:before{
+	position:absolute;
+	right:10px;
+	bottom:0px;
+	font-size:16px;
+	color:#ffff;
+}
+.kode_pharmacy_categries_iteam li:last-child{
+	border-bottom:none;
+}
+.kode_pharmacy_categries_iteam li a{
+	display:block;
+	padding:10px 0px 11px 29px;
+	font-size:14px;
+	font-weight:500px;
+	position:relative;
+}
+.kode_pharmacy_categries_iteam li a:before{
+	position:absolute;
+	content: "\f0da";
+	font-family: FontAwesome;
+	top:11px;
+	right:10px;
+	bottom:0px;
+	font-size:16px;
+	color:#ffff;
+}
+.kode_pharmacy_categries_iteam li a:hover{
+	color:#fff;
+}
+/*kode_pharmacy_appoinment start*/
+.kode_pharmacy_appoinment{
+	background-image:url("images/item.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:999;
+	padding:14px 22px 8px 22px;
+	margin-bottom:50px;
+}
+.kode_pharmacy_appoinment:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#000000;
+	opacity:0.5;
+	z-index:-1;
+}
+.kode_pharmacy_appoinment a{
+	float:left;
+	display:inline-block;
+	height:27px;
+	width:27px;
+	text-align:center;
+	line-height:27px;
+	color:#fff;
+	margin:13px 0px;
+}
+.kode_pharmacy_fill_caption a:hover,
+.kode_pharmacy_appoinment a:hover{
+	background-color:#000;
+}
+.kode_pharmacy_appoinment_caption{
+	float:right;
+}
+.kode_pharmacy_appoinment_caption p{
+	font-weight:500;
+	text-transform:uppercase;
+	line-height:22px;
+}
+.kode_pharmacy_appoinment_caption  h3{
+	font-weight:500;
+	color:#fff;
+	text-transform:uppercase;
+}
+/*kode_pharmacy_fill_fig start*/
+.kode_pharmacy_fill_fig{
+	float:left;
+	width:100%;
+	margin-bottom:46px;
+}
+.kode_pharmacy_fill_fig figure{
+	position:relative;
+}
+.kode_pharmacy_fill_fig figure:before{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	border:1px solid #daeeeb;
+}
+.kode_pharmacy_fill_caption{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	text-align:center;
+}
+.kode_pharmacy_fill_caption p{
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:500;
+	margin-bottom:2px;
+}
+.kode_pharmacy_fill_caption h3{
+	text-transform:uppercase;
+	color:#fff;
+	font-weight:bold;
+	margin-bottom:8px;
+}
+.kode_pharmacy_fill_caption a{
+	display:inline-block;
+	padding:0px 22px 2px 22px;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:14px;
+}
+.kode_pharmacy_fill_caption a i{
+	margin-left:8px;
+}
+/*kode_pharmacy_deals start*/
+.kode_pharmacy_deals{
+	margin-bottom:50px;
+}
+.kode_pharmacy_deals h5{
+	text-transform:uppercase;
+	font-weight:bold;
+	margin-bottom:19px;
+}
+.kode_pharmacy_deals_dolar,
+.kode_pharmacy_deals_fig_caption ul,
+.kode_pharmacy_deals_fig_caption,
+.kode_pharmacy_deals,
+.kode_pharmacy_deals_fig{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_deals_fig figure{
+	margin-bottom:20px;
+}
+.kode_pharmacy_deals_fig  span{
+	display:block;
+	padding:11px 0px 10px 0px;
+	text-align:center;
+	color:#fff;	
+}
+.kode_pharmacy_deals_fig span i{
+	margin-right:14px;
+}
+.kode_pharmacy_deals_fig_caption{
+	text-align:center;
+}
+.kode_pharmacy_deals_fig_caption  p{ 
+	color:#333333;
+	margin-bottom:7px;
+}
+.kode_pharmacy_deals_fig_caption ul{
+	margin-bottom:9px;
+}
+.kode_pharmacy_deals_fig_caption ul li{
+	display:inline-block;
+	margin:0px -2px;
+} 
+.kode_pharmacy_deals_dolar {
+	margin-bottom:20px;
+}
+.kode_pharmacy_deals_dolar .kode_pharmacy_deals_span{
+	color:#e00000;
+	display:inline-block;
+	margin-left:30px;
+	font-weight:500;
+}
+.kode_pharmacy_deals_cart{
+	display:inline-block;
+	padding:4px 10px 5px 10px;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:14px;
+}
+.kode_pharmacy_deals_cart:hover{
+	background-color:#000;
+	color:#fff;
+}
+/*bxslider*/
+.kode_pharmacy_latest .bx-wrapper,
+.kode_pharmacy_specials .bx-wrapper,
+.kode_pharmacy_deals .bx-wrapper{
+	margin:0px;
+}
+.kode_pharmacy_latest  .bx-pager.bx-default-pager ,
+.kode_pharmacy_specials .bx-pager.bx-default-pager ,
+.kode_pharmacy_deals  .bx-pager.bx-default-pager {
+    display: none;
+}
+.kode_pharmacy_latest .bx-wrapper .bx-controls-direction a,
+.kode_pharmacy_specials .bx-wrapper .bx-controls-direction a,
+.kode_pharmacy_deals .bx-wrapper .bx-controls-direction a {
+    color:transparent;
+    position: absolute;
+    z-index: 9999;
+}
+.kode_pharmacy_deals .bx-controls.bx-has-controls-direction a{
+	top:5px;
+}
+.kode_pharmacy_specials .bx-controls.bx-has-controls-direction a{
+	top:-6px;
+}
+.kode_pharmacy_latest .bx-controls-direction,
+.kode_pharmacy_specials .bx-controls-direction,
+.kode_pharmacy_deals .bx-controls-direction {
+    position: absolute;
+    right: 20px;
+    top: -30px;
+}
+.kode_pharmacy_latest  .bx-prev:after,
+.kode_pharmacy_latest .bx-next:after,
+.kode_pharmacy_specials .bx-next:after,
+.kode_pharmacy_specials .bx-prev:after,
+.kode_pharmacy_deals  .bx-next:after,
+.kode_pharmacy_deals  .bx-prev:after{
+	position:absolute;
+	content:"\f105";
+	top:0px;
+	font-family: FontAwesome;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	color:#999;
+}
+.kode_pharmacy_latest .bx-next,
+.kode_pharmacy_specials .bx-next,
+.kode_pharmacy_deals  .bx-next{
+	position:absolute;
+	top:0px;
+	left:-6px;
+}
+.kode_pharmacy_latest .bx-next:after,
+.kode_pharmacy_specials .bx-next:after,
+.kode_pharmacy_deals  .bx-next:after{
+	content:"\f104";
+}
+/*kode_pharmacy_specials start*/
+.kode_pharmacy_specials{
+	margin-bottom:46px;
+}
+.kode_pharmacy_specials h5{
+	font-weight:bold;
+	margin-bottom:30px;
+}
+.kode_pharmacy_special_fig,
+.kode_pharmacy_specials,
+.kode_pharmacy_special_row{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_special_row{
+	margin:0px;
+}
+.kode_pharmacy_special_row li{
+	float:left;
+	width:100%;
+	display:block;
+	padding-bottom:16px;
+	border-bottom:1px solid #d4d4d4;
+	padding-top:20px;
+}
+.kode_pharmacy_special_row li:first-child{
+	padding-top:0px;
+}
+.kode_pharmacy_special_fig figure{
+	float:left;
+	margin-right:20px;
+}
+.kode_pharmacy_spaecials_caption{
+	float:left;
+}
+.kode_pharmacy_spaecials_caption p{
+	color:#333;
+	margin-bottom:0px;
+}
+.kode_pharmacy_spaecials_caption span{
+	margin-bottom:4px;
+	display:inline-block;
+}
+.kode_pharmacy_spaecials_caption h6{
+	font-weight:500;
+}
+/*kode_pharmacy_specials start*/
+
+.kode_pharmacy_latest,
+.kode_pharmacy_latest_caption ul,
+.kode_pharmacy_latest_caption,
+.kode_pharmacy_latest_fig{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_latest h5{
+	font-weight:bold;
+	margin-bottom:25px;
+}
+.kode_pharmacy_latest_caption ul{
+	margin-bottom:15px;
+}
+.kode_pharmacy_latest_fig figure{
+	margin-bottom:20px;
+}
+.kode_pharmacy_latest_caption p{
+	color:#333333;
+	margin-bottom:5px;
+}
+.kode_pharmacy_latest_caption ul li{
+	float:left;
+	font-size:14px;
+	margin-right:10px;
+}
+.kode_pharmacy_latest_caption ul li:last-child{
+	margin-right:0px;
+}
+.kode_pharmacy_latest_caption ul li a{
+	display:inline-block;
+	margin-right:8px;
+}
+.kode_pharmacy_latest_caption ul li span{
+	font-style:italic;
+	display:inline-block;
+}
+/*
+	=======================================================
+			KODE PHARMACY QUALITY ROW END
+	=======================================================
+*/
+/*
+	=======================================================
+			KODE PHARMACY MEDICINES WRAPER STRAT
+	=======================================================
+*/
+.kode_pharmacy_medicine_banner,
+.kode_pharmacy_medicines_wraper{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_medicine_banner{
+	margin-bottom:30px;
+}
+.kode_pharmacy_medicine_banner figure{
+	position:relative;
+}
+.kode_pharmacy_medicine_banner figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:rgba(0,0,0,0.5);
+}
+.kode_pharmacy_banner_caption{
+	position:absolute;
+	top:80px;
+	left:60px;
+}
+.kode_pharmacy_banner_caption h2{
+	font-weight:500;
+	color:#fff;
+}
+.kode_pharmacy_banner_caption h1{
+	color:#fff;
+	border-bottom:3px solid #fff;
+	display:inline-block;
+	padding-bottom:9px;
+	margin-bottom:10px;
+	font-size:50px;
+}
+.kode_pharmacy_banner_caption p{
+	color:#fff;
+	margin-bottom:12px;
+}
+.kode_pharmacy_banner_caption a{
+	display:inline-block;
+	padding:10px 16px 9px 16px;
+	color:#fff;
+}
+.kode_pharmacy_parent_caption a:hover,
+.kode_pharmacy_banner_caption a:hover{
+	background-color:#000;
+}
+/*bxslider*/
+.kode_pharmacy_medicines_wraper  .bx-controls-direction {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.kode_pharmacy_medicine_banner .bx-wrapper  .bx-next:after,
+.kode_pharmacy_medicine_banner .bx-wrapper  .bx-prev:before{
+	position:absolute;
+	content:"\f104";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	height:30px;
+	width:30px;
+	text-align:center;
+	line-height:30px;
+	font-family:fontawesome;
+	font-size:20px;
+	color:#fff;
+}
+.kode_pharmacy_medicine_banner .bx-wrapper  .bx-next:after{
+	content:"\f105";
+}
+.kode_pharmacy_medicine_banner .bx-wrapper  .bx-next:hover:after,
+.kode_pharmacy_medicine_banner .bx-wrapper  .bx-prev:hover:before{
+	background-color:#000;
+}
+/*kode_pharmacy_parent*/
+.kode_pharmacy_parent{
+	float:left;
+	width:100%;
+	margin-bottom:50px;
+}
+.kode_pharmacy_parent img{
+	width:100%;
+}
+.kode_pharmacy_transform{
+	transform:scale(1.2);
+}
+.kode_pharmacy_parent figure{
+	position:relative;
+	height:222px;
+	overflow:hidden;
+}
+.kode_pharmacy_parent figure:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#000000;
+	opacity:0.6;
+}
+.kode_pharmacy_parent figure:before{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	border:1px solid #ccd1da;
+	z-index:999;
+}
+.kode_pharmacy_parent_caption{
+	position:absolute;
+	top:50px;
+	left:30px;
+	z-index:999;
+}
+.kode_pharmacy_parent_caption h3{
+	color:#fff;
+	font-weight:500;
+	margin-bottom:19px;
+}
+.kode_pharmacy_parent_caption a{
+	display:inline-block;
+	padding:6px 16px 4px 16px;
+	color:#fff;
+}
+.kode_pharmacy_parent_caption.caption_2 h5{
+	color:#fff;
+	font-weight:500;
+}
+.kode_pharmacy_parent_caption.caption_2 h2{
+	color:#fff;
+	font-weight:500;
+}
+/*kode_pharmacy_vitamin_slid*/
+.kode_pharmacy_vitamin_slider{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_vitamin_slider .bx-pager.bx-default-pager{
+	display:none;
+}
+.kode_pharmacy_vitamin_slid{
+	float:left;
+	width:100%;
+	background-color:#e5e5e5;
+	margin-bottom:30px;
+}
+.kode_pharmacy_vitamin_slid h6{
+	color:#fff;
+	font-weight:500;
+	padding:8px 36px 8px 15px;
+	display:inline-block;
+	position:relative;
+}
+.kode_pharmacy_vitamin_slid h6:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:0px;
+	bottom:0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width:20.5px 20px 20.5px 0;
+	border-color: transparent #e5e5e5 transparent transparent;
+}
+.kode_pharmacy_vitamin_slid h6 i{
+	margin-right:10px;
+}
+.kode_pharmacy_vitamin_slider .bx-wrapper{
+	margin:0px;
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_vitamin_slider .bx-wrapper .bx-controls-direction a {
+    color:transparent;
+    position: absolute;
+    z-index: 9999;
+}
+.kode_pharmacy_vitamin_slider .bx-controls-direction{
+    position: absolute;
+    right: 43px;
+    top: -45px;
+	left:auto;
+}
+.kode_pharmacy_vitamin_slider .bx-next:after,
+.kode_pharmacy_vitamin_slider .bx-prev:after{
+	position:absolute;
+	content:"\f105";
+	top:0px;
+	font-family: FontAwesome;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	color:#999;
+}
+.kode_pharmacy_vitamin_slider .bx-next:after{
+
+	content:"\f104";
+}
+.kode_pharmacy_vitamin_slider .bx-next{
+	left:-6px;
+}
+/*koode_pharmacy_nutiva*/
+.koode_pharmacy_nutiva{
+	border:1px solid #dedede;
+	padding-bottom:12px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.koode_pharmacy_nutiva_star,
+.koode_pharmacy_nutiva,
+.kode_pharmacy_nutive_caption{
+	float:left;
+	width:100%;
+}
+.koode_pharmacy_nutiva figure{
+	margin-bottom:6px;
+	position:relative;
+}
+.koode_pharmacy_nutiva figure:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	right:-50px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 50px 50px 0;
+	border-color: transparent #ffd322 transparent transparent;
+	opacity:0;
+}
+.koode_pharmacy_nutiva:hover figure:before{
+	opacity:1;
+	right:0px;
+}
+.kode_pharmacy_nutive_caption{
+	padding:0px 0px 0px 20px;
+	position:relative;
+}
+.kode_pharmacy_nutiva_link{
+	position: absolute;
+    right: -9px;
+    top: -6px;
+	color:#fff;
+	opacity:0;
+}
+.kode_pharmacy_nutiva_sale{
+	position:absolute;
+	top:0px;
+	left:0px;
+	text-transform:uppercase;
+	padding:8px 32px 7px 19px;
+	background-color:#f20000;
+	color:#fff;
+	font-weight:600;
+}
+.kode_pharmacy_nutiva_sale:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	bottom:0px;
+	right:0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 19px 20px 19px 0;
+	border-color: transparent #fff transparent transparent;
+}
+.koode_pharmacy_nutiva:hover .kode_pharmacy_nutiva_link{
+	right: 7px;
+    top: 5px;
+	opacity:1;
+}
+.kode_pharmacy_nutive_caption h6{
+	font-weight:500;
+	margin-bottom:9px;
+}
+.kode_pharmacy_nutive_caption span{
+	font-size:18px;
+	font-weight:600;
+	margin-bottom:5px;
+	display:inline-block;
+}
+.koode_pharmacy_nutiva_star li{
+	float:left;
+}
+.koode_pharmacy_nutiva_star li a{
+	display:inline-block;
+	color:#fbc800;
+}
+.koode_pharmacy_nutiva_star{
+	opacity:1;
+}
+.koode_pharmacy_nutiva:hover .koode_pharmacy_nutiva_star{
+	opacity:0;
+}
+.koode_pharmacy_nutiva_star .kode_pharmacy_nutiva_grey{
+	color:#999999;
+}
+.kode_pharmacy_nutiva_cart{
+	position:absolute;
+	bottom:-50px;
+	left:0px;
+	right:0px;
+	opacity:0;
+}
+.koode_pharmacy_nutiva:hover .kode_pharmacy_nutiva_cart{
+	bottom:-13px;
+	opacity:1;
+}
+.kode_pharmacy_nutiva_add{
+	display:inline-block;
+	padding:6px 13px 6px 13px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.kode_pharmacy_nutiva_add:hover{
+	background-color:#000;
+	color:#fff;
+}
+.kode_pharmacy_nutiva_search{
+	float:right;
+}
+.kode_pharmacy_nutiva_search li{
+	float:left;
+}
+.kode_pharmacy_nutiva_search li a{
+	border: 1px solid #d7d7d7;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 15px;
+    text-align: center;
+    width: 46px;
+}
+.kode_pharmacy_nutiva_search li a:hover{
+	color:#fff;
+}
+/*koode_pharmacy_nutiva*/
+.kode_pharmacy_discount{
+	float:left;
+	width:100%;
+	margin:20px 0px 50px;
+}
+.kode_pharmacy_discount figure{
+	position:relative;
+}
+.kode_pharmacy_discount figure:before{
+	position:absolute;
+	content:"";
+	top:10px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	border:1px solid #dae4ae;
+}
+.kode_pharmacy_discount_caption{
+	position:absolute;
+	top:45px;
+	left:0px;
+	bottom:0px;
+	right:0px;
+	text-align:center;
+}
+.kode_pharmacy_discount_caption h4{
+	font-weight:500;
+	color:#fff;
+	margin-bottom:15px;
+}
+.kode_pharmacy_discount_caption h4 span{
+	font-weight:bold;
+}
+.kode_pharmacy_discount_caption a{
+	display:inline-block;
+	padding:5px 15px 5px 15px;
+	color:#fff;
+	font-weight:600;
+}
+.kode_pharmacy_discount_caption a:hover{
+	background-color:#000;
+}
+/*kode_pharmacy_brand_wraper*/
+.kode_pharmacy_brand_wraper{
+	float:left;
+	width:100%;
+	padding:20px 0px 80px 0px;
+}
+.kode_pharmacy_brand_wraper .owl-pagination {
+    display: none;
+}
+.kode_pharmacy_brand_fig{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_brand_fig figure{
+	border:1px solid #e4e3e3;
+}
+.kode_pharmacy_brand_wraper  .item {
+    padding: 0 15px;
+}
+/*
+	=======================================================
+			KODE PHARMACY MEDICINES WRAPER END
+	=======================================================
+*/
+/*
+	=======================================================
+		KODE PHARMACY SING WRAPER START
+	=======================================================
+*/
+.kode_pharmacy_sing_wraper{
+	padding:37px 0px;
+	position:relative;
+	z-index:999;
+}
+.kode_pharmacy_sing_wraper:after{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-image:url("images/singb.html");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	z-index:-1;
+}
+.kode_pharmacy_sing_wraper:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	opacity:0.80;
+}
+.kode_pharmacy_sing_social ul,
+.kode_pharmacy_sing_social,
+.kode_pharmacy_sing_search,
+.kode_pharmacy_sing_search form,
+.kode_pharmacy_sing_wraper,
+.kode_pharmacy_sing_caption{
+	float:left;
+	width:100%;
+}
+.kode_pharmacy_sing_caption h5{
+	color:#fff;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+.kode_pharmacy_sing_caption p{
+	font-size:14px;
+	color:#fff;
+	line-height:18px;
+}
+.kode_pharmacy_sing_search form{
+	width:100%;
+	position:relative;
+	float:left;
+}
+.kode_pharmacy_sing_search  input{
+	height:41px;
+	width:100%;
+	padding:0px 18px;
+}
+.kode_pharmacy_sing_search input:focus {
+    box-shadow: 0 0 11px 1px #fff;
+}
+.kode_pharmacy_sing_search form button{
+	background-color: #fbc800;
+    color: #333333;
+    display: inline-block;
+    font-weight: 600;
+    height: 42px;
+    margin-left: -4px;
+    padding: 0 20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    top: 1px;
+}
+.kdoe_services_thumb .bx-next,
+.kdoe_services_thumb .bx-prev{
+	display:none;
+}
+.kode_pharmacy_sing_search button:hover{
+	color:#fff;
+}
+.kode_pharmacy_sing_social ul li{
+	float:left;
+	margin-right:5px;
+}
+.kode_pharmacy_sing_social ul li:last-child{
+	margin:0px;
+}
+.kode_pharmacy_sing_social ul li a{
+	height:40px;
+	width:37px;
+	text-align:center;
+	line-height:40px;
+	display:inline-block;
+	color:#fff;
+	background-color:#07638c;
+}
+.kode_pharmacy_sing_social ul li a:hover{
+	background-color:#000;
+}
+/*
+	=======================================================
+			KODE PHARMACY SING WRAPER END
+	=======================================================
+*/
+/*
+	==================================================================================
+							404 PAGE STRAT
+	==================================================================================
+*/
+/*
+	=======================================================
+			KODE 404 WRAP START
+	=======================================================
+*/
+.kode_404_text,
+.kode_404_wrap{
+	float:left;
+	width:100%;
+}
+.kode_404_wrap{
+	background-image:url("images/bg-404.png");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	z-index:999;
+	padding:290px 0 300px;
+}
+.kode_404_wrap:before{
+	position:absolute;
+	content:"";
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#000;
+	opacity:0.8;
+	z-index:-1;
+}
+.kode_404_text{
+	text-align:center;
+}
+.kode_404_text h3{
+	color: #ffffff;
+    font-size: 260px;
+    font-weight: 500;
+    line-height: 200px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.kode_404_text h4{
+	color:#fff;
+	font-size:30px;
+	margin-bottom:20px;
+}
+.kode_404_text h5{
+	color:#fff;
+	margin-bottom:20px;
+	font-size:24px;
+}
+/*
+	=======================================================
+			KODE 404 WRAP END
+	=======================================================
+*/
+
+.dark  .kode_top_search_content label,
+.dark .kode_services_2_des.des_3.des_5 .kode_services_2_content p, 
+.dark .kode_services_2_des.des_3.des_5 .kode_services_2_content h4 a,
+.dark .kode_section_hdg.heading_2 p,
+.dark  .kode_experience_service_text h5,
+.dark  .kode_experience_list a,
+.dark .kode_experience2_text p,
+.dark .kode_section_hdg h3,
+.dark .kode_section_hdg span{
+	color:#fff;
+}
+
+/*light style color*/
+.light .kode_section_hdg.heading_2.heading_3 h3{
+	color:#232b31;
+}
+.light .kode_section_hdg.heading_2.heading_3 p,
+.light .kode_section_hdg.heading_2.heading_3 span{
+	color:#666; 
+}
+.light .kode_services_2_des.des_3.des_5 span,
+.light .kode_section_hdg.heading_2.heading_3.light p,
+.light .kode_section_hdg.heading_2.heading_3.light h3,
+.light .kode_section_hdg.heading_2.heading_3.light span,
+.light .kode_section_hdg.heading_2  p,
+.light .kode_section_hdg.heading_2 h3,
+.light .kode_section_hdg.heading_2 span{
+	color:#fff;
+}
+.light .kode_light_bg,
+.light .kode_services_2_des.des_3.des_5{
+	background-color:#f9f9f9;
+}
+.light .kode_services_2_des.des_3.des_5:hover span{
+	background-color:#000;
+}
+.light .kode_light_bg p{
+	padding-right:20px;
+}
+.light .kode_experience_list a:hover:before {
+    color: #000;
+}
+
+.kode_service2_text h3{
+	font-size:22px;
+}
+.shadow{
+	box-shadow: 0 0 10px 0 rgb(0 0 0 / 9%);
+	padding: 30px;
+}
+.kode_banner3_text{
+	top: 25% !important;
+}
+
+.kode_pharmacy_model_password > input:focus, .kode_pharmacy_nutiva_search li a:hover, .widget2_text .form_quote_submit input:hover, .widget2_text form textarea:focus, .widget2_text form input:focus, .header_2 .navigation ul li ul, .kode_banner3, .kode_banner3 .slick-prev.slick-arrow:hover:before, .kode_banner3 .slick-next.slick-arrow:hover:before, .kode_banner3_text a:hover, .kode_logo3_services_text span, .navigation li ul, .kode_quote_textarea textarea:focus, .kode_quote_commet_field input:focus, .kode_news2_list:hover figcaption, .kode_services_2_des.des_4:hover span, .widget2_text > a:hover, .kode_history_detail:hover, .kode_customer_text .kode_rating span:before, .kode_client_thumb:hover, .kode_project_fig .project_text:before, .kode_banner2, .kode_testimaonial_text .slick-next.slick-arrow:hover, .kode_testimaonial_text .slick-prev.slick-arrow:hover, .kode_newsletter_content .kf_commet_field.field_2.field_4 input:focus, .kode_contact_service_row:hover .kode_contact_content span, .kode_addres_icon li a:hover, .kode_textarea.area_2 textarea:focus, .kf_commet_field.field_2 input:focus, .kode_services_2_des.des_3:hover span, .kode_attorney_icon li a:hover, .kode_blog_grid_modern:hover .kode_grid_content .kode-button-style-law-3, .kode_office_detail li:hover:before, .kode_services_2_des.des_2:hover span, .kode_plumber_deal_detail:hover span, .kode_plumber_testimonial .slick-active button:before, .kode_enginer_social, .kode_pagi_detail a:hover:before, .kode_pagi_detail a:hover, .kode_widget3_icon ul li a:hover, .kode_top_info2:hover span, .kode_about_accordian_txet, .widget_content_social li a:hover, .kode_line_farm_text:hover .kode_line_farm_fig figure:before, .kode_line_farm_text:hover .kode_line_farm_fig a, .kode_line_farm_text:hover .kode_line_farm_fig:before, .kode_line_farm_text:hover span:after, .kode_plumber_recent_fig .kode_plumber_plus:hover, .kode_plumber_recent_item li a:before, .kode_top_search_field input:focus {
+    border-color: #f16605 !important;
+}
+.kode_navigation_list{
+	background: #fff !important;
+}
+.navigation ul li a:hover{
+	background-color: transparent !important;
+	text-decoration: none;
+	color: #ee8437;
+}
+.kode-theme-color-bg-color {
+    background-color: #f2690b !important;
+}
+.kd-org{
+	margin-top: 40px !important;
+    margin-bottom: 20px;
+}
+.widget2_copy_right {
+    padding: 13px 0px 10px !important;
+    }
+
+ .widget2_text .widget2_service li {
+    padding-bottom: 6px;
+}
+.mobile{
+	display: none;
+}
+.desktop{
+	display: block;
+}
+

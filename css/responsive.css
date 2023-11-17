@@ -1,0 +1,2206 @@
+/*============	Media Between Start ============ */
+@media (max-width: 1366px){
+	.kode_banner2_text{
+		top:25%;
+	}
+	.kode_qoute_form{
+		padding:76px 20px 74px;
+	}
+	.kode_sab_banner .kode_banner_text{
+		top:85px;
+	}
+	.kode_service_fig figcaption h3{
+		font-size:24px;
+	}
+	.kode_top_wrap2:before{
+		transform:skewX(40deg) translate(0%);
+	}
+	.kode_banner3_text{
+		margin-left:-490px;
+		top:35%;
+	}
+	.kode_banner2_text{
+		margin-left:-280px;
+	}
+	.kode_service2_text h3{
+		font-size:22px;
+	}
+	.kode_service2_text p{
+		padding:0px 0px;
+	}
+}
+
+/*============	Media 940Px Start ============ */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.kode_top_navigation li{
+		margin-right:4px;
+	}
+	.kode_blog_grid_content.content_2.content_3 h4{
+		font-size:20px;
+	}
+	.kode_pratices_content figcaption h4{
+		font-size:20px;
+	}
+	.kode_pratices_content:hover figcaption {
+		margin: -1px;
+		top: 20%;
+	}
+	.kode_counter_content h3{
+		line-height:normal;
+		font-size:30px;
+	}
+	.kode_grid_content h4{
+		font-size:19px;
+	}
+	.kode_pharmacy_parent figure{
+		height:178px;
+	}
+	.kode_pharmacy_parent_caption{
+		top:25px;
+	}
+	.kode_top_search_field{
+		width:383px;
+	}
+	.kode_plumber_deal_text h5{
+		font-size:16px;
+	}
+	.kode_top_search_content label{
+		margin-right:10px;
+	}
+	.kode_banner_text{
+		margin-left:-461px;
+		top:35px;
+	}
+	.kode_plumber_deal_text p{
+		font-size:12px;
+		line-height:22px;
+	}
+	.kode_plumber_sale_list  p{
+		font-size:13px;
+	}
+	.widget .widget_fig li{
+		width:64px;
+	}
+	.widget .widget_agency li a p{
+		font-size:13px;
+	}
+	 .kode_plumber_enginer_fig figcaption{
+		bottom:-137px;:
+	}
+	/*enginer detail page start*/
+	#bx-pager > a {
+		width: 24%;
+		margin-right:8px;
+	}
+	.kode_glry_detail_text p {
+		font-size: 12px;
+	}
+	/* HOME PAGE 01*/
+	.kode_top_row:before{
+		transform:skewX(40deg) translate(-1%);
+		width:99%;
+	}
+	.kode_top_faq{
+		padding-left:20px;
+	}
+	.kode_top_content_area .kode-button-style-1{
+		padding:12px 15px;
+		font-size:11px;
+	}
+	.kode_top_info2:last-child {
+		display: none;
+	}
+	.kode_banner2_text{
+		margin-left:-240px;
+		top:20%;
+	}
+	.kode_banner2_text h1{
+		font-size:50px;
+	}
+	.kode_services2_wrap .col-md-3{
+		width:50%;
+	}
+	.kode_service2_text:before{
+		border-bottom:none;
+	}
+	.kode_experience_service_text h5{
+		font-size:16px;
+	}
+	.kode_experience_list {
+		margin-bottom: 24px;
+	}
+	.kode_experience2_text p {
+		margin-bottom: 15px;
+	}
+	.kode_experience2_text {
+		padding: 34px 0;
+	}
+	.kode_info_logo,
+	.kode_legal_fig{
+		display:none;
+	}
+	.kode_qoute_form,
+	.kode_legal_service{
+		width:100%;
+	}
+	.kode_info_form_wrap:before,
+	.kode_legal_wrap:before{
+		background:none;
+		outline:0px;
+	}
+	.kode_quote_commet_field input,
+	.kode_info_form_wrap:after{
+		width:100%;
+	}
+	.kode_section_hdg.heading_2{
+		text-align:center;
+	}
+	.kode_section_hdg.heading_2{
+		display:block;
+	}
+	.kode_section_hdg.heading_2 h3:before{
+		margin:auto;
+	}
+	.kode_box_service_list ul li {
+		margin: 0 9px 20px;
+		width: 31.3%;
+	}
+	.kode_box_service_detail{
+		text-align:center;
+	}
+	.kode_box_service_detail span{
+		float:none;
+		margin-bottom:20px;
+	}
+	.kode_medium_blog2_row{
+		padding:0px 0px;
+	}
+	.kode_box_servixe_text{
+		padding-left:0px;
+	}
+	.kode_box_servixe_text h5 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.kode_counter2_list ul li:before{
+		right:-48px;
+		width:94px;
+	}
+	.kode_info_form_wrap{
+		background-size:100%;
+	}
+	.kode_top_info2.widget,
+	.kode_top_info2.widget.widget2{
+		display:block;
+	}
+	.kode_top_info2.widget .kode_top_info_text p{
+		font-size:11px;
+	}
+	/* home page 02*/
+	.kode_logo3_service > li{
+		margin-left:8px;
+	}
+	.header_2 .navigation ul li a{
+		padding:23px 17px;
+	}
+	.kode_banner3_text h1{
+		font-size:35px;
+		margin-bottom:10px;
+	}
+	.kode_banner3_text {
+		margin-left: -810px;
+	}
+	.kode_banner3_text p{
+		padding:0 0 0 420px;
+		margin-bottom:25px;
+	}
+	.kode_banner3_text p span {
+		display: none;
+	}
+	.kode_service_fig figcaption h3 {
+		font-size: 16px;
+	}
+	.kode_service_fig figcaption p{
+		padding:0px 0px;
+	}
+	.kode_service_fig figcaption a{
+		font-size:50px;
+		margin-bottom:10px;
+	}
+	.kode_service_fig figcaption{
+		margin-top:-108px;
+	}
+	.kode_member_text {
+		overflow: hidden;
+		padding: 46px 10px 8px;
+	}
+	.kode_member_text h3{
+		font-size:18px;
+	}
+	.kode_counter_icon li,
+	.kode_member_des figure{
+		margin-right:10px;
+	}
+	.widget2_text h4,
+	.kode_counter_icon li h4{
+		font-size:20px;
+	}
+	.kode_post_fig .post_text h4{
+		font-size:22px;
+	}
+	.kode_client_thumb{
+		padding:15px;
+	}
+	.kode_client_thumb .client_text p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	/* home page 03 start */
+	.kode_sab_banner .kode_banner_text {
+		top: 14px;
+	}
+	.kode_plumber_recent_fig figcaption{
+		bottom:-70px;
+	}
+	.kode_plumber_recent_fig figcaption p {
+		font-size: 13px;
+		line-height: 22px;
+	}
+    .kode_plumber_enginer_fig figcaption h5{
+		font-size:16px;
+		margin-bottom:0px;
+	}
+	.kode_plumber_enginer_fig figcaption {
+		bottom: -137px;
+	}
+	.kode_plumber_sale_list h5{
+		font-size:16px;
+	}
+	.widget .widget_agency li a{
+		font-size:13px;
+	}
+	.kode_line_farm_fig h5{
+		font-size:17px;
+	}
+	.kode_line_farm_fig p{
+		font-size:12px;
+	}
+	/* home page 04 start */
+	.kode_pharmacy_top_item > form{
+		width:290px;
+	}
+	.kode_pharmacy_appoinment_caption h3{
+		font-size:20px;
+	}
+	.kode_pharmacy_appoinment_caption {
+		overflow: hidden;
+		padding-left:10px;
+	}
+	.kode_pharmacy_latest_caption ul li span,
+	.kode_pharmacy_appoinment_caption p{
+		font-size:11px;
+	}
+	.kode_pharmacy_fill_caption h2{
+		font-size:26px;
+	}
+	.kode_pharmacy_footer_caption p,
+	.kode_pharmacy_footer_caption ul li a,
+	.kode_pharmacy_sing_caption p{
+		font-size:13px;
+	}
+	.kode_pharmacy_sing_social ul li:last-child {
+		display:none;
+	}
+	.kode_pharmacy_nutiva_add {
+		font-size: 10px;
+		padding: 6px 10px;
+	}
+	.kode_pharmacy_discount_caption{
+		top:30px;
+	}
+	/* about us page start */
+	.kode_services_2_content.text_2{
+		width:76%;
+	}
+	.kode_service_row {
+		padding: 35px 0;
+	}
+	.kode_attorney_wraper:after{
+		width:60%;
+	}
+	.kode_attorney_wraper{
+		padding:80px 0px;
+	}
+	/*practice area page start */
+	
+	.kode_blog_grid_content p{
+		font-size:12px;
+		margin-bottom:6px;
+	}
+	.kode_categories_item ul li a{
+		font-size:16px;
+	}
+	.widget.attorney_slide h4{
+		font-size:18px;
+	}
+	.widget.kode_rating.downlond h4{
+		font-size:20px;
+	}
+	.download_file ul li a{
+		font-size:11px;
+	}
+	/*our team page start */
+	.kode_addres_list {
+		margin-bottom: 14px;
+	}
+	.kode_team_detail_email{
+		padding:0px 0px;
+	}
+	.kode_team_detail_email > span{
+		margin-bottom:5px;
+	}
+	.kode_addres_list li {
+		margin-bottom: 7px;
+	}
+	.progressbar.bar_2 .bar{
+		width:90% !important;
+	}
+	.kode_enginer_call {
+		display: none;
+	}
+	.kode_enginer_wraper {
+		padding: 60px 0 40px;
+	}
+}
+
+/*============	Media 979Px Start ============ */
+@media (max-width: 991px){
+	.kode_top_navigation li{
+		margin:0px;
+	}
+	.kode_pratices_content {
+		float: left;
+		margin: 0 7px 30px;
+		width: 48%;
+	}
+	.kode_services_caption {
+		float: left;
+		margin-bottom: 30px;
+		width: 25%;
+	}
+	.kode_pharmacy_top_wraper  .kode_pharmacy_top_call {
+		display: block;
+	}
+	.kode_pharmacy_medicine_banner .kode_pharmacy_banner_caption {
+		left: 86px;
+	}
+	.koode_pharmacy_nutiva img {
+		width: 100%;
+	}
+	.kode_top_info li{
+		margin-right:18px;
+	}
+	.kode_top_info > li:first-child {
+		display: none;
+	}
+	.kode_enginer_social, .kode_plumber_enginer_fig figcaption{
+		bottom:-91px;
+	}
+	.kode_top_navigation li a{
+		padding:20px 20px;
+	}
+	.kode_top_search_content label{
+		margin-right:10px;
+	}
+	.kode_top_search_field{
+		width:283px;
+	}
+	.kode_top_search_field button{
+		font-size:12px;
+		width:127px;
+	}
+	.kode_banner_text{
+		top:30px;
+		margin-left:-361px;
+	}
+	.kode_banner_text h1{
+		font-size:25px;
+		margin-bottom:8px;
+	}
+	.kode_banner_text h2{
+		font-size:20px;
+		margin-bottom:8px;
+	}
+	.kode_banner_text p{
+		font-size:13px;
+		margin-bottom:12px;
+	}
+	.kode_plumber_heading p{
+		font-size:13px;
+	}
+	.kode_plumber_enginer_fig img {
+		width: 100%;
+	}
+	.kode_plumber_sale_list,
+	.kode_plumber_enginer_fig{
+		margin-bottom:30px;
+	}
+	.kode_plumber_feature_fig{
+		margin-bottom:30px;
+	}
+	.kode_line_farm_fig img {
+		width: 100%;
+	}
+	.kode_line_farm_text{
+		margin-bottom:30px;
+	}
+	.kode_plumber_video_text h2{
+		font-size:28px;
+	}
+	.kode_plumber_testimonial_silde.slick-slide span {
+		display: inline;
+	}
+	.kode_plumber_testimonial .slick-next.slick-arrow {
+		right: -15px;
+	}
+	.kode_plumber_testimonial .slick-prev.slick-arrow {
+		left: -10px;
+	}
+	.kode_top_navigation li ul{
+		width:160px;
+	}
+	.kode_top_navigation li ul li a{
+		padding:15px 0px;
+	}
+	.widget .widget_fig li:nth-child(3){
+		margin-right:5px;
+	}
+	.widget_content_detail li a{
+		padding:0px 10px;
+	}
+	/*about us page start*/
+	.kode_about_mission_row {
+		margin-bottom: 30px;
+	}
+	/*enginer page start*/
+	.kode_enginer_fig img {
+		width: 100%;
+	}
+	.kode_enginer_fig{
+		margin-bottom:30px;
+	}
+	.kode_plumber_testimonial.test_2{
+		padding:80px 0px;
+	}
+	/*gallery page start*/
+	.kode_agent_pagination {
+		margin-bottom: 80px;
+	}
+	/*gallery detail page start*/
+	#bx-pager a {
+		width: 23%;
+		margin-right:15px;
+	}
+	
+	/* home page 01*/
+	.kode_top_content_area .kode_top_logo{
+		width:25%;
+		float:left;
+	}
+	.kode_top_info2_list{
+		float:left;
+		width:55%;
+	}
+	.kode_top_info2:last-child {
+		display: none;
+	}
+	.kode_top_content_area .kode-button-style-1{
+		 float: left;
+		font-size: 12px;
+		padding: 12px 15px;
+		width: 20%;
+	}
+	.kode_top_info2{
+		margin-right:10px;
+	}
+	.kode_top_row:before{
+		transform:skewX(40deg) translate(-1%);
+		width:99%;
+	}
+	.kode_top_faq{
+		padding-left:20px;
+	}
+	.navigation ul li a {
+		font-size: 12px;
+		padding: 22px 17px 24px;
+	}
+	.header .navigation ul li a:hover:before {
+		left: 6px;
+		top: 12px;
+	}
+	.navigation ul li ul{
+		width:230px !important;
+	}
+	.kode_banner2_text h1{
+		font-size:38px;
+	}
+	.kode_banner2_text {
+		margin-left: -200px;
+	}
+	.kode_service2_text:before{
+		border-bottom:none;
+	}
+	.kode_experience2_fig:before{
+		left:423px;
+		transform:skewX(-38deg) translate(6%);
+	}
+	.kode_experience2_text {
+		padding: 46px 30px;
+	}
+	.kode_info_logo,
+	.kode_legal_fig{
+		display:none;
+	}
+	.kode_qoute_form,
+	.kode_legal_service{
+		width:100%;
+	}
+	.kode_info_form_wrap:before,
+	.kode_legal_wrap:before{
+		background:none;
+		outline:0px;
+	}
+	.kode_quote_commet_field input,
+	.kode_info_form_wrap:after{
+		width:100%;
+	}
+	.kode_section_hdg.heading_2{
+		text-align:center;
+	}
+	.kode_section_hdg.heading_2 h3:before{
+		margin:auto;
+	}
+	.kode_service4_wrap .col-md-4{
+		width:50%;
+		float:left;
+	}
+	.kode_counter2_text p{
+		font-size:13px;
+	}
+	.kode_counter2_list ul li:before{
+		right:-30px;
+		width:64px;
+	}
+	.kode_medium_blog2_row {
+		padding: 0 118px;
+	}
+	.kode_medium_blog2_list {
+		margin-bottom: 30px;
+	}
+	.kode_quote_textarea {
+		float: left;
+		width: 100%;
+	}
+	.kode_info_form_wrap{
+		background-size:100%;
+		background-size:cover;
+	}
+	.kode_video_wrap{
+		padding:88px 0 84px;
+	}
+	.kode_box_service_list ul li{
+		width:48%;
+	}
+	.kode_box_servixe_text h5 {
+		font-size: 18px;
+	}
+	.kode_services_2_des span{
+		float:none;
+		margin-bottom:15px;
+	}
+	.kode_services_2_des.des_4{
+		text-align:center;
+	}
+	.kode_services_2_content{
+		padding-left:0px;
+	}
+	.kode_top_info2.widget,
+	.kode_top_info2.widget.widget2{
+		display:block;
+	}
+	.kode_widget3_content {
+		margin-bottom: 30px;
+	}
+	.kode_copyright_navi li{
+		margin-left:15px;
+	}
+	.kode_copyright_navi li a,
+	.kode_copyright_text p{
+		font-size:12px;
+	}
+	.kode_copyright_widget:before{
+		transform:skewX(45deg) translate(-6%);
+	}
+	/* home page 02 start*/
+	.kode_logo3_service > li:last-child{
+		display:none;
+	}
+	.kode_logo3_service > li{
+		margin-left:6px;
+	}
+	.quote_button {
+		display: none;
+	}
+	.kode_banner3_text h1{
+		font-size:25px;
+		margin-bottom:10px;
+	}
+	.kode_banner3_text {
+		margin-left:-1030px;
+		top:42%;
+	}
+	.kode_banner3_text p span,
+	.kode_banner3_text p{
+		display:none;
+	}
+	.kode_banner3 .slick-next.slick-arrow,
+	.kode_banner3 .slick-prev.slick-arrow:before,
+	.kode_banner3 .slick-next.slick-arrow:before{
+		height:45px;
+		width:45px;
+		line-height:45px;
+	}
+	.kode_history_heading p{
+		padding:0px 30px;
+	}
+	.kode_history_heading p span{
+		display:initial;
+	}
+	.kode_history_detail {
+		padding: 20px 7px 22px;
+		text-align: center;
+	}
+	.kode_history_detail h4{
+		width:100%;
+	}
+	.kode_history_detail i{
+		float:none;
+	}
+	.kode_service_fig.col-md-3 {
+		float: left;
+		width: 50%;
+	}
+	.kode_member_text {
+		float: left;
+		padding: 25px;
+		text-align: center;
+		width: 100%;
+	}
+	.kode_client_thumb figure,
+	.kode_member_des figure {
+		display: inline-block;
+		margin-right: 0;
+		float:none;
+	}
+	.kode_client_thumb,
+	.kode_member_des{
+		text-align:center;
+	}
+	.kode_counter_text{
+		margin-bottom:30px;
+	}
+	.kode_post_fig{
+		margin-bottom:30px;
+	}
+	.kode_meet_wraper:before,
+	.kode_client_thumb > figure img,
+	.kode_client_thumb > figure,
+	.kode_project_fig img{
+		width:100%;
+	}
+	.kode_customer_wraper:before{
+		width:0px;
+	}
+	.kode_meet_text{
+		margin-bottom:40px;
+	}
+	.kode_meet_wraper:after{
+		position:static;
+	}
+	.kode_meet_wraper{
+		padding:56px 0 18px;
+	}
+	.widget2_text {
+		margin-bottom: 30px;
+	}
+	.kode_member_wraper .slick-next.slick-arrow,
+	.kode_member_wraper .slick-prev.slick-arrow{
+		display:none !important;
+	}
+	/* home page 03 start */
+	.kode_top_info li a{
+		font-size:14px;
+	}
+	.kode_top_search_field button{
+		font-size:9px;
+	}
+	.kode_sab_banner .kode_banner_text {
+		top: 25px;
+	}
+	.kode_banner_text p{
+		line-height:20px;
+	}
+	.kode_plumber_recent_fig figcaption{
+		bottom:-69px;
+	}
+	.kode_plumber_recent_fig figcaption p{
+		line-height:20px;
+	}
+	.kode_plumber_recent_fig figcaption h5{
+		margin-bottom:5px;
+	}
+	.kode_plumber_recent_fig figcaption{
+		padding:14px 0 12px;
+	}
+	.kode_plumber_testimonial_silde p {
+		padding: 0 50px;
+	}
+	/*home page 04 start */
+	.pharmacy_top_search .btn {
+		padding: 10px 6px;
+		font-size:13px;
+	}
+	.kode_pharmacy_top_item > form {
+		width: 218px;
+	}
+	.kode_pharmacy_categries_iteam li ul{
+		display:none;
+	}
+	.kode_pharmacy_top_item input {
+		font-size: 12px;
+	}
+	.kode_pharmacy_latest_fig img,
+	.kode_pharmacy_deals_fig img,
+	.kode_pharmacy_fill_fig img {
+		width: 100%;
+	}
+	.kode_pharmacy_latest_fig{
+		margin-bottom:30px;
+	}
+	.kode_pharmacy_banner_caption{
+		top:40px;
+	}
+	.kode_pharmacy_parent figure{
+		height:185px;
+	}
+	.kode_pharmacy_parent_caption{
+		top:30px;
+	}
+	.kode_pharmacy_sing_search,
+	.kode_pharmacy_sing_caption {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.kode_pharmacy_sing_social ul{
+		text-align:center;
+	}
+	.kode_pharmacy_sing_social ul li{
+		float:none;
+		display:inline-block;
+	}
+	.kode_pharmacy_footer_caption > p {
+		display: none;
+	}
+	/* about us page start*/
+	
+	.kode_plumber_heading > h2 {
+		font-size: 32px;
+	}
+	.kode_counter_content,
+	.kode_services_2_content.text_2,
+	.kode_services_2_des.des_2 {
+		text-align: center;
+	}
+	.kode_services_2_content.text_2{
+		width:100%;
+		padding-right:0px;
+		margin-bottom:20px;
+	}
+	.kode_service_row {
+		padding: 15px 0;
+	}
+	.kode_blog_grid_modern,
+	.kdoe_services_thumb{
+		margin-bottom:30px;
+	}
+	.kode_attorney_wraper_bg,
+	.kode_attorney_wraper_bg:after{
+		position:static;
+	}
+	.kode_attorney_wraper:after{
+		width:100%;
+	}
+	.kode_counter_content h3 span{
+		display:inline;
+	}
+	.kode_attorney_wraper{
+		padding:80px 0px;
+	}
+	.kode_text_title .kode-button-style-2{
+		left:0px;
+	}
+	.kode_law_progres_list {
+		float: left;
+		width: 100%;
+		padding:30px 0px 0px 0px;
+	} 
+	.kode_office_detail:before{
+		height:918px;
+	}
+	/* practice arae page start */
+	.kode_services_caption{
+		margin-bottom:30px;
+	}
+	.kode_services_caption:hover span {
+		margin-top: 0px;
+	}
+	.kode_thumb img,
+	.kode_blog_grid_content.content_2.content_4,
+	.kode_thumb{
+		width:100%;
+	}
+	.kode_blog_grid_content.content_2.content_4.content_5 {
+		padding: 19px 18px 8px 16px;
+		text-align: left;
+	}
+	.kode_blog_grid_content.content_2.content_4.content_5 h6::before {
+		left: 25px;
+	}
+	.kode_blog_grid_content.content_2.content_4.content_5 .kode_readmore {
+		left: 0;
+	}
+	/* our team page start */
+	.kode_attorney_des img,
+	.kode_award_fig img,
+	.kode_team_detail_fig img {
+		width: 100%;
+	}
+	.kode_accordian_content{
+		margin-bottom:30px;
+	}
+	.kode_practice_detail_service.service_4{
+		margin-bottom:30px;
+	}
+	.kode_contact_service_row{
+		text-align:center;
+	}
+	.kode_contact_content span{
+		display:inline-block;
+		margin-bottom:10px;
+	}
+	.kode_contact_content h4{
+		display:block;
+		
+	}
+	.kode_newsletter_content p,
+	.kode_contact_des{
+		margin-bottom:35px;
+	}
+}
+
+/*============	Media 768Px Start ============ */ 
+@media (min-width: 768px) and (max-width: 990px) {
+	
+}
+
+/*============ Media 767Px Start ============ */
+@media (max-width: 767px) {
+	.kode_top_search_wraper:before,
+	.kode_top_wraper:before{
+		background:none;
+	}
+	.kode_pratices_content {
+		width: 46%;
+	}
+	.kode_pratices_content p {
+		display: none;
+	}
+	.kode_pratices_content figcaption h4{
+		font-size:14px;
+	}
+	.kode_pratices_content figcaption::before{
+		bottom:26px;
+	}
+	.kode_pratices_content:hover figcaption {
+		margin: -1px;
+		top: 30%;
+	}
+	.kode_services_caption {
+		width: 48%;
+		margin:0 4px 30px;
+	}
+	.kode_plumber_testimonial_silde p {
+		padding: 0 10px;
+	}
+	.kode_plumber_recent_fig figcaption{
+		bottom:-28px;
+	}
+	.kode_top_info > li:first-child {
+		display: block;
+	}
+	.kode_top_bar .kode_top_info > li {
+		display: inline-block;
+		float: none;
+	}
+	.kode_plumber_deal_text h5{
+		font-size:16px;
+	}
+	.kode_plumber_deal_text p{
+		padding:0px 5px;
+	}
+	ul#portfolio-filter{
+		background-image:none;
+	}
+	.kode_top_info,
+	.kode_top_logo{
+		width:100%;
+		text-align:center;
+	}
+	.kode_top_info li{
+		display:inline-block;
+		float:none;
+	}
+	.kode_top_info li a:hover{
+		color:#ffd322;
+	}
+	.kode_top_info li a:hover i{
+		background-color:#ffd322;
+		border-color:#ffd322;
+	}
+	.kode_top_navigation {
+		display: none;
+	}
+	.kode_top_navi_wraper .dl-menuwrapper{
+		display:block;
+		padding:10px 0px;
+	}
+	.kode_top_navi_wraper .dl-menuwrapper .dl-menu{
+		position:absolute;
+		right:100%;
+		top:100%;
+		width:200px;
+		background-color:#333;
+	}
+	.kode_top_navi_wraper .dl-menuwrapper li a:hover{
+		background-color:#ffd322;
+	}
+	.kode_top_social, 
+	.kode_top_search_content{
+		width:100%;
+		text-align:center;
+		float:none;
+	}
+	.kode_top_search_field {
+		text-align: center;
+		width: 381px;
+		float:none;
+		display:inline-block;
+	}
+	.kode_top_search_content label{
+		float:none;
+		display:inline-block;
+	}
+	.kode_top_search_content > form{
+		margin-bottom:20px;
+	}
+	.kode_top_social .modal-dialog {
+		margin-top: 310px;
+	}
+	 .kode_banner_text{
+		margin-left:-211px;
+		top: 20px;
+	}
+	.kode_banner_text > h2,
+	.kode_banner_text > h3 {
+		display: none;
+	}
+	.kode_banner_text a{
+		font-size:13px;
+		padding:8px 20px;
+	}
+	.kode_banner_text p{
+		font-size:12px;
+		line-height:20px;
+	}
+	.kode_sab_banner .slick-dots {
+		display: none !important;
+	}
+	.kode_plumber_project .kode_text h2{
+		font-size:23px;
+	}
+	.kode_plumber_deal_detail {
+		text-align: center;
+		width: 50%;
+	}
+	.kode_plumber_deal_detail span {
+		display: inline-block;
+		margin-bottom:15px;
+		float: none;
+	}
+	.kode_plumber_deal_text{
+		text-align:center;
+		padding:0px;
+	}
+	.kode_plumber_recent_fig {
+		margin:0px 6px 15px 6px;
+		width: 100%;
+	}
+	.kode_plumber_recent_fig img{
+		width:100%;
+	}
+	.kode_plumber_enginer_fig figcaption {
+		bottom: -139px;
+	}
+	.kode_plumber_enginer_fig figcaption p{
+		color:#fff;
+	}
+	.kode_sab_banner .kode_banner_text {
+		margin-top: -70px;
+		top: 50%;
+	}
+	.kode_plumber_feature_fig{
+		width:100%;
+		margin:0px 5px;
+		margin-bottom:20px;
+	}
+	.kode_plumber_feature_fig img{
+		width:100%;
+	}
+	.kode_line_farm_des.des_2 {
+		display: none;
+	}
+	.kode_plumber_video{
+		padding:100px 0px;
+	}
+	.kode_plumber_video_text h2{
+		font-size:25px;
+		line-height:42px;
+	}
+	.widget_content_detail {
+		display: none;
+	}
+	.widget_content_social{
+		width:100%;
+		text-align:center;
+	}
+	.widget_content_social li{
+		display:inline-block;
+		float:none;
+	}
+	/*enginer page start*/
+	.kode_plumber_feature_fig{
+		margin:0px 0px 20px 0px;
+	}
+	/*gallery detail page start*/
+	#bx-pager a{
+		margin-right:8px;
+	}
+	.kode_glry_detail_text p,
+	.kode_glry_detail_text h5{
+		text-align:center;
+	}
+	
+	/*home page 01*/
+	.kode_top_navi_wraper .navigation ul,
+	.kode_top_info2_list,
+	.kode_top_social_icon,
+	.kode_time_detail {
+		display: none;
+	}
+	.kode_top_faq {
+		margin-right: 0px;
+		text-align: center;
+		width:100%;
+	}
+	.kode_top_faq li{
+		float:none;
+		display:inline-block;
+	}
+	.kode_top_content_area .kode-button-style-1{
+		float: right;
+		width: 32%;
+		display: inline-block;
+		text-align: center;;
+	}
+	.kode_top_content_area .kode_top_logo {
+		width: 59%;
+	}
+	.kode_top_navi_wraper .navigation .dl-menu{
+		display:block;
+	}
+	.kode_top_navi_wraper .navigation .dl-menu.dl-menuopen{
+		position:absolute;
+		top:100%;
+		z-index:9999;
+		width:235px;
+		padding:10px 0px;
+	}
+	.kode_top_navi_wraper .navigation .dl-menu.dl-menuopen ul{
+		background-color:#333333;
+	}
+	.header .kode_top_navi_wraper .navigation .dl-menu.dl-menuopen ul li a:after,
+	.header .kode_top_navi_wraper .navigation .dl-menu.dl-menuopen ul li a:before{
+		content:"";
+	}
+	.header .kode_top_navi_wraper .navigation .dl-menu.dl-menuopen ul li a{
+		color:#fff;
+	}
+	.header .kode_top_navi_wraper .navigation .dl-menuwrapper li.dl-back:after {
+		left: 8px;
+		top: 3px;
+		transform: rotate(180deg);
+	}
+	.kode_top_navi_wraper .navigation .dl-menu.dl-menuopen li{
+		width:100%;
+		float:left;
+	}
+	.kode_top_navi_wraper .navigation .dl-menu.dl-menuopen li a{
+		display: block;
+		font-size: 14px;
+		padding: 15px 20px;
+		text-transform: uppercase;
+	}
+	.kode_top_navi_wraper .navigation .dl-menuwrapper{
+		padding:0px;
+	}
+	.kode_banner2_text h1 {
+		font-size: 20px;
+	}
+	.kode_banner2_text p {
+		font-size: 18px;
+		margin-bottom: 0;
+	}
+	.kode_banner2_text {
+		margin-left:-70px;
+	}
+	.kode_banner2_text h1{
+		margin-bottom:9px;
+	}
+	.kode_banner2 .slick-prev.slick-arrow:before, 
+	.kode_banner2 .slick-next.slick-arrow:before{
+		width:40px;
+		height:40px;
+		line-height:40px;
+	}
+	.kode_banner2 .slick-next.slick-arrow{
+		margin-top:-20px;
+		right:10px;
+		z-index:999;
+	}
+	.kode_banner2 .slick-prev.slick-arrow{
+		margin-top:-20px;
+		left:10px;
+		z-index:999;
+	}
+	.kode_experience2_fig{
+		padding:0px 0px 0px 10px;
+	}
+	.kode_experience2_fig figure:hover:before {
+		bottom: 0px;
+		right: 0px;
+		left:10px;
+	}
+	.kode_experience2_fig:before{
+		background:none;
+	}
+	.kode_experience_list {
+		margin-bottom: 24px;
+	}
+	.kode_experience_service_list{
+		text-align:center;
+	}
+	.kode_experience_service_list a{
+		float:none;
+	}
+	.kode_box_servixe_text,
+	.kode_experience_service_text{
+		padding:0px 0px;
+	}
+	.kode_experience_service_text h5{
+		font-size:15px;
+	}
+	.kode_experience2_text p {
+		margin-bottom: 15px;
+	}
+	.kode_service4_wrap .col-md-4{
+		width:100%;
+	}
+	.kode_counter2_list ul li{
+		 display: inline-block;
+		float: none;
+		margin-bottom: 30px;
+		width: 30%;
+	}
+	.kode_counter2_list ul li:before{
+		border:none;
+	}
+	.kode_counter2_list ul,
+	.kode_counter2_list {
+		text-align:center;
+	}
+	.kode_news2_list img{
+		width:100%;
+	}
+	.kode_video_content p {
+		padding: 0 10px;
+	}
+	.kode_video_content h3{
+		font-size:25px;
+	}
+	.kode_box_service_list ul li {
+		width: 47%;
+	}
+	.kode_box_service_detail{
+		text-align:center;
+	}
+	.kode_box_service_detail span{
+		float:none;
+		margin-bottom:15px;
+	}
+	.kode_box_service_detail {
+		padding: 26px 10px 22px;
+	}
+	.kode_box_servixe_text h5 {
+		font-size: 14px;
+	}
+	.kode_medium_blog2_list img {
+		width: 100%;
+	}
+	.kode_medium_blog2_list {
+		border-top-left-radius: 100%;
+		border-top-right-radius: 100%;
+		float: left;
+		margin: 0 11px;
+		width: 45%;
+	}
+	.kode_medium_blog2_row {
+		padding: 0 0px;
+	}
+	.kode_map2_content{
+		right:10px;
+		width:300px;
+	}
+	.kode_copyright_widget:before{
+		width:0px;
+	}
+	.kode_copyright_navi,
+	.kode_copyright_text{
+		text-align:center;
+		width:100%;
+	}
+	.kode_copyright_text p{
+		font-size:11px;
+	}
+	.kode_copyright_text p a:hover{
+		color:#fff;
+	}
+	.kode_copyright_navi li{
+		float:none;
+		display:inline-block;
+	}
+	.kode_copyright_navi li a{
+		font-size:14px;
+	}
+	/* home page 02 start */
+	.kode_top3_content span{
+		font-size:12px;
+	}
+	.kode_logo3_service > li:first-child {
+		display: none;
+	}
+	.kode_banner3{
+		margin-top:0px;
+	}
+	.header_2 .navigation .dl-menuwrapper .dl-menu.dl-menuopen{
+		padding:0px 0px;
+	}
+	.header_2 .navigation .dl-menuwrapper .dl-menu.dl-menuopen li a:hover{
+		background:none;
+	}
+	.kode_banner3_text {
+		left: 0;
+		margin-left: -420px;
+		top: 28%;
+	}
+	.kode_banner3_text h1{
+		font-size:18px;
+	}
+	.kode_banner3 .slick-prev.slick-arrow,
+	.kode_banner3 .slick-next.slick-arrow{
+		margin-top:-20px;
+	} 
+	.kode_history_heading h2::before,
+	.kode_history_heading h2::after{
+		background-image:none;
+	}
+	.kode_history_detail i{
+		margin-right:0px;
+	}
+	.kode_history_detail{
+		margin-bottom:30px;
+	}
+	.kode_service_fig figcaption h3 {
+		font-size: 18px;
+	}
+	.kode_service_fig figcaption{
+		padding:0px 0px;
+	}
+	.kode_service_fig figcaption a{
+		margin-bottom:10px;
+		font-size:40px;
+	}
+	.kode_service_fig figcaption h3{
+		margin-bottom:0px;
+	}
+	.kode_service_fig figcaption{
+		margin-top:-108px;
+	}
+	.kode_member_text {
+		padding: 21px 10px;
+	}
+	.kode_member_text h3{
+		font-size:24px;
+	}
+	.kode_counter_icon li{
+		margin-right:20px;
+	}
+	.kode_counter_icon li h4{
+		font-size:20px;
+	}
+	.kode_post_fig img {
+		width: 100%;
+	}
+	/*home page 03 start*/
+	.kode_top_search_row .kode_top_social .btn-primary,
+	.kode_top_info li a,
+	.kode_top_social .kode_social_icon li a{
+		border-color:#000;
+		color:#000;
+	}
+	.kode_banner_text p{
+		margin-bottom:4px;
+	}
+	.kode_plumber_project .kode_text h3{
+		font-size:26px;
+	}
+	.kode_plumber_enginer_fig figcaption h5 {
+		font-size: 16px;
+		margin-bottom: 6px;
+	}
+	.kode_plumber_testimonial .slick-next.slick-arrow {
+		right: -37px;
+	}
+	.kode_plumber_testimonial .slick-prev.slick-arrow {
+		left: -40px;
+	}
+	/*home page 04 start*/
+	.kode_pharmacy_top_wraper .kode_pharmacy_top_call {
+		display: none;
+	}
+	.kode_pharmacy_top_login .btn.btn-default.dropdown-toggle {
+		margin-left: 5px;
+	}
+	.kode_pharmacy_top_login .modal{
+		width:90%;
+	}
+	.kode_pharmacy_top_logo {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.kode_pharmacy_top_cart {
+		display: none;
+	}
+	.kode_pharmacy_top_item{
+		float:right;
+	}
+	.kode_pharmacy_top_item > form {
+		width: 315px;
+	}
+	.dl-menuwrapper li.dl-back:after {
+		left: 6px;
+		top: 3px;
+		transform: rotate(180deg);
+	}
+	.kode_pharmacy_vitamin_slid > h6 {
+		font-size: 13px;
+	}
+	.kode_pharmacy_vitamin_slid h6:before{
+		border-width:16px 24px 18px 0;
+	}
+	.kode_pharmacy_vitamin_slider .bx-next:after, 
+	.kode_pharmacy_vitamin_slider .bx-prev:after{
+		top:2px;
+	}
+	.kode_pharmacy_nutiva_search li a {
+		height: 35px;
+		margin-right: 0;
+		width: 45px;
+	}
+	.kode_pharmacy_banner_caption h1{
+		font-size:28px;
+	}
+	.kode_pharmacy_banner_caption h2{
+		font-size:20px;
+	}
+	.kode_pharmacy_banner_caption > p {
+		font-size: 12px;
+		line-height: 20px;
+	}
+	.kode_pharmacy_medicine_banner .kode_pharmacy_banner_caption {
+		left: 56px;
+	}
+	.kode_pharmacy_top_login {
+		float: left;
+	}
+	.kode_pharmacy_banner_caption a {
+		padding: 5px 11px;
+	}
+	.kode_pharmacy_banner_caption {
+		left: 46px;
+		margin-top: -92px;
+		top: 50%;
+	}
+	.kode_pharmacy_discount img {
+		height: 148px;
+		width: 100%;
+	}
+	.kode_pharmacy_discount_caption{
+		top:23px;
+	}
+	.kode_pharmacy_footer_account{
+		width:50%;
+		margin-bottom:30px;
+	}
+	.kode_about_text p{
+		text-align:center;
+	}
+	/* about us page start */
+	.kode_section_heading h3{
+		font-size:28px;
+	}
+	.kode_section_heading.heading_2 p {
+		padding: 0 20px;
+	}
+	.kode_counter_content p {
+		padding-right: 0px;
+	}
+	.kode_counter_content h3 {
+		font-size: 35px;
+		line-height: 40px;
+	}
+	.kode_office_content{
+		padding-left:20px;
+	}
+	.kode_office_detail::before {
+		height: 0px;
+	}
+	.kode_text_title, .kode_content_wrap{
+		text-align:center;
+	}
+	.kode_text_title .kode-button-style-2{
+		float:none;
+	}
+	.kode_text_title h5{
+		margin-bottom:10px;
+	}
+	.kode_thumbnail img {
+		width: 100%;
+	}
+	.kode_testimaonial_text p{
+		padding:0px 0px;
+	}
+	.progress-names .bar{
+		width:451px !important;
+	}
+	.kode_blog_medium img,
+	.kode_blog_medium.medium_2 img {
+		width: 100%;
+	}
+	/* practice arae page start */
+	.kode_practice_detail_tab.tab_2{
+		margin-bottom:20px;
+	}
+	.kode_practice_detail_tab.tab_2 img {
+		width: 100%;
+	}
+	.kode_practice_detail_content.content_2{
+		text-align:center;
+	}
+	.kode_quote_content{
+		text-align:center;
+	}
+	.kode_quote_content p span {
+		display: inline;
+	}
+	.kode_quote_content .kode-button-style-2{
+		display:inline-block;
+		float:none;
+	}
+	.kode_attorney_des img{
+		width:100%;
+	}
+	.kode_services_2_des.des_3 {
+		margin-bottom: 30px;
+	}
+	/* our team page start */
+	.kode_biography_content {
+		text-align: center;
+	}
+	.progressbar.bar_2 .bar{
+		width:90% !important;
+	}
+	.kode_newsletter_content {
+		text-align: center;
+	}
+	.kode_client_wrap .owl-carousel .owl-item {
+		float: left;
+		padding: 0 3px;
+		width: 91px !important;
+	}
+	.kode_history_heading h2{
+		font-size:20px;
+	}
+	.kode_experienc_service > li:nth-child(2),
+	.kode_experienc_service li{
+		width:100%;
+	}
+		.kode_plumber_heading > h2 {
+		font-size: 21px;
+		margin-bottom: 5px;
+	}
+	.kode_plumber_testimonial .slick-next.slick-arrow::before,
+	.kode_plumber_testimonial .slick-prev.slick-arrow::before{
+		font-size:69px;
+	}
+	.kode_plumber_testimonial .slick-next.slick-arrow::before{
+		right:8px;
+	}
+	.kode_about_mission {
+		padding: 71px 0 50px;
+	}
+}
+
+/*============ Media 480Px Star ============ */
+@media (max-width: 480px) {
+	.kode_experienc_service > li:nth-child(2),
+	.kode_experienc_service li{
+		width:100%;
+	}
+	.kode_counter_content h3 {
+		font-size: 21px;
+		line-height: 40px;
+	}
+	.kode_office_content h5{
+		font-size:23px;
+	}
+	.kode_grid_content h4{
+		font-size:18px;
+	}
+	.kode_news2_text > h5 {
+		font-size: 16px;
+	}
+	.kode_pharmacy_banner_caption h1{
+		display:block;
+		font-size:19px;
+	}
+	.kode_pharmacy_parent_caption.caption_2 h2{
+		font-size:30px;
+	}
+	.kode_map2_service_detail > li {
+		float: left;
+	}
+	.kode_banner_text p,
+	.kode_top_search_content label,
+	.kode_top_bar .kode_top_info{
+		display:none;
+	}
+	.kode_top_navi_wraper .navigation .dl-menuwrapper .dl-menu.dl-menuopen li a{
+		color:#fff;
+	}
+	.kode_top_navi_wraper .navigation .dl-menuwrapper .dl-menu.dl-menuopen li a:before{
+		content:"";
+	}
+	.kode_top_navi_wraper .navigation .dl-menuwrapper .dl-menu.dl-menuopen li a:hover{
+		background:none;
+	}
+	.kode_sab_banner .kode_banner_text {
+		margin-top:-40px;
+		margin-left: -151px;
+		top: 50%;
+	}
+	.kode_top_info li a{
+		font-size:13px;
+	}
+	.kode_top_info li {
+		margin-right: 20px;
+	}
+	.kode_top_info li a i{
+		margin-right:5px;
+	}
+	.kode_top_search_field{
+		width:291px;
+	}
+	.kode_top_social .btn-primary{
+		padding:0px 10px;
+	}
+	.kode_top_social .kode_social_icon li a{
+		height:25px;
+		width:25px;
+		margin-right:10px;
+		line-height:25px;
+		font-size:14px;
+	}
+	.spb-banner-wrap.slick-slide > img {
+		height: 200px;
+	}
+	 .kode_banner_text{
+		margin-right:-144px;
+	}
+	.kode_plumber_heading h2{
+		font-size:19px;
+	}
+	.kode_plumber_recent_fig,
+	.kode_plumber_deal_detail{
+		width:100%;
+		margin:0px 0px 20px 0px;
+	}
+	.kode_plumber_recent_item li a{
+		padding:0px 0px;
+		font-size:12px;
+	}
+	ul#portfolio-filter{
+		margin-bottom:80px;
+	}
+	ul#portfolio-filter a{
+		padding:0px;
+		padding-bottom:10px;
+		margin-bottom:10px;
+	}
+	 .kode_plumber_sale .col-md-3.col-sm-6.col-xs-6,
+	.kode_plumber_enginer .col-md-3.col-sm-6.col-xs-6 {
+		width: 100%;
+	}
+	.kode_plumber_enginer_fig figcaption {
+		bottom:-93px;
+	}
+	.kode_plumber_testimonial_silde h4{
+		font-size:18px;
+	}
+	.kode_plumber_feature_fig{
+		width:100%;
+		margin:0px;
+		margin-bottom:20px;
+	}
+	.kode_plumber_video_text h2 {
+		font-size: 22px;
+		line-height: 36px;
+	}
+	.kode_plumber_video{
+		padding:80px 0px;
+	}
+	.kode_plumber_testimonial .slick-next.slick-arrow:before, 
+	.kode_plumber_testimonial .slick-prev.slick-arrow:before{
+			display:none;
+	}
+	.kode_top_social .modal-content{
+		width:70%;
+		padding:80px 20px;
+	}
+	.kode_top_social .modal-dialog {
+		margin-top: 220px;
+	}
+	.kode_plumber_recent_fig figcaption p{
+		font-size:15px;
+		line-height:20px;
+	}
+	.kode_plumber_recent_fig figcaption{
+		bottom:-48px;
+	}
+	.kode_plumber_recent_fig:hover figcaption{
+		overflow:hidden;
+		z-index:999;
+	}
+	.kode_plumber_feature_fig img{
+		width:100%;
+	}
+	.kode_plumber_recent_fig, .kode_plumber_deal_detail{
+		margin-bottom:40px;
+	}
+	.kode_plumber_sale_list, .kode_plumber_enginer_fig {
+		margin-bottom: 50px;
+	}
+	.kode_footer_text p{
+		font-size:13px;
+	}
+	/*about us page start*/
+	.kode_about_text {
+		text-align: center;
+	}
+	/*agent page start*/
+	.kode_banner_titile h2 {
+		font-size: 23px;
+	}
+	/*gallery detail page start*/
+	#bx-pager a{
+		margin-right:3px;
+	}
+	.kode_gallery_detail_slide .bx-wrapper{
+		margin-bottom:15px;
+	}
+	.kode_gallery_detail_slide{
+		padding-top:40px;
+	}
+	.kode_glry_detail_item ul li a{
+		font-size:11px;
+	}
+	
+	.kode_gallery_detail_description{
+		padding-top:30px;
+	}
+	.kode_glry_detail_text h5{
+		margin-bottom:20px;
+	}
+	/*home page 01*/
+	.kode_top_faq{
+		padding:0px 0px;
+	}
+	.kode_top_faq li a{
+		font-size:12px;
+	}
+	.kode_section_hdg span{
+		font-size:14px;
+	}
+	.kode_top_content_area .kode_top_logo {
+		width: 100%;
+	}
+	.kode_top_content_area .kode-button-style-1{
+		display:none;
+	}
+	.kode_top_content_area .kode-button-style-1{
+		width:49%;
+	}
+	.kode_banner2_text h1{
+		display:none;
+	}
+	.kode_banner2 .slick-prev.slick-arrow:before,
+	.kode_banner2 .slick-next.slick-arrow:before {
+		font-size: 12px;
+		height: 30px;
+		line-height: 30px;
+		width: 30px;
+	}
+	.kode_banner2 .slick-next.slick-arrow {
+		line-height: 30px;
+		margin-top: -20px;
+		right: -10px;
+		z-index: 999;
+	}
+	.kode_banner2 .slick-prev.slick-arrow {
+		margin-top: -15px;
+		z-index: 999;
+	}
+	.kode_service2_text h3 {
+		font-size: 19px;
+		margin: 0;
+	}
+	.kode_experience2_text {
+		padding:46px 10px 46px 0px;
+		text-align: center;
+	}
+	.kode_section_hdg h3{
+		font-size:25px;
+	}
+	.kode_section_hdg h3:before{
+		margin:auto;
+	}
+	.kode_experience_list a{
+		padding-left:0px;
+	}
+	.kode_experience_list a:before{
+		content:"";
+	}
+	.kode_experience_service_text h5 {
+		font-size: 12px;
+	}
+	.kode_services_2_des.des_4 {
+		padding-right: 0;
+	}
+	.kode_counter2_list ul li {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.kode_medium_blog2_row{
+		padding:0px 0px;
+	}
+	.kode_medium_blog2_list img {
+		width: 100%;
+	}
+	.kode_medium_blog2_list {
+		border-top-left-radius:100%;
+		border-top-right-radius:100%;
+		width:100%;
+		margin-bottom:30px;
+	}
+	.kode_box_service_list ul li {
+		width: 100%;
+	}
+	.kode_copyright_widget:before{
+		width:0px;
+	}
+	.kode_copyright_navi,
+	.kode_copyright_text{
+		text-align:center;
+		width:100%;
+	}
+	.kode_copyright_text p{
+		font-size:11px;
+	}
+	.kode_copyright_text p a:hover{
+		color:#fff;
+	}
+	.kode_copyright_navi li{
+		float:none;
+		display:inline-block;
+	}
+	.kode_copyright_navi li a{
+		font-size:14px;
+	}
+	.kode_map2_content{
+		width:100%;
+		right:0px;
+	}
+	.kode_map2_service{
+		padding:0 17px 30px;
+	}
+	.kode_qoute_form {
+		padding: 76px 0 74px;
+	}
+	/* home page 02 */
+	.kode_top3_content {
+		text-align: center;
+	}
+	.kode_top3_content span,
+	.kode_top3_content p{
+		float:none;
+	}
+	.kode_logo3_service{
+		display:none;
+	}
+	.kode_top3_logo {
+		display: inline-block;
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	.kode_banner3_text h1 {
+		font-size: 14px;
+	}
+	.kode_banner3_text .kode-button-style-1:last-child {
+		display: none;
+	}
+	.kode_banner3 .slick-next.slick-arrow, 
+	.kode_banner3 .slick-prev.slick-arrow:before,
+	.kode_banner3 .slick-next.slick-arrow:before {
+		height: 25px;
+		line-height: 25px;
+		width: 25px;
+	}
+	.kode_banner3_text {
+		left: 0;
+		margin-left: -300px;
+		top: 28%;
+	}
+	.kode_banner3 .slick-prev.slick-arrow:before,
+	.kode_banner3 .slick-next.slick-arrow:before{
+		font-size:14px;
+	}
+	.kode_banner3 .slick-next.slick-arrow{
+		right:7px;
+	}
+	.kode_banner3 .slick-prev.slick-arrow, .kode_banner3 .slick-next.slick-arrow {
+		margin-top: -10px;
+	}
+	.kode_history_heading h2:before,
+	.kode_history_heading h2:after{
+		background-image:none;
+	}
+	.kode_history_heading p {
+		padding: 0 20px;
+	}
+	.kode_service_fig.col-md-3 {
+		float: left;
+		width: 100%;
+	}
+	.kode_history_heading h2 {
+		font-size: 18px;
+		margin-bottom: 5px;
+		padding:0 12px;
+	}
+	.border-style{
+	background-image:none;
+	}
+	.kode_project_wraper {
+		padding: 42px 0 20px;
+	}
+	.kode_member_wraper .slick-initialized .slick-slide {
+		display: block;
+		float: left;
+		width: 100%;
+	}
+	.kode_post_fig .post_text h4{
+		font-size:20px;
+	}
+	.kode_counter_wraper{
+		padding:80px 0px;
+	}
+	.kode_customer_text h2{
+		font-size:30px;
+	}
+	.kode_customer_text h3{
+		font-size:21px;
+	}
+	.kode_meet_cols{
+		text-align:center;
+	}
+	.kode_meet_cols span{
+		float:none;
+		display:inline-block;
+		margin-bottom:10px;
+	}
+	.kode_meet_text p{
+		padding:0px 0px;
+		margin-bottom:10px;
+	}
+	.kode_meet_text a{
+		position:static;
+	}
+	.kode_meet_text a:before{
+		width:0px;
+	}
+	.kode_meet_text:hover a:before{
+		width:0px;
+	}
+	/*home page 04 start */
+	.kode_pharmacy_top_login li:last-child {
+		display: none;
+	}
+	.kode_pharmacy_top_login > ul > li > a{
+		margin-left:5px;
+	}
+	.kode_pharmacy_model_search button {
+		height: 33px;
+		width: 100px;
+	}
+	.kode_pharmacy_model_search a {
+		font-size: 13px;
+		padding: 5px 0;
+	}
+	.pharmacy_top_search .dropdown {
+		display: none;
+	}
+	.kode_pharmacy_top_item > form {
+		width: 287px;
+	}
+	.kode_pharmacy_banner_caption h2,
+	.kode_pharmacy_banner_caption > p{
+		display:none;
+	}
+	.kode_pharmacy_banner_caption h1{
+		border-bottom:none;
+		margin-bottom:0px;
+	}
+	.kode_pharmacy_banner_caption {
+		left: 59px;
+		margin-top: -54px;
+		top: 50%;
+	}
+	.kode_pharmacy_parent_caption h3 {
+		font-size: 17px;
+		margin-bottom: 11px;
+	}
+	.kode_pharmacy_parent figure {
+		height: 134px;
+	}
+	.kode_pharmacy_parent_caption {
+		top: 24px;
+	}
+	.kode_pharmacy_vitamin_slid h6:before{
+		border:none;
+	}
+	.kode_pharmacy_vitamin_slider .col-md-4.col-sm-6.col-xs-6 {
+		width: 100%;
+	}
+	.kode_pharmacy_footer_account{
+		width:100%;
+	}
+	.kode_pharmacy_top_login{
+		width:100%;
+	}
+	.kode_pharmacy_top_login > ul {
+		text-align: center;
+		width: 100%;
+	}
+	.kode_pharmacy_top_login > ul > li {
+		display: inline-block;
+		float: none;
+	}
+	.kode_pharmacy_top_item {
+		float: right;
+		width: 100%;
+	}
+	.kode_pharmacy_top_item > form {
+		width: 100%;
+	}
+	.koode_pharmacy_nutiva img {
+		width: 100%;
+	}
+	.kode_pharmacy_discount_caption h4{
+		font-size:14px;
+	}
+	.kode_pharmacy_discount_caption {
+		margin-top: -40px;
+		top: 50%;
+	}
+	.accordion h4{
+		font-size:15px;
+	}
+	.accordion.accordion-open:before,
+	.kode_accordian_detail ul li a:before,
+	.accordion.accordion-close:before{
+		top:5px;
+		right:10px;
+	}
+	.kode_accordian_detail.text p {
+		padding: 20px 10px;
+	}
+	/* about us page start */
+	.kode_office_list span{
+		display:none;
+	}
+	.kode_office_detail li:before{
+		border:none;
+	}
+	.kode_office_content,
+	.kode_office_detail li{
+		padding:0px 0px;
+	}
+	.kode_office_detail {
+		padding: 41px 2px 0;
+		text-align: center;
+	}
+	.kode_law_progres_list .col-md-6.col-sm-6.col-xs-6,
+	.kode_attorney_wrap .col-md-3.col-sm-4.col-xs-6{
+		width:100%;
+	}
+	.progress-names .bar {
+		width: 271px !important;
+	}
+	.kode_section_heading.heading_2 p {
+		padding: 0 0px;
+	}
+	.kode_section_heading h3 {
+		font-size: 21px;
+	}
+	.kode_services_2_content.text_2 > p {
+		padding: 0px 10px;
+	}
+	.kode_attorney_des img {
+		width: 100%;
+	}
+	/* practice arae page start */
+	.kode_pratices_content:hover figcaption {
+		margin-top: -42px;
+		top: 50%;
+	}
+	.kode_pratices_content p {
+		padding: 0 10px;
+	}
+	.kode_pratices_content figure img{
+		width:100%;
+	}
+	.kode_blog_grid_content p{
+		font-size:13px;
+	}
+	.kode_practice_detail_service.service_2 .col-md-4.col-sm-4.col-xs-6{
+		width:100%;
+	}
+	.kode_practice_detail_content{
+		text-align:center;
+	}
+	.kode_glry_detail_map iframe {
+		height: 364px;
+	}
+	.kode_pagi_detail{
+		text-align:center;
+	}
+	.content-wraper {
+		padding-bottom: 210px;
+	}
+	/* our team page start */
+	.kode_team_detail_email h2{
+		font-size:24px;
+	}
+	.kode_addres_list li span{
+		width:62px;
+	}
+	.kode_addres_list > li:nth-child(2) {
+		display: none;
+	}
+	.kode_addres_list li a{
+		font-size:15px;
+	}
+	.kode_accordian_detail ul li a {
+		font-size: 12px;
+		padding-left: 20px;
+	}
+	.kode_accordian_detail ul {
+		padding: 20px 6px 25px;
+	}
+	.kode_attorney_wrap.wrap_2 .col-md-3.col-sm-6.col-xs-6,
+	.kode_biography_wrap.wrap_2 .col-md-6.col-sm-6.col-xs-6{
+		width:100%;
+	}
+	.kode_contact_service_row {
+		float: left;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.kode_client_wrap .slick-initialized .slick-slide {
+		display: block;
+		float: left;
+	}
+	.kode_client_wrap .owl-carousel .owl-item {
+		float: left;
+		padding: 0 6px;
+		width: 73px !important;
+	}
+	.kode_plumber_heading.heading_2.heading_3 h3{
+		font-size:20px;
+	}
+	.kode_pratices_content{
+		width:100%;
+		margin:0px 0px 30px;
+	}
+	.kode_blog_grid_content.content_2.content_3 h4{
+		font-size:20px;
+	}
+
+}
+
+/*============ Media 320px Star ============ */
+@media (max-width: 320px) {
+	
+	.kode_plumber_enginer_fig figcaption {
+		bottom: -117px;
+	}
+}
