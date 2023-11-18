@@ -10,6 +10,7 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+		<link rel="stylesheet" href="css/hamburger.css">
 		<!--css/bootstrap.min.css start-->
 		<link href="css/bootstrap.css" rel="stylesheet">
 		<!--style.css start-->
@@ -76,12 +77,75 @@
             }
         }
 
+		.zoom-in-welcome {
+            animation: zoomInWelcome 3s ease-in-out forwards;
+        }
+
+	@keyframes zoomInWelcome {
+            from {
+                transform: scale(1);
+            }
+            to {
+                transform: scale(1.25);
+            }
+        }
         
 </style>
         
 	</head>
 	<body>
 		<canvas id="cursorCanvas"></canvas>
+
+		<!-- menu -->
+
+		<div class="navigation">
+			<input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+			<label for="nav-toggle" class="navigation__button">
+			  <span class="navigation__icon" aria-label="toggle navigation menu"></span>
+			</label>
+			<div class="navigation__background"></div>
+	  
+			<nav class="navigation__nav" role="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4"></div>
+						<div class="col-md-4">
+							<ul class="navigation__list">
+								<li class="navigation__item">
+								  <a href="#" class="navigation__link">Home</a>
+								</li>
+								<li class="navigation__item">
+								  <a href="#" class="navigation__link">About Us</a>
+								</li>
+								<li class="navigation__item">
+								  <a href="#" class="navigation__link">Services</a>
+								</li>
+								<li class="navigation__item">
+								  <a href="#" class="navigation__link">Products</a>
+								</li>
+								<li class="navigation__item">
+								  <a href="#" class="navigation__link">Gallery</a>
+								</li>
+								<li class="navigation__item">
+									<a href="#" class="navigation__link">Clients</a>
+								</li>
+								<li class="navigation__item">
+									<a href="#" class="navigation__link">Career</a>
+								</li>
+								<li class="navigation__item">
+									<a href="#" class="navigation__link">Contact Us</a>
+								</li>
+						  </ul>
+						</div>
+						<div class="col-md-4"></div>
+					</div>
+				</div>
+			  
+		</nav>
+	  </div>
+
+
+
 <div id="feedback">
 		<div id="feedback-form" style='display:none;' class="col-xs-4 col-md-4 panel panel-default">
 			<form role="form" name="contactform" method="post" action="send_form_email.php">
@@ -113,7 +177,9 @@
 		</div>
 		<div id="feedback-tab" class="fw"><img src="images/fw.png"  width="30"/></div>
    
-</div> 		<!--kode_wraper start-->
+</div> 	
+
+<!--kode_wraper start-->
 
 
 
@@ -134,7 +200,6 @@
 									<li><a href="#">About Us</a>
 										<ul>
 											<li><a href="about.html">About Company</a></li>
-                                             <!-- <li><a href="resource.html">Resource</a></li> -->
 											<li><a href="images/ios-furnitures.pdf" target="_blank">Brochure</a></li>
 										
 										</ul>
@@ -219,6 +284,9 @@
 						<img src="images/slider/2.jpg" alt="" style="max-height: 100vh;" class="zoom-in">
 					</figure>
 					<figure>
+						<img src="images/slider/7.jpg" alt="" style="max-height: 100vh;">
+					</figure>
+					<figure>
 						<img src="images/slider/3.jpg" alt="" style="max-height: 100vh;">
 					</figure>
 					<figure>
@@ -227,7 +295,9 @@
                 	<figure>
 						<img src="images/slider/1.jpg" alt="" style="max-height: 100vh;">
 					</figure>
-					
+					<figure>
+						<img src="images/slider/6.jpg" alt="" style="max-height: 100vh;">
+					</figure>
 					<!-- <figure>
 						<img src="images/slider3.jpg" alt="">
 					</figure>
@@ -259,17 +329,17 @@
 					<div class="kode_history_heading">
 						<h2 style="color:#333333;padding-bottom:20px">Welcome to <span style="color:#F2690B">Integra Office Solutions</span></h2>
 						<div class="col-md-6">
-							<p style="text-align:justify;padding-top:20px">
+							<p style="text-align:justify;padding-top:20px;padding-bottom: 20px;">
 								Welcome to Integra Office Solutions, where innovation meets functionality. As a leading name in corporate office interiors and fitouts, we are dedicated to crafting spaces that inspire creativity and drive productivity. With a commitment to excellence and an eye for detail, we redefine workspaces to reflect your company's unique identity and values.
 								</p>
 								<!-- <p style="text-align:justify;padding-top:20px">Integra Office Solutions situated in South Indian City was framed, out of a dream to advance into a World Class Indian Furniture Brand. Towards this, we promise to give Office Creative People that offer Customers, the excellent esteem, and through this fabricate an organization that gives important commitment to the improvement of its partners and society on the loose.</p> -->
                                <!-- <p style="text-align:justify"> we promise to give Office Creative People that offer Customers, the excellent esteem, and through this fabricate an organization that gives important commitment to the improvement of its partners and society on the loose.</p> -->
                                
-									<a class="kode-button-style-1 kode-theme-color-bg-color kd-org" href="comm.html">Read More</a>
+									<!-- <a class="kode-button-style-1 kode-theme-color-bg-color kd-org" href="comm.html">Read More</a> -->
 								
 						</div>
-                        <div class="col-md-6">
-                        	<img src="images/about.jpg" alt="">
+                        <div class="col-md-6 kode_banner3">
+                        	<img src="images/slider/7.jpg" alt="" class="welcome-img">
 						</div>	
 <script type="text/javascript" src="engine1/wowslider.js"></script>
 <script type="text/javascript" src="engine1/script.js"></script>
@@ -289,7 +359,7 @@
 						<div class="row">
 							<div class="col-md-4 col-sm-6">
 								<div class="kode_plumber_deal_detail shadow">
-									<span><i class="fa icon-furniture" style="color:#000000"></i></span>
+									<span style="z-index: 99;"><i class="fa icon-furniture" style="color:#000000"></i></span>
 									<div class="kode_plumber_deal_text">
 										<h5 style="color:#F26A0C;font-weight: bold;">Furnitures & Interiors</h5>
 									<p>Elevate your living spaces with our premium Furniture & Interior services. We bring style, comfort, and sophistication to your home or office, creating bespoke designs that reflect your unique taste and lifestyle.</p>
@@ -298,7 +368,7 @@
 							</div>
 							<div class="col-md-4 col-sm-6">
 								<div class="kode_plumber_deal_detail shadow">
-									<span><i class="fa icon-home" style="color:#000000"></i></span>
+									<span style="z-index: 99;"><i class="fa icon-home" style="color:#000000"></i></span>
 									<div class="kode_plumber_deal_text">
 										<h5 style="color:#F26A0C;font-weight: bold;">Flooring</h5>
 										<p>Transform your space from the ground up with our exquisite flooring solutions. From timeless hardwood to modern tile, we offer a diverse range of high-quality flooring options to enhance the aesthetic and comfort of your environment.</p>
@@ -307,7 +377,7 @@
 							</div>
 							<div class="col-md-4 col-sm-6">
 								<div class="kode_plumber_deal_detail shadow">
-									<span><i class="fa icon-construction" style="color:#000000"></i></span>
+									<span style="z-index: 99;"><i class="fa icon-construction" style="color:#000000"></i></span>
 									<div class="kode_plumber_deal_text">
 										<h5 style="color:#F26A0C;font-weight: bold;">False Celing</h5>
 										<p>Elevate your space with our innovative false ceiling solutions. Our designs combine functionality and aesthetics, providing a sophisticated and customized overhead canvas to enhance the ambiance of any room</p>
@@ -318,7 +388,7 @@
 							<div class="row">
 							<div class="col-md-4 col-sm-6">
 								<div class="kode_plumber_deal_detail shadow">
-									<span><i class="fa icon-construction-1" style="color:#000000"></i></span>
+									<span style="z-index: 99;"><i class="fa icon-construction-1" style="color:#000000"></i></span>
 									<div class="kode_plumber_deal_text">
 										<h5 style="color:#F26A0C;font-weight: bold;">Electrical Works</h5>
 									<p>Empower your space with precision and safety through our expert electrical works. From installations to wiring, we ensure a seamless and reliable electrical infrastructure, delivering solutions that illuminate and energize your surroundings.</p>
@@ -327,7 +397,7 @@
 							</div>
 							<div class="col-md-4 col-sm-6">
 								<div class="kode_plumber_deal_detail shadow">
-									<span><i class="fa icon-tool-1" style="color:#000000"></i></span>
+									<span style="z-index: 99;"><i class="fa icon-tool-1" style="color:#000000"></i></span>
 									<div class="kode_plumber_deal_text">
 										<h5 style="color:#F26A0C;font-weight: bold;">Plumbing</h5>
 										<p>Experience seamless functionality and reliability with our plumbing services. We deliver expert solutions for your plumbing needs, ensuring efficient installations and repairs that keep your space flowing smoothly.</p>
@@ -336,7 +406,7 @@
 							</div>
 							<div class="col-md-4 col-sm-6">
 								<div class="kode_plumber_deal_detail shadow">
-									<span><i class="fa icon-interface" style="color:#000000"></i></span>
+									<span style="z-index: 99;"><i class="fa icon-interface" style="color:#000000"></i></span>
 									<div class="kode_plumber_deal_text">
 										<h5 style="color:#F26A0C;font-weight: bold;">Civil Works</h5>
 										<p>Building the foundation for excellence, our civil works embody quality craftsmanship and structural integrity. From foundations to finishing touches, we shape spaces that stand the test of time, blending functionality with aesthetic appeal.</p>
@@ -364,12 +434,12 @@
 							<ul class="kode_counter_icon">
 								<li>
 									<i class="fa fa-users" aria-hidden="true"></i>
-									<span>180+</span>
+									<span>300+</span>
 									<h4>People in our team</h4>
 								</li>
 								<li>
 									<i class="fa fa-h" aria-hidden="true"><img src="image/pro/fact.png" width="60"></i>
-									<span class="counter">2000</span>
+									<span class="counter">3000</span>
 									<h4>Projects</h4>
 								</li>
 							</ul>
@@ -430,10 +500,10 @@
                             <div class="col-md-4 col-sm-6">
 								<div class="kode_plumber_feature_fig feat_2">
 									
-										<img src="image/a3.jpg" alt="">
+										<img src="image/a4.jpg" alt="">
 										<div class="shadow">
 											<h3>Services</h3><br>
-                                            <p style="text-align:justify;padding-bottom: 45px;"> We at IOS in the process of interior designing implementation of services, which not only makes the work in time but also could manage and schedule your work more efficiently. When IOS undertake a project, we give the complete satisfaction. We make a commitment to a dynamic relationship with you as our customer/client. Our services are an outcome of painstaking research by leading masterminds in various fields viz.</p>
+                                            <p style="text-align:justify;padding-bottom: 22px;"> We at IOS in the process of interior designing implementation of services, which not only makes the work in time but also could manage and schedule your work more efficiently. When IOS undertake a project, we give the complete satisfaction. We make a commitment to a dynamic relationship with you as our customer/client. Our services are an outcome of painstaking research by leading masterminds in various fields viz.</p>
                                             
                                             <a class="kode-button-style-1 kode-theme-color-bg-color" href="serv.html">Read More</a>
 
@@ -495,7 +565,7 @@
 								<div class="kode_meet_text">
 									<h2>Brochure</h2>
 									<p>We are the best in Modular Manufacturers and office Interiors</p>
-									<a class="kode-button-style-1 kode-theme-color-bg-color" href="images/ios-furnitures.pdf" download>dOWNLOAD</a>
+									<a class="kode-button-style-1 kode-theme-color-bg-color" href="images/IOS CORPORATE INTERIOR.pdf" download>dOWNLOAD</a>
 								</div>
 							</div>
 						</div>
@@ -622,6 +692,35 @@
 					$('.slick-active img').addClass('zoom-in');
 				});
 			});
+		</script>
+		<script>
+
+			 function isInViewport(element) {
+				var rect = element.getBoundingClientRect();
+				return (
+					rect.top >= 0 &&
+					rect.left >= 0 &&
+					rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+					rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+				);
+			}
+
+			// Function to add or remove the zoom-in effect based on visibility
+			function toggleZoomEffect() {
+				var welcomeImg = document.querySelector('.welcome-img');
+
+				if (isInViewport(welcomeImg)) {
+					welcomeImg.classList.add('zoom-in-welcome');
+				} else {
+					welcomeImg.classList.remove('zoom-in-welcome');
+				}
+			}
+
+			// Add an event listener to check for the zoom-in effect when the page is scrolled
+			document.addEventListener('scroll', toggleZoomEffect);
+
+			// Initial check when the page loads
+			toggleZoomEffect();
 		</script>
 		<!--js/jquery.js start-->
 		<script src="js/custom.js"></script>

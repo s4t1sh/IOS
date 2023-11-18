@@ -605,7 +605,7 @@ address {
   transform: translateZ(0);
 }
 .mk-fullscreen-search-overlay {
-  z-index: 9999;
+  z-index: 99;
 }
 .mk-fullscreen-search-overlay .mk-fullscreen-close:link,
 .mk-fullscreen-search-overlay .mk-fullscreen-close:visited {
@@ -15284,7 +15284,7 @@ canvas {
 .sidebar_content_details.style3{
   padding: 5px 0 0;
   margin-left: -200%;
-  z-index: 9999;
+  z-index: 99;
 }
 .sidebar_content_details.style3.sidebar_ml0{
   margin-left: 0;

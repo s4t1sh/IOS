@@ -855,7 +855,7 @@ header{
 	=========================================================
 */
 .kode_plumber_deal{
-	padding:72px 0 45px;
+	/* padding:72px 0 45px; */
 	
 }
 .kode_plumber_deal_detail,
@@ -2259,7 +2259,7 @@ header{
 	right: 20px;
     position: absolute;
     top: 50%;
-    z-index: 9999;
+    z-index: 99;
 	background:none;
 	color:transparent;
 	line-height:70px;
@@ -2270,7 +2270,7 @@ header{
     left:20px;
     position: absolute;
     top: 50%;
-    z-index: 9999;
+    z-index: 99;
 	background:none;
 	color:transparent;
 	line-height:65px;
@@ -2318,7 +2318,7 @@ header{
 .kode_banner3{
 	border-bottom: 5px solid;
     float: left;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     width: 100%;
 	overflow: hidden;
 }
@@ -2380,7 +2380,7 @@ header{
 	right: 20px;
     position: absolute;
     top: 50%;
-    z-index: 9999;
+    z-index: 99;
 	background:none;
 	color:transparent;
 	line-height:65px;
@@ -2390,7 +2390,7 @@ header{
     left:20px;
     position: absolute;
     top: 50%;
-    z-index: 9999;
+    z-index: 99;
 	background:none;
 	color:transparent;
 	line-height:65px;
@@ -2422,6 +2422,19 @@ header{
 }
 .kode_banner3 .slick-dots {
     display: none !important;
+}
+
+@media (min-width: 768px) {
+	.kode_banner3 figure img{
+		min-height: 100vh;
+	}
+	
+}
+
+@media (min-width: 992px){
+	.welcome-img{
+		height: 255px;
+	}
 }
 /*
 	=========================================================
@@ -6856,7 +6869,7 @@ header{
 	top:10px;
 	left:100%;
     width: 263px;
-    z-index: 9999;
+    z-index: 99;
 	visibility:hidden;
 	border:1px solid #e5e5e5;
 	opacity:0;
@@ -7097,7 +7110,7 @@ header{
 .kode_pharmacy_deals .bx-wrapper .bx-controls-direction a {
     color:transparent;
     position: absolute;
-    z-index: 9999;
+    z-index: 99;
 }
 .kode_pharmacy_deals .bx-controls.bx-has-controls-direction a{
 	top:5px;
@@ -7419,7 +7432,7 @@ header{
 .kode_pharmacy_vitamin_slider .bx-wrapper .bx-controls-direction a {
     color:transparent;
     position: absolute;
-    z-index: 9999;
+    z-index: 99;
 }
 .kode_pharmacy_vitamin_slider .bx-controls-direction{
     position: absolute;
