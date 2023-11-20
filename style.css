@@ -3052,7 +3052,7 @@ header{
 .kode_meet_wraper{
 	padding:36px 0px 38px;
 	position:relative;
-	z-index:999;
+	z-index:99;
 }
 .kode_meet_wraper:before{
 	position:absolute;
