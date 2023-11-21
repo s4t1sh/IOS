@@ -34,19 +34,65 @@
 		<link href="css/widget.css" rel="stylesheet">
 		<!--css/responsive.css start-->
 		<link href="css/responsive.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/lightbox.css">
         <!-- Start WOWSlider.com HEAD section -->
-<link rel="stylesheet" type="text/css" href="engine1/style.css" />
-<script type="text/javascript" src="engine1/jquery.js"></script>
+        <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+        <script type="text/javascript" src="engine1/jquery.js"></script>
 
-<link rel="stylesheet" href="css/feedback.css" />
-<script src="css/feedback.js"></script>
-<link rel="stylesheet" href="css/cssbd.css" />
+        <link rel="stylesheet" href="css/feedback.css" />
+        <script src="css/feedback.js"></script>
+        <link rel="stylesheet" href="css/cssbd.css" />
 
 
 <!-- End WOWSlider.com HEAD section -->
         
 	</head>
 	<body>
+
+        <!-- JavaScript code to dynamically generate the image elements -->
+        <script>
+            function allImages(id, images, folder, title) {
+                document.addEventListener("DOMContentLoaded", function() {
+                        // Array of image filenames
+                        var imageFilenames = images;
+                        
+                        // Reference to the container element
+                        var galleryContainer = document.getElementById(id);
+                        
+                        // Loop through the image filenames
+                        for (var i = 0; i < imageFilenames.length; i++) {
+                            // Create a new column div
+                            var columnDiv = document.createElement("div");
+                            columnDiv.className = "col-md-4";
+                            columnDiv.style.marginTop = "25px";
+                            columnDiv.style.overflow = "hidden !important";
+                        
+                            // Create a new anchor element with lightbox attributes
+                            var anchorElement = document.createElement("a");
+                            anchorElement.href = "projects/" + folder + imageFilenames[i];
+                            anchorElement.setAttribute("data-lightbox", "grportimg");
+                            anchorElement.setAttribute("data-title", title);
+                        
+                            // Create a new image element
+                            var imgElement = document.createElement("img");
+                            imgElement.src = "projects/" + folder + imageFilenames[i];
+                            imgElement.alt = "gallery images";
+                            imgElement.className = "project-img";
+                        
+                            // Append the image element to the anchor element
+                            anchorElement.appendChild(imgElement);
+                        
+                            // Append the anchor element to the column div
+                            columnDiv.appendChild(anchorElement);
+                        
+                            // Append the column div to the gallery container
+                            galleryContainer.appendChild(columnDiv);
+                        }
+                    });
+            }
+        </script>
+
+
 <div id="feedback">
 		<div id="feedback-form" style='display:none;' class="col-xs-4 col-md-4 panel panel-default">
 			<form role="form" name="contactform" method="post" action="send_form_email.php">
@@ -177,7 +223,7 @@
 			<div class="kode_banner">
 					<div class="container">
 						<div class="kode_banner_titile">
-							<h2>Modular Manufacturing</h2>
+							<h2>our projects</h2>
 						</div>
 					</div>
 				</div>
@@ -187,36 +233,39 @@
 				<div class="kode_about_mission">
 					<div class="container">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-12">
 								<div class="kode_about_mission_row">
 									<div class="kode_plumber_heading heading_2 heading_3">
-										<h3>Modular Manufacturing</h3>
+										<h3>Conference room</h3>
 									</div>
-									<div class="kode_about_text">
-										<p style="text-align:justify;">All kind of modular furniture including 25mm, 50mm & 75 mm desk base system / full height partitions made out of powder coated aluminum extrusions, pre₃laminated board tiles, fabric wrapped MDF tiles with single / double channels for power & data cables, Post₃formed table tops & mobile pedestal units etc can be fabricated as per the required design.</p>
-                                        <p style="text-align:justify;">We offer wide range furniture from contemporary to modern & a spectrum of office furniture viz., workstations, partitions, computer tables, storage and filing cabinets, executive tables, board room table etc., and furniture, which could be made to order, to suit exactly the requirements and tastes of our clients. We also specialize in all kinds of commercial and residential furniture.</p>
-                                       
-									</div>
+									
+                                    <!-- JavaScript code to dynamically generate the image elements -->
+                                    <div id="conference" class="row"></div>
+                                    <script>
+                                        allImages("conference",["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],"conference/", "CONFERENCE")
+                                    </script>
+                                    
 								</div>
 							</div>
-							<div class="col-md-6">
-								<div class="kode_skill_accordian">
-								<div class="kode_plumber_heading heading_2 heading_3">
-										
+						</div>
+
+                        <div class="row" style="margin-top: 60px;">
+							<div class="col-md-12">
+								<div class="kode_about_mission_row">
+									<div class="kode_plumber_heading heading_2 heading_3">
+										<h3>Reception</h3>
 									</div>
-									<div class="kode_accordian_content cont_2">
-										<img src="image/resd/24.jpg" alt="">
-									</div>
+									
+                                        <div id="reception" class="row"></div>
+                                        <script>
+                                            allImages("reception",["1.jpg", "2.jpg", "3.jpg", "4.jpg"],"reception/", "RECEPTION")
+                                        </script>
+                                            
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!--// KODE ABOUT MISSION END//-->
-				
-				<!--// KODE PLUMBER DEAL START//-->
-				
-						
 			
 			<!--// KODE PLUMBER TESTIMONIAL END//-->
 			<footer>
@@ -288,6 +337,8 @@
 			</footer>	
 		</div>
 		<!--kode_wraper end-->
+
+        
 		<!--js/jquery.js start-->
 		<script src="js/jquery.js"></script>
 		<!--js/bootstrap.js start-->
@@ -303,5 +354,6 @@
 		<script src="js/jquery.dlmenu.js"></script>
 		<!--js/waypoints-min.js start-->
 		<script src="js/waypoints-min.js"></script>
+        <script src="js/lightbox.js"></script>
 	</body>
 </html>

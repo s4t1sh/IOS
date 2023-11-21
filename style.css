@@ -2431,6 +2431,13 @@ header{
 	
 }
 
+@media (max-width: 767px) {
+	.kode_banner3 figure img{
+		height: 219px;
+	}
+	
+}
+
 @media (min-width: 992px){
 	.welcome-img{
 		height: 255px;
@@ -7906,6 +7913,7 @@ header{
 }
 .widget2_copy_right {
     padding: 13px 0px 10px !important;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
     }
 
  .widget2_text .widget2_service li {

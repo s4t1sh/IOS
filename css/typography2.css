@@ -536,11 +536,11 @@ img.size-large,
 
 /* Selection Typo */
 ::selection {
-    background: #58c333;
+    background: #F26A0C;
     color:#ffffff;
 }
 ::-webkit-selection {
-    background: #58c333;
+    background: #F26A0C;
     color: #ffffff;
 }
     background: #3399ff;
