@@ -220,3 +220,41 @@ body:after {
   .project-img:hover{
       transform: scale(1.15) !important;
   }
+
+    .video {
+        position: relative;
+        max-height: 100vh;
+    }
+
+    #textAnimation {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-130%,650%);
+        font-size: 36px;
+        color: orange;
+        text-align: center;
+    }
+
+    #textAnimation span {
+        opacity: 0;
+        animation: fadeIn 5s forwards; /* Adjust the duration as needed */
+        animation-delay: calc(0.5s * var(--index)); /* Adjust the delay between letters */
+        display: inline-block;
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+    }
+
+    .fade-in span{
+      font-size: 72px;
+      text-transform: uppercase;
+    }
+
+    h6{
+      font-family: 'Adam';
+      color: #F26A0C !important;
+    }
